@@ -1,10 +1,12 @@
-###ENNOID - Dual Gate Driver
-##Gate Driver for 1200V 62mm Power Module
+#ENNOID - Dual Gate Driver
 
-Inspired by :
+The goal of this project is to create an open source H-bridge gate driver design for IGBT or Mosfet modules "bricks" like those:
 
-https://www.wolfspeed.com/cgd15hb62p1
+- https://www.wolfspeed.com/cas120m12bm2
+- http://www.pwrx.com/pwrx/docs/cm300du-12f.pdf
 
-&
+The design could be used with other module shape after the design will be proven...
+
+The goal is to adapt the "Dual Gate Driver" with this control board:
 
 https://github.com/paltatech/half-bridge
