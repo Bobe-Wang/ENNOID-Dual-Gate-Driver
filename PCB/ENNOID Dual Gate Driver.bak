@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -236,8 +236,6 @@ Text GLabel 8300 3200 2    60   Input ~ 0
 G_L
 Text GLabel 8300 3650 2    60   Input ~ 0
 E
-Wire Wire Line
-	8300 2200 7200 2200
 Wire Wire Line
 	7200 2200 7200 1700
 Wire Wire Line
@@ -617,34 +615,57 @@ $EndComp
 $Comp
 L Connector:Conn_01x01_Female J?
 U 1 1 5A33A1F4
-P 8400 750
-F 0 "J?" H 8427 776 50  0000 L CNN
-F 1 "Collector" H 8427 685 50  0000 L CNN
-F 2 "" H 8400 750 50  0001 C CNN
-F 3 "~" H 8400 750 50  0001 C CNN
-	1    8400 750 
+P 8400 900
+F 0 "J?" H 8427 926 50  0000 L CNN
+F 1 "Collector" H 8427 835 50  0000 L CNN
+F 2 "" H 8400 900 50  0001 C CNN
+F 3 "~" H 8400 900 50  0001 C CNN
+	1    8400 900 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x01_Female J?
 U 1 1 5A33C74C
-P 8400 1200
-F 0 "J?" H 8428 1226 50  0000 L CNN
-F 1 "Gate_H" H 8428 1135 50  0000 L CNN
-F 2 "" H 8400 1200 50  0001 C CNN
-F 3 "~" H 8400 1200 50  0001 C CNN
-	1    8400 1200
+P 8400 1400
+F 0 "J?" H 8428 1426 50  0000 L CNN
+F 1 "Gate_H" H 8428 1335 50  0000 L CNN
+F 2 "" H 8400 1400 50  0001 C CNN
+F 3 "~" H 8400 1400 50  0001 C CNN
+	1    8400 1400
 	1    0    0    -1  
 $EndComp
+Text GLabel 8300 2200 2    60   Input ~ 0
+PHASE
+Wire Wire Line
+	8200 900  8200 750 
+Wire Wire Line
+	8200 1400 8200 1200
+Connection ~ 8200 1200
+Wire Wire Line
+	8200 1200 8300 1200
+Text GLabel 8300 1200 2    60   Input ~ 0
+G_H
+Connection ~ 8200 750 
+Wire Wire Line
+	8200 750  8300 750 
+Text GLabel 8300 750  2    60   Input ~ 0
+C
 $Comp
 L Connector:Conn_01x01_Female J?
-U 1 1 5A33FE10
-P 8500 2200
-F 0 "J?" H 8527 2226 50  0000 L CNN
-F 1 "Phase" H 8527 2135 50  0000 L CNN
-F 2 "" H 8500 2200 50  0001 C CNN
-F 3 "~" H 8500 2200 50  0001 C CNN
-	1    8500 2200
+U 1 1 5A3425E9
+P 8350 2400
+F 0 "J?" H 8377 2426 50  0000 L CNN
+F 1 "PHASE" H 8377 2335 50  0000 L CNN
+F 2 "" H 8350 2400 50  0001 C CNN
+F 3 "~" H 8350 2400 50  0001 C CNN
+	1    8350 2400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8150 2400 8150 2200
+Wire Wire Line
+	7200 2200 8150 2200
+Connection ~ 8150 2200
+Wire Wire Line
+	8150 2200 8300 2200
 $EndSCHEMATC
