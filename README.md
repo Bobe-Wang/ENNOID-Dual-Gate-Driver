@@ -5,7 +5,7 @@ The goal of this project is to create an open source H-bridge gate driver design
 - https://www.wolfspeed.com/cas120m12bm2
 - http://www.pwrx.com/pwrx/docs/cm300du-12f.pdf
 
-The design could be adapted for different modules after testing the design
+The design could be adapted for different modules after testing.
 
 The goal is to adapt the "Dual Gate Driver" with this control board:
 
