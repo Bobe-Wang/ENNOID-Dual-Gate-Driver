@@ -18,12 +18,6 @@ K High Speed Gate Driver
 F http://www.ixysic.com/home/pdfs.nsf/www/IXD_609.pdf/$file/IXD_609.pdf
 $ENDCMP
 #
-$CMP IXD-609_0
-D AMC1301
-K Isolated Amplifier
-F http://www.ti.com/lit/ds/symlink/amc1301.pdf
-$ENDCMP
-#
 $CMP MGJ2
 D Isolated 1W Dual output DC/DC Converter Module
 K Murata isolated isolation dc-dc converter

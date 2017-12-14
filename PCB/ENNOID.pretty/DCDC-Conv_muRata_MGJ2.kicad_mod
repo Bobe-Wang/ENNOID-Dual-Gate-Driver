@@ -1,4 +1,4 @@
-(module DCDC-Conv_muRata_MGJ2 (layer F.Cu) (tedit 5A31E877)
+(module DCDC-Conv_muRata_MGJ2 (layer F.Cu) (tedit 5A32C908)
   (tags "muRata MGJ2DCDC-Converter")
   (fp_text reference REF** (at -3 -3) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -29,9 +29,4 @@
   (pad 5 thru_hole oval (at 0 10.16) (size 1.5 1.5) (drill 0.7) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at 0 2.54) (size 1.5 1.5) (drill 0.7) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at 0 0) (size 1.5 1.5) (drill 0.7) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Converters_DCDC_ACDC.3dshapes/DCDC-Conv_muRata_NMAxxxxSC.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

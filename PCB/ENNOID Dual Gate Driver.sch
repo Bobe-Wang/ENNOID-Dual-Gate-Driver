@@ -37,8 +37,6 @@ F5 "-VEE" O R 2700 1000 60
 F6 "VCC_REG" O R 2700 900 60 
 F7 "PHASE" O R 2700 1100 60 
 $EndSheet
-Text GLabel 1350 850  0    60   Input ~ 0
-VCC_IN
 Wire Wire Line
 	1350 850  1500 850 
 $Comp
@@ -56,8 +54,6 @@ Wire Wire Line
 	1500 1050 1300 1050
 Wire Wire Line
 	1300 1050 1300 1100
-Text GLabel 1150 2900 0    60   Input ~ 0
-VCC_IN
 $Comp
 L power:GND #PWR02
 U 1 1 5A33266A
@@ -106,8 +102,6 @@ F5 "-VEE" O R 2500 3050 60
 F6 "VCC_REG" O R 2500 2950 60 
 F7 "PHASE" O R 2500 3150 60 
 $EndSheet
-Text GLabel 1000 5400 0    60   Input ~ 0
-VCC_IN
 $Comp
 L device:C C1
 U 1 1 5A33DEE4
@@ -131,10 +125,7 @@ F 3 "" H 1650 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1000 5400 1200 5400
-Wire Wire Line
-	1200 5400 1650 5400
-Connection ~ 1200 5400
+	1200 5400 1500 5400
 $Comp
 L device:C C3
 U 1 1 5A33E247
@@ -163,7 +154,7 @@ U 1 1 5A33E500
 P 2350 5400
 F 0 "U1" H 2350 5642 50  0000 C CNN
 F 1 "MC7805" H 2350 5551 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:TO-263-3_TabPin4" H 2375 5250 50  0001 L CIN
+F 2 "TO_SOT_Packages_SMD:TO-252-3_TabPin2" H 2375 5250 50  0001 L CIN
 F 3 "" H 2350 5350 50  0001 C CNN
 	1    2350 5400
 	1    0    0    -1  
@@ -286,8 +277,6 @@ Text GLabel 4400 1550 0    60   Output ~ 0
 FLT_H
 Text GLabel 2700 6800 2    60   Input ~ 0
 PWM_L
-Text GLabel 1200 7400 0    60   Input ~ 0
-VCC_IN
 Wire Wire Line
 	4400 1250 4900 1250
 Wire Wire Line
@@ -314,7 +303,7 @@ Text GLabel 1000 6800 0    60   Input ~ 0
 PWM_H
 Text GLabel 1550 6500 0    60   Input ~ 0
 RST
-Text GLabel 2300 6500 2    60   Output ~ 0
+Text GLabel 2300 6500 2    60   Input ~ 0
 FLT_ALL
 Wire Wire Line
 	4550 3300 4950 3300
@@ -720,9 +709,6 @@ F 3 "" H 2500 7150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2500 7100 2500 7150
-Connection ~ 1300 7400
-Wire Wire Line
-	1200 7400 1300 7400
 Connection ~ 1100 6800
 Wire Wire Line
 	1100 6800 1700 6800
@@ -753,8 +739,6 @@ Wire Wire Line
 	2200 6300 2300 6300
 Wire Wire Line
 	2300 6400 2200 6400
-Wire Wire Line
-	2200 6500 2300 6500
 NoConn ~ 2200 6600
 NoConn ~ 1700 6600
 Wire Wire Line
@@ -770,11 +754,6 @@ Wire Wire Line
 	5350 6900 5450 6900
 Wire Wire Line
 	2500 2950 3350 2950
-Wire Wire Line
-	4900 5200 3350 5200
-Wire Wire Line
-	3350 5200 3350 2950
-Connection ~ 3350 2950
 Wire Wire Line
 	3350 2950 4950 2950
 $Comp
@@ -809,11 +788,7 @@ Wire Wire Line
 Text GLabel 10650 5550 2    60   Output ~ 0
 FLT_ALL
 Wire Wire Line
-	10100 5550 10650 5550
-Text GLabel 8650 5200 0    60   Input ~ 0
-VCC_IN
-Wire Wire Line
-	8650 5200 8900 5200
+	8450 5200 8900 5200
 Text GLabel 8650 5300 0    60   Input ~ 0
 RDY_L
 Text GLabel 8650 5400 0    60   Output ~ 0
@@ -872,4 +847,88 @@ F 3 "" H 8750 5750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8900 5750 8750 5750
+Text GLabel 4600 3600 0    60   Input ~ 0
+FLT_ALL
+Wire Wire Line
+	4600 3600 4950 3600
+Wire Wire Line
+	10100 5550 10650 5550
+Wire Wire Line
+	2200 6500 2300 6500
+Text GLabel 4400 1650 0    60   Input ~ 0
+FLT_ALL
+Wire Wire Line
+	4400 1650 4900 1650
+$Comp
+L power:+24V #PWR047
+U 1 1 5A3C8158
+P 1500 5400
+F 0 "#PWR047" H 1500 5250 50  0001 C CNN
+F 1 "+24V" H 1515 5573 50  0000 C CNN
+F 2 "" H 1500 5400 50  0001 C CNN
+F 3 "" H 1500 5400 50  0001 C CNN
+	1    1500 5400
+	1    0    0    -1  
+$EndComp
+Connection ~ 1500 5400
+Wire Wire Line
+	1500 5400 1650 5400
+$Comp
+L power:+24V #PWR045
+U 1 1 5A3CC538
+P 1150 2900
+F 0 "#PWR045" H 1150 2750 50  0001 C CNN
+F 1 "+24V" H 1165 3073 50  0000 C CNN
+F 2 "" H 1150 2900 50  0001 C CNN
+F 3 "" H 1150 2900 50  0001 C CNN
+	1    1150 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR046
+U 1 1 5A3CC6A9
+P 1350 850
+F 0 "#PWR046" H 1350 700 50  0001 C CNN
+F 1 "+24V" H 1365 1023 50  0000 C CNN
+F 2 "" H 1350 850 50  0001 C CNN
+F 3 "" H 1350 850 50  0001 C CNN
+	1    1350 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR048
+U 1 1 5A3D1FFC
+P 8450 5200
+F 0 "#PWR048" H 8450 5050 50  0001 C CNN
+F 1 "+24V" H 8465 5373 50  0000 C CNN
+F 2 "" H 8450 5200 50  0001 C CNN
+F 3 "" H 8450 5200 50  0001 C CNN
+	1    8450 5200
+	1    0    0    -1  
+$EndComp
+Text GLabel 1050 7400 0    60   Input ~ 0
+VCC_IN
+Wire Wire Line
+	1300 7400 1050 7400
+Connection ~ 1300 7400
+Text GLabel 8350 5200 0    60   Input ~ 0
+VCC_IN
+Wire Wire Line
+	8350 5200 8450 5200
+Connection ~ 8450 5200
+Text GLabel 1050 2900 0    60   Input ~ 0
+VCC_IN
+Wire Wire Line
+	1150 2900 1050 2900
+Connection ~ 1150 2900
+Text GLabel 1150 850  0    60   Input ~ 0
+VCC_IN
+Wire Wire Line
+	1350 850  1150 850 
+Connection ~ 1350 850 
+Wire Wire Line
+	4900 5200 3350 5200
+Connection ~ 3350 2950
+Wire Wire Line
+	3350 5200 3350 2950
 $EndSCHEMATC

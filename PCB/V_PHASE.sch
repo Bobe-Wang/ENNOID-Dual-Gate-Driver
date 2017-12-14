@@ -6747,7 +6747,7 @@ U 1 1 5A30FBF2
 P 5900 3650
 F 0 "U8" H 5900 4117 50  0000 C CNN
 F 1 "AMC1301" H 5900 4026 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 5900 3300 50  0001 C CIN
+F 2 "Housings_SOIC:SSO-8_6.8x5.9mm_Pitch1.27mm_Clearance8mm" H 5900 3300 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/amc1301.pdf" H 5900 3650 50  0001 C CNN
 	1    5900 3650
 	1    0    0    -1  
