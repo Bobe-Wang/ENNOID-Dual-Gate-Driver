@@ -276,7 +276,7 @@ RDY_H
 Text GLabel 4400 1550 0    60   Output ~ 0
 FLT_H
 Text GLabel 2700 6800 2    60   Input ~ 0
-PWM_H
+PWM_L
 Wire Wire Line
 	4400 1250 4900 1250
 Wire Wire Line
@@ -300,7 +300,7 @@ FLT_L
 Wire Wire Line
 	4550 3500 4950 3500
 Text GLabel 1000 6800 0    60   Input ~ 0
-PWM_L
+PWM_H
 Text GLabel 1550 6500 0    60   Input ~ 0
 RST
 Text GLabel 2300 6500 2    60   Input ~ 0
@@ -658,17 +658,6 @@ F 3 "" H 1300 7400 50  0001 C CNN
 	1    1300 7400
 	1    0    0    -1  
 $EndComp
-$Comp
-L device:C C41
-U 1 1 5A3DD0B7
-P 1100 6950
-F 0 "C41" H 1215 6996 50  0000 L CNN
-F 1 "100n" H 1215 6905 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1138 6800 50  0001 C CNN
-F 3 "" H 1100 6950 50  0001 C CNN
-	1    1100 6950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1300 7400 1350 7400
 $Comp
@@ -693,9 +682,6 @@ F 3 "" H 2500 6950 50  0001 C CNN
 	1    2500 6950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2500 6800 2700 6800
-Connection ~ 2500 6800
 $Comp
 L power:GND #PWR026
 U 1 1 5A3F1B0E
@@ -709,11 +695,8 @@ F 3 "" H 2500 7150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2500 7100 2500 7150
-Connection ~ 1100 6800
 Wire Wire Line
 	1100 6800 1700 6800
-Wire Wire Line
-	1000 6800 1100 6800
 Wire Wire Line
 	1550 6700 1700 6700
 $Comp
@@ -931,4 +914,21 @@ Wire Wire Line
 Connection ~ 3350 2950
 Wire Wire Line
 	3350 5200 3350 2950
+$Comp
+L device:C C41
+U 1 1 5A3DD0B7
+P 1100 6950
+F 0 "C41" H 1215 6996 50  0000 L CNN
+F 1 "100n" H 1215 6905 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1138 6800 50  0001 C CNN
+F 3 "" H 1100 6950 50  0001 C CNN
+	1    1100 6950
+	1    0    0    -1  
+$EndComp
+Connection ~ 1100 6800
+Wire Wire Line
+	1000 6800 1100 6800
+Connection ~ 2500 6800
+Wire Wire Line
+	2500 6800 2700 6800
 $EndSCHEMATC
