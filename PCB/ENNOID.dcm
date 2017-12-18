@@ -6,6 +6,11 @@ K Isolated Gate Driver DESAT
 F https://www.infineon.com/dgdl/Datasheet_1ED020I12-F2_V2_final.pdf?folderId=db3a30432b16d655012b33fafdac11e2&fileId=db3a304330f68606013122ce5f3649cb
 $ENDCMP
 #
+$CMP ACM4520
+D ACM4520
+K EMI filter
+$ENDCMP
+#
 $CMP AMC1301
 D AMC1301
 K Isolated Amplifier

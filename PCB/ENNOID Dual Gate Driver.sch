@@ -20,7 +20,7 @@ U 1 1 5A3005AC
 P 1900 6600
 F 0 "J1" H 1950 7025 50  0000 C CNN
 F 1 "Conn_02x08_Odd_Even" H 1950 7026 50  0001 C CNN
-F 2 "Connectors_Multicomp:Multicomp_MC9A12-1634_2x08x2.54mm_Straight" H 1900 6600 50  0001 C CNN
+F 2 "ENNOID:Multicomp_MC9A12-1634_2x08x2.54mm_Straight" H 1900 6600 50  0001 C CNN
 F 3 "~" H 1900 6600 50  0001 C CNN
 	1    1900 6600
 	1    0    0    -1  

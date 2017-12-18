@@ -14,19 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L device:EMI_Filter_LL FL1
-U 1 1 5A300C2E
-P 3850 2600
-AR Path="/5A300795/5A300C2E" Ref="FL1"  Part="1" 
-AR Path="/5A331F4C/5A300C2E" Ref="FL2"  Part="1" 
-F 0 "FL2" H 3850 2787 50  0000 C CNN
-F 1 "ACM4520-142-2P-T000" H 3850 2787 50  0001 C CNN
-F 2 "ENNOID:ACM4520" V 3850 2640 50  0001 C CNN
-F 3 "" H 3850 2793 50  0001 C CNN
-	1    3850 2600
-	1    0    0    -1  
-$EndComp
 Text HLabel 3500 2500 0    60   Input ~ 0
 VCC_IN
 Text HLabel 3500 2700 0    60   Input ~ 0
@@ -127,8 +114,6 @@ Wire Wire Line
 	4400 2450 4900 2450
 Wire Wire Line
 	4400 2750 4900 2750
-Wire Wire Line
-	3500 2500 3650 2500
 Wire Wire Line
 	3650 2700 3600 2700
 Wire Wire Line
@@ -289,4 +274,22 @@ F 3 "" H 8500 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 8600 2800
+$Comp
+L ENNOID:ACM4520 FL2
+U 1 1 5A376789
+P 3850 2600
+AR Path="/5A331F4C/5A376789" Ref="FL2"  Part="1" 
+AR Path="/5A300795/5A376789" Ref="FL1"  Part="1" 
+F 0 "FL2" H 3850 2878 50  0000 C CNN
+F 1 "ACM4520" H 3850 2787 50  0000 C CNN
+F 2 "ENNOID:ACM4520" H 3850 2787 50  0001 C CNN
+F 3 "" V 3850 2640 50  0000 C CNN
+	1    3850 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 2500 3600 2500
+Wire Wire Line
+	3600 2500 3500 2500
+Connection ~ 3600 2500
 $EndSCHEMATC

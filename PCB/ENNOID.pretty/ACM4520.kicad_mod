@@ -1,4 +1,4 @@
-(module ACM4520 (layer F.Cu) (tedit 5A32C8EE)
+(module ACM4520 (layer F.Cu) (tedit 5A354EFE)
   (tags "Common Mode Filters")
   (fp_text reference L? (at 0 -3.81) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -28,4 +28,9 @@
   (pad 3 smd rect (at 2.375 1) (size 1.25 0.95) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -2.375 1) (size 1.25 0.95) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -2.375 -1) (size 1.25 0.95) (layers F.Cu F.Paste F.Mask))
+  (model ${ENNOID}/ACM4520.step
+    (offset (xyz -2.25 -2.25 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
