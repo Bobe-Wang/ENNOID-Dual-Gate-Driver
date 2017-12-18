@@ -276,7 +276,7 @@ RDY_H
 Text GLabel 4400 1550 0    60   Output ~ 0
 FLT_H
 Text GLabel 2700 6800 2    60   Input ~ 0
-PWM_L
+PWM_H
 Wire Wire Line
 	4400 1250 4900 1250
 Wire Wire Line
@@ -300,7 +300,7 @@ FLT_L
 Wire Wire Line
 	4550 3500 4950 3500
 Text GLabel 1000 6800 0    60   Input ~ 0
-PWM_H
+PWM_L
 Text GLabel 1550 6500 0    60   Input ~ 0
 RST
 Text GLabel 2300 6500 2    60   Input ~ 0
