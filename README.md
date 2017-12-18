@@ -11,5 +11,6 @@ The goal is to adapt the "Dual Gate Driver" with this control board:
 
 https://github.com/paltatech/VESC-controller
 
-![alt text](https://github.com/EnnoidMe/ENNOID-Dual-Gate-Driver/PIC/Top.png)
-![alt text](https://github.com/EnnoidMe/ENNOID-Dual-Gate-Driver/PIC/Bottom.png)
+![alt text](PIC/Top.png)
+
+![alt text](PIC/Bottom.png)
