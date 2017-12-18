@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 7
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -579,9 +579,6 @@ Wire Wire Line
 Wire Wire Line
 	8500 3300 8700 3300
 Connection ~ 8500 3300
-Connection ~ 8700 3300
-Wire Wire Line
-	8700 3300 8700 3600
 $Comp
 L device:R R15
 U 1 1 5A380EE3
@@ -771,4 +768,9 @@ Connection ~ 1600 4000
 Wire Wire Line
 	1600 4000 2100 4000
 Connection ~ 2100 4000
+Wire Wire Line
+	8550 3200 8550 3600
+Wire Wire Line
+	8550 3600 8700 3600
+Connection ~ 8550 3200
 $EndSCHEMATC
