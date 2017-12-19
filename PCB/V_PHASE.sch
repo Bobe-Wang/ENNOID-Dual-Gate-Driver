@@ -6997,10 +6997,10 @@ Wire Wire Line
 	7600 3550 7700 3550
 Connection ~ 7600 3550
 Text HLabel 3800 3000 0    60   Input ~ 0
-VCC_REG
-Wire Wire Line
-	4050 3000 3800 3000
++VCC
 Wire Wire Line
 	5500 4200 5150 4200
 Connection ~ 5150 4200
+Wire Wire Line
+	4050 3000 3800 3000
 $EndSCHEMATC

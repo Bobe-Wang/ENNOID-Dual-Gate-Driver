@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 7
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -422,7 +422,7 @@ AR Path="/5A33279F/5A3491F7" Ref="U5"  Part="1"
 AR Path="/5A340028/5A3491F7" Ref="U7"  Part="1" 
 F 0 "U7" H 7950 3867 50  0000 C CNN
 F 1 "IXD-609" H 7950 3776 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 7950 3050 50  0001 C CIN
+F 2 "Housings_SOIC:SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm" H 7950 3050 50  0001 C CIN
 F 3 "http://www.ixysic.com/home/pdfs.nsf/www/IXD_609.pdf/$file/IXD_609.pdf" H 7950 3400 50  0001 C CNN
 	1    7950 3400
 	1    0    0    -1  

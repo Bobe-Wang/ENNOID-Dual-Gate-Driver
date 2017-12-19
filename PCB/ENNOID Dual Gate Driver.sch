@@ -247,7 +247,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 1000 4900 1000
 Wire Wire Line
-	2500 2850 4950 2850
+	2500 2850 3150 2850
 Wire Wire Line
 	2500 3050 4950 3050
 Wire Wire Line
@@ -344,7 +344,7 @@ F4 "+5V" I L 4900 5000 60
 F5 "Vout+" O L 4900 5400 60 
 F6 "Vout-" O L 4900 5500 60 
 F7 "GND" I L 4900 5650 60 
-F8 "VCC_REG" I L 4900 5200 60 
+F8 "+VCC" I L 4900 5200 60 
 $EndSheet
 $Comp
 L Connector:Conn_01x04 J2
@@ -735,10 +735,6 @@ Wire Wire Line
 	6200 7000 6150 7000
 Wire Wire Line
 	5350 6900 5450 6900
-Wire Wire Line
-	2500 2950 3350 2950
-Wire Wire Line
-	3350 2950 4950 2950
 $Comp
 L Connector:Conn_01x01_Female J7
 U 1 1 5A338421
@@ -909,11 +905,6 @@ VCC_IN
 Wire Wire Line
 	1350 850  1150 850 
 Connection ~ 1350 850 
-Wire Wire Line
-	4900 5200 3350 5200
-Connection ~ 3350 2950
-Wire Wire Line
-	3350 5200 3350 2950
 $Comp
 L device:C C41
 U 1 1 5A3DD0B7
@@ -931,4 +922,13 @@ Wire Wire Line
 Connection ~ 2500 6800
 Wire Wire Line
 	2500 6800 2700 6800
+Wire Wire Line
+	2500 2950 4950 2950
+Wire Wire Line
+	3150 5200 4900 5200
+Wire Wire Line
+	3150 2850 3150 5200
+Connection ~ 3150 2850
+Wire Wire Line
+	3150 2850 4950 2850
 $EndSCHEMATC
