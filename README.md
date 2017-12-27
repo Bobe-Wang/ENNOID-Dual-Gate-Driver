@@ -19,7 +19,7 @@ The V0.1 is based upon the design of the wolfspeed two-channel gate driver for 1
 Feature:
 
 - 2 output channels
-- 2W Isolated power supply
+- 2W Isolated power supply / Gate
 - Direct mount low inductance design
 - Short circuit protection
 - Under voltage protection
