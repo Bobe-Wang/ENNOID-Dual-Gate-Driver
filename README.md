@@ -16,13 +16,22 @@ https://github.com/paltatech/VESC-controller
 The V0.1 is based upon the design of the wolfspeed two-channel gate driver for 1200V SiC MOSFET power modules
 - https://www.wolfspeed.com/cgd15hb62p1
 
-Added to the original wolfspeed design:
+Feature:
 
-- Voltage sense circuit
-- 2 watt / side isolated power supply.
+-2 output channels
+-2W Isolated power supply
+-Direct mount low inductance design
+-Short circuit protection
+-Under voltage protection
+
+
+Changes from the original wolfspeed design:
+
+- Added Voltage sense circuit
+- 96 x 60 mm 2 layer PCB made on Kicad from scratch
 - Current sensor connector
 - Temperature sensor circuit & connector
-- 96 x 60 mm 2 layer PCB
+
 
 ### Top View
 
@@ -40,8 +49,8 @@ Added to the original wolfspeed design:
 
  The V0.2 is based upon the design from tiduc70a.pdf. Change from V0.1 will include:
 
-- Adjustable Soft Turnoff feature
 - BJT based instead of mosfet IC IXD-609 with added capacitance on gate drive circuit
+- Adjustable Soft Turnoff feature
 - SMD gate resistor instead of MELF
 
 Otherwise, the V0.2 should be very similar to V0.1
