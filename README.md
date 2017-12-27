@@ -11,8 +11,8 @@ The goal is to adapt the "Dual Gate Driver" with this control board:
 
 https://github.com/paltatech/VESC-controller
 
-![alt text](V0.1 - Wolfspeed/PIC/Top.png)
+![alt text](V0.1-Wolfspeed/PIC/Top.png)
 
-![alt text](V0.1 - Wolfspeed/PIC/Bottom.png)
+![alt text](V0.1-Wolfspeed/PIC/Bottom.png)
 
-![alt text](V0.1 - Wolfspeed/PIC/Angle.png)
+![alt text](V0.1-Wolfspeed/PIC/Angle.png)
