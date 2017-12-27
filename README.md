@@ -7,7 +7,7 @@ The goal of this project is to create an open source H-bridge gate driver design
 
 The design could be adapted for different modules after testing.
 
-The goal is to adapt the "Dual Gate Driver" with this control board:
+The goal is to adapt the "Dual Gate Driver" with this control board (No more adapter board required):
 
 https://github.com/paltatech/VESC-controller
 
@@ -18,11 +18,11 @@ The V0.1 is based upon the design of the wolfspeed two-channel gate driver for 1
 
 Feature:
 
--2 output channels
--2W Isolated power supply
--Direct mount low inductance design
--Short circuit protection
--Under voltage protection
+- 2 output channels
+- 2W Isolated power supply
+- Direct mount low inductance design
+- Short circuit protection
+- Under voltage protection
 
 
 Changes from the original wolfspeed design:
