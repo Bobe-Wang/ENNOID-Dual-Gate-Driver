@@ -295,7 +295,7 @@ Text GLabel 1000 6800 0    60   Input ~ 0
 PWM_H
 Text GLabel 1550 6500 0    60   Input ~ 0
 RST
-Text GLabel 2300 6500 2    60   Input ~ 0
+Text GLabel 2300 6500 2    60   Output ~ 0
 FLT
 Wire Wire Line
 	4550 3300 4950 3300
@@ -758,7 +758,7 @@ Wire Wire Line
 	8150 2200 8300 2200
 Wire Wire Line
 	2200 6500 2300 6500
-Text GLabel 4400 1550 0    60   Input ~ 0
+Text GLabel 4400 1550 0    60   Output ~ 0
 FLT
 $Comp
 L power:+24V #PWR047
@@ -934,7 +934,7 @@ Text GLabel 1150 4700 3    60   Input ~ 0
 RST
 Text GLabel 1500 4700 3    60   Input ~ 0
 FLT
-Text GLabel 4550 3500 0    60   Input ~ 0
+Text GLabel 4550 3500 0    60   Output ~ 0
 FLT
 Wire Wire Line
 	4550 3500 4950 3500

@@ -17,6 +17,11 @@ K Isolated Amplifier
 F http://www.ti.com/lit/ds/symlink/amc1301.pdf
 $ENDCMP
 #
+$CMP ISO5852SDWR
+D ISO5852SDWR, Isolated Gate Driver with Desat
+K Isolated Gate Driver DESAT
+$ENDCMP
+#
 $CMP IXD-609
 D XID-609 High Speed Gate Driver
 K High Speed Gate Driver
