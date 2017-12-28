@@ -47,10 +47,11 @@ Changes from the original wolfspeed design:
 
 ## V0.2 (In development):
 
- The V0.2 is based upon the design from tiduc70a.pdf. Change from V0.1 will include:
+ The V0.2 is based upon the design from tiduc70a.pdf. Changes from V0.1 will include:
 
 - BJT based instead of mosfet IC IXD-609 with added capacitance on gate drive circuit
 - Adjustable Soft Turnoff feature
 - SMD gate resistor instead of MELF
+- Active clamping / Over voltage protection
 
 Otherwise, the V0.2 should be very similar to V0.1
