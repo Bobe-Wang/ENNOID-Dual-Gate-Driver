@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -455,7 +455,7 @@ AR Path="/5A33279F/5A48865E" Ref="Q4"  Part="1"
 AR Path="/5A340028/5A48865E" Ref="Q6"  Part="1" 
 F 0 "Q6" H 6288 3654 50  0000 L CNN
 F 1 "MJD45H11RLG" H 6288 3745 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:TO-252-3_TabPin4" H 6200 3800 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:TO-252-2" H 6200 3800 50  0001 C CNN
 F 3 "" H 6000 3700 50  0001 C CNN
 	1    6000 3700
 	1    0    0    1   
@@ -468,7 +468,7 @@ AR Path="/5A33279F/5A488736" Ref="Q3"  Part="1"
 AR Path="/5A340028/5A488736" Ref="Q5"  Part="1" 
 F 0 "Q5" H 6288 3146 50  0000 L CNN
 F 1 "MJD44H11RLG" H 6288 3055 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:TO-252-3_TabPin4" H 6200 3200 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:TO-252-2" H 6200 3200 50  0001 C CNN
 F 3 "" H 6000 3100 50  0001 C CNN
 	1    6000 3100
 	1    0    0    -1  
@@ -877,7 +877,7 @@ AR Path="/5A33279F/5A581717" Ref="D15"  Part="1"
 AR Path="/5A340028/5A581717" Ref="D21"  Part="1" 
 F 0 "D21" V 10204 1779 50  0000 L CNN
 F 1 "smcj440ca" V 10295 1779 50  0000 L CNN
-F 2 "Diodes_SMD:D_SMC_Handsoldering" H 10250 1700 50  0001 C CNN
+F 2 "Diodes_SMD:D_SMC" H 10250 1700 50  0001 C CNN
 F 3 "https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode" H 10250 1700 50  0001 C CNN
 	1    10250 1700
 	0    1    1    0   
