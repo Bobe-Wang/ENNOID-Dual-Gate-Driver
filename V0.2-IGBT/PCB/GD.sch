@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -56,8 +56,6 @@ F 3 "" H 1350 5150 50  0001 C CNN
 $EndComp
 Text HLabel 8100 2650 1    60   Input ~ 0
 +VCC
-Text HLabel 4200 1950 1    60   Input ~ 0
-VCC_REG
 Text HLabel 5300 2750 2    60   Input ~ 0
 -VEE
 Wire Wire Line
@@ -360,9 +358,6 @@ Wire Wire Line
 Wire Wire Line
 	5200 2750 5300 2750
 Connection ~ 5200 2650
-Connection ~ 4200 2000
-Wire Wire Line
-	4200 2000 4200 1950
 $Comp
 L device:C C22
 U 1 1 5A47567B
@@ -984,4 +979,10 @@ Wire Wire Line
 	6200 2700 8000 2700
 Wire Wire Line
 	8500 1250 10250 1250
+Wire Wire Line
+	6100 2700 6100 2000
+Wire Wire Line
+	6100 2000 5650 2000
+Connection ~ 6100 2700
+Connection ~ 5650 2000
 $EndSCHEMATC

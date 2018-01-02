@@ -34,8 +34,7 @@ F2 "VCC_IN" I L 1500 850 60
 F3 "GND" I L 1500 1050 60 
 F4 "+VCC" O R 2700 800 60 
 F5 "-VEE" O R 2700 1000 60 
-F6 "VCC_REG" O R 2700 900 60 
-F7 "PHASE" O R 2700 1100 60 
+F6 "PHASE" O R 2700 1100 60 
 $EndSheet
 Wire Wire Line
 	1350 850  1500 850 
@@ -80,14 +79,13 @@ F2 "RST" I L 4900 1450 60
 F3 "FLT" O L 4900 1550 60 
 F4 "RDY" I L 4900 1350 60 
 F5 "PWM" I L 4900 1250 60 
-F6 "VCC_REG" I L 4900 900 60 
-F7 "-VEE" I L 4900 1000 60 
-F8 "+VCC" I L 4900 800 60 
-F9 "E" I R 6200 1700 60 
-F10 "C" I R 6200 750 60 
-F11 "G" I R 6200 1200 60 
-F12 "+5V" I L 4900 700 60 
-F13 "GND" I L 4900 1750 60 
+F6 "-VEE" I L 4900 1000 60 
+F7 "+VCC" I L 4900 800 60 
+F8 "E" I R 6200 1700 60 
+F9 "C" I R 6200 750 60 
+F10 "G" I R 6200 1200 60 
+F11 "+5V" I L 4900 700 60 
+F12 "GND" I L 4900 1750 60 
 $EndSheet
 $Sheet
 S 1300 2800 1200 400 
@@ -98,8 +96,7 @@ F2 "VCC_IN" I L 1300 2900 60
 F3 "GND" I L 1300 3100 60 
 F4 "+VCC" O R 2500 2850 60 
 F5 "-VEE" O R 2500 3050 60 
-F6 "VCC_REG" O R 2500 2950 60 
-F7 "PHASE" O R 2500 3150 60 
+F6 "PHASE" O R 2500 3150 60 
 $EndSheet
 $Comp
 L device:C C1
@@ -215,11 +212,10 @@ F5 "RDY" I L 4950 3300 60
 F6 "PWM" I L 4950 3200 60 
 F7 "GND" I L 4950 3700 60 
 F8 "+VCC" I L 4950 2850 60 
-F9 "VCC_REG" I L 4950 2950 60 
-F10 "-VEE" I L 4950 3050 60 
-F11 "C" I R 6200 2700 60 
-F12 "G" I R 6200 3200 60 
-F13 "E" I R 6200 3650 60 
+F9 "-VEE" I L 4950 3050 60 
+F10 "C" I R 6200 2700 60 
+F11 "G" I R 6200 3200 60 
+F12 "E" I R 6200 3650 60 
 $EndSheet
 Wire Wire Line
 	7200 2200 7200 1700
@@ -240,8 +236,6 @@ Wire Wire Line
 	6200 3650 7200 3650
 Wire Wire Line
 	2700 800  4900 800 
-Wire Wire Line
-	2700 900  4900 900 
 Wire Wire Line
 	2700 1000 4900 1000
 Wire Wire Line
@@ -271,7 +265,7 @@ Text GLabel 4400 1250 0    60   Input ~ 0
 PWM_H
 Text GLabel 4400 1350 0    60   Input ~ 0
 RDY
-Text GLabel 2700 6800 2    60   Input ~ 0
+Text GLabel 950  6800 0    60   Input ~ 0
 PWM_L
 Wire Wire Line
 	4400 1250 4900 1250
@@ -291,7 +285,7 @@ Wire Wire Line
 	4550 3400 4950 3400
 Text GLabel 4550 3300 0    60   Input ~ 0
 RDY
-Text GLabel 1000 6800 0    60   Input ~ 0
+Text GLabel 2650 6800 2    60   Input ~ 0
 PWM_H
 Text GLabel 1550 6500 0    60   Input ~ 0
 RST
@@ -561,9 +555,9 @@ Wire Wire Line
 	4550 5400 4900 5400
 Wire Wire Line
 	4900 5500 4550 5500
-Text GLabel 1550 6400 0    60   Output ~ 0
-Vout+
 Text GLabel 2300 6400 2    60   Output ~ 0
+Vout+
+Text GLabel 1550 6400 0    60   Output ~ 0
 Vout-
 $Comp
 L power:GND #PWR025
@@ -707,13 +701,9 @@ Wire Wire Line
 Wire Wire Line
 	1550 6300 1700 6300
 Wire Wire Line
-	1550 6400 1700 6400
-Wire Wire Line
 	1550 6500 1700 6500
 Wire Wire Line
 	2200 6300 2300 6300
-Wire Wire Line
-	2300 6400 2200 6400
 NoConn ~ 2200 6600
 NoConn ~ 1700 6600
 Wire Wire Line
@@ -822,14 +812,6 @@ F 3 "" H 1100 6950 50  0001 C CNN
 	1    1100 6950
 	1    0    0    -1  
 $EndComp
-Connection ~ 1100 6800
-Wire Wire Line
-	1000 6800 1100 6800
-Connection ~ 2500 6800
-Wire Wire Line
-	2500 6800 2700 6800
-Wire Wire Line
-	2500 2950 4950 2950
 Wire Wire Line
 	3150 5200 4900 5200
 Wire Wire Line
@@ -946,4 +928,14 @@ Text GLabel 1850 4700 3    60   Input ~ 0
 RDY
 Wire Wire Line
 	1850 4600 1850 4700
+Wire Wire Line
+	2200 6400 2300 6400
+Wire Wire Line
+	1700 6400 1550 6400
+Wire Wire Line
+	950  6800 1100 6800
+Connection ~ 1100 6800
+Wire Wire Line
+	2650 6800 2500 6800
+Connection ~ 2500 6800
 $EndSCHEMATC
