@@ -2,12 +2,12 @@
 
 The goal of this project is to create an open source H-bridge gate driver design for IGBT or Mosfet modules "bricks" like those:
 
-- https://www.wolfspeed.com/cas120m12bm2
 - http://www.pwrx.com/pwrx/docs/cm300du-12f.pdf
+- https://www.wolfspeed.com/cas120m12bm2
 
-The design could be adapted for different modules after testing.
+The design could be adapted for different modules types after testing.
 
-The goal is to adapt the "Dual Gate Driver" with this control board (No more adapter board required):
+The "Dual Gate Driver" can be directly connected to this control board (No more adapter board is required):
 
 https://github.com/paltatech/VESC-controller
 
@@ -18,7 +18,7 @@ The V0.1 is based upon the design of the wolfspeed two-channel gate driver for 1
 
 Feature:
 
-- 2 output channels
+- Dual gate driver
 - 2W Isolated power supply / Gate
 - Direct mount low inductance design
 - Short circuit protection
@@ -28,10 +28,11 @@ Feature:
 Changes from the original wolfspeed design:
 
 - Added Voltage sense circuit
-- 98 x 60 mm 2 layer PCB made on Kicad from scratch
+- 98 x 60 mm 2 layer PCB made with Kicad
 - Current sensor connector
 - Temperature sensor circuit & connector
 - Minimum SMD 0805 components size for easy handsoldering
+- 2x8 pins headers for easy connection with VESC board
 
 ## V0.2:
 
