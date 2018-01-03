@@ -33,19 +33,7 @@ Changes from the original wolfspeed design:
 - Temperature sensor circuit & connector
 
 
-### Top View
-
-![alt text](V0.1-Wolfspeed/PIC/Top.png)
-
-### Bottom View
-
-![alt text](V0.1-Wolfspeed/PIC/Bottom.png)
-
-### Board View
-
-![alt text](V0.1-Wolfspeed/PIC/Angle.png)
-
-## V0.2 (In development):
+## V0.2:
 
  The V0.2 is based upon the design from tiduc70a.pdf. Changes from V0.1 include:
 
