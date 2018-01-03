@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-e062780~61~ubuntu17.10.1*
-G04 #@! TF.CreationDate,2018-01-03T10:37:01-05:00*
+G04 #@! TF.CreationDate,2018-01-03T14:28:22-05:00*
 G04 #@! TF.ProjectId,ENNOID Dual Gate Driver,454E4E4F4944204475616C2047617465,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW no-vcs-found-e062780~61~ubuntu17.10.1) date Wed Jan  3 10:37:01 2018*
+G04 Created by KiCad (PCBNEW no-vcs-found-e062780~61~ubuntu17.10.1) date Wed Jan  3 14:28:22 2018*
 %MOMM*%
 %LPD*%
 G01*
