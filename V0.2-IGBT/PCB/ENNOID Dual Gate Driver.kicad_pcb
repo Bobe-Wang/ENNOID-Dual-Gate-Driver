@@ -5383,11 +5383,11 @@
   )
 
   (module ENNOID:ENNOID-LOGO (layer B.Cu) (tedit 0) (tstamp 5A4D797D)
-    (at 30 72.5)
-    (fp_text reference G*** (at 0 0) (layer B.SilkS) hide
+    (at 30 72.5 180)
+    (fp_text reference G*** (at 0 0 180) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
-    (fp_text value LOGO (at 0.75 0) (layer B.SilkS) hide
+    (fp_text value LOGO (at 0.75 0 180) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
     (fp_poly (pts (xy 11.735276 -2.96025) (xy 10.387305 -2.96025) (xy 10.387305 4.387513) (xy 11.735276 4.387513)
