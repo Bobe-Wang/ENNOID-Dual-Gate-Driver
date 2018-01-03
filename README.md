@@ -28,10 +28,10 @@ Feature:
 Changes from the original wolfspeed design:
 
 - Added Voltage sense circuit
-- 96 x 60 mm 2 layer PCB made on Kicad from scratch
+- 98 x 60 mm 2 layer PCB made on Kicad from scratch
 - Current sensor connector
 - Temperature sensor circuit & connector
-
+- Minimum SMD 0805 components size for easy handsoldering
 
 ## V0.2:
 
