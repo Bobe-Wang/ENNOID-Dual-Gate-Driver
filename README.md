@@ -42,6 +42,7 @@ Changes from the original wolfspeed design:
 - Adjustable Soft Turnoff feature
 - SMD gate resistor instead of MELF
 - Active clamping / Over voltage protection
+- Shoot trough EMI protection on PWM input
 
 Otherwise, the V0.2 is very similar to V0.1
 
