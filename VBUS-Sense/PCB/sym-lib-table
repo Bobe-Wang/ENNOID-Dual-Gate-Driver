@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name ENNOID)(type Legacy)(uri ${KIPRJMOD}/ENNOID.lib)(options "")(descr ""))
+  (lib (name current_sensor-cache)(type Legacy)(uri ${KIPRJMOD}/current_sensor-cache.lib)(options "")(descr ""))
 )

@@ -1,0 +1,260 @@
+EESchema Schematic File Version 4
+LIBS:VBUS-Sense-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date "2017-08-15"
+Rev ""
+Comp "PALTA TECH S.A."
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 2600 2900 0    60   Input ~ 0
++5V
+Text HLabel 2600 3200 0    60   Input ~ 0
+GND
+Text HLabel 4700 3050 0    60   Input ~ 0
++5V
+Text HLabel 5300 3050 2    60   Input ~ 0
+VBUS-
+Text HLabel 8600 2900 2    60   Input ~ 0
++VCC
+Text HLabel 8600 3500 2    60   Input ~ 0
+VBUS-
+Wire Wire Line
+	3650 3200 3550 3200
+Wire Wire Line
+	3550 3200 3550 3100
+Wire Wire Line
+	3550 3100 3650 3100
+Wire Wire Line
+	5650 2900 5200 2900
+Wire Wire Line
+	5200 2900 5200 2950
+Wire Wire Line
+	5850 3200 6400 3200
+Wire Wire Line
+	6400 3200 6400 2900
+Wire Wire Line
+	7550 2900 7450 2900
+Wire Wire Line
+	7550 3000 7450 3000
+Wire Wire Line
+	7450 3000 7450 2900
+Wire Wire Line
+	7550 3100 7450 3100
+Wire Wire Line
+	7450 3100 7450 3500
+Wire Wire Line
+	8600 3500 8500 3500
+Wire Wire Line
+	6650 3500 6650 3350
+Wire Wire Line
+	7050 3500 7050 3350
+Wire Wire Line
+	8600 2900 8500 2900
+Wire Wire Line
+	4700 3050 4750 3050
+Wire Wire Line
+	5250 3050 5300 3050
+Wire Wire Line
+	4350 3200 4800 3200
+Wire Wire Line
+	4800 3200 4800 3150
+Wire Wire Line
+	4350 2900 4800 2900
+Wire Wire Line
+	4800 2900 4800 2950
+Wire Wire Line
+	5200 3150 5200 3200
+Wire Wire Line
+	5200 3200 5650 3200
+Connection ~ 6400 2900
+Connection ~ 6650 2900
+Connection ~ 7050 2900
+Connection ~ 7450 2900
+Connection ~ 7050 3500
+Connection ~ 7450 3500
+Connection ~ 8500 2900
+Connection ~ 8500 3500
+Connection ~ 3550 3200
+Text Notes 8650 3050 0    40   ~ 0
+ripple: 23mv
+Wire Notes Line
+	8650 3050 8500 3050
+Text Notes 1350 1600 0    160  ~ 32
+ISOLATED POWER SUPPLY
+Wire Notes Line
+	4950 2300 4950 3850
+Wire Notes Line
+	5050 2300 5050 3850
+Wire Wire Line
+	6400 2900 5850 2900
+Wire Wire Line
+	6650 2900 6400 2900
+Wire Wire Line
+	7050 2900 6650 2900
+Wire Wire Line
+	7450 2900 7050 2900
+Wire Wire Line
+	7050 3500 6650 3500
+Wire Wire Line
+	7450 3500 7050 3500
+Wire Wire Line
+	8500 2900 8300 2900
+Wire Wire Line
+	8500 3500 7450 3500
+$Comp
+L current_sensor-cache:TPS76350 U3
+U 1 1 5A513742
+P 7950 3000
+F 0 "U3" H 7925 3453 60  0000 C CNN
+F 1 "TPS76350" H 7925 3347 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5_HandSoldering" H 7925 3241 60  0001 C CNN
+F 3 "" H 7950 3000 60  0000 C CNN
+	1    7950 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L current_sensor-cache:SN6501DBV U2
+U 1 1 5A51380D
+P 4000 3050
+F 0 "U2" H 4000 3487 60  0000 C CNN
+F 1 "SN6501DBV" H 4000 3381 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5_HandSoldering" H 4000 3100 60  0001 C CNN
+F 3 "" H 4000 3100 60  0001 C CNN
+	1    4000 3050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8300 3100
+$Comp
+L current_sensor-cache:TRANS-2CT T1
+U 1 1 5A51396A
+P 4800 3050
+F 0 "T1" H 4750 3200 50  0000 R CNN
+F 1 "TRANS-2CT" H 5150 2850 50  0000 R CNN
+F 2 "ENNOID:WURTH-760390014" H 4800 3100 60  0001 C CNN
+F 3 "" H 4800 3100 60  0000 C CNN
+	1    4800 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L current_sensor-cache:TRANS-2CT T1
+U 2 1 5A5139CC
+P 5200 3050
+F 0 "T1" H 5150 2950 50  0000 R CNN
+F 1 "TRANS-2CT" H 5600 2850 50  0000 R CNN
+F 2 "" H 5200 3100 60  0000 C CNN
+F 3 "" H 5200 3100 60  0000 C CNN
+	2    5200 3050
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2600 2900 2850 2900
+Wire Wire Line
+	2600 3200 2850 3200
+$Comp
+L current_sensor-cache:MBR0520 D1
+U 1 1 5A514B28
+P 5750 2900
+F 0 "D1" V 5967 2900 50  0000 C CNN
+F 1 "MBR0520" V 5876 2900 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 5750 2750 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MBR0520LT1-D.PDF" H 5750 2550 60  0001 C CNN
+F 4 "SCHOTTKY MBR0520" H 5750 2650 60  0001 C CNN "BOM"
+	1    5750 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L current_sensor-cache:MBR0520 D2
+U 1 1 5A514BCC
+P 5750 3200
+F 0 "D2" V 5967 3200 50  0000 C CNN
+F 1 "MBR0520" V 5876 3200 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 5750 3050 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MBR0520LT1-D.PDF" H 5750 2850 60  0001 C CNN
+F 4 "SCHOTTKY MBR0520" H 5750 2950 60  0001 C CNN "BOM"
+	1    5750 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:C C1
+U 1 1 5A514C3B
+P 2850 3050
+F 0 "C1" H 2965 3096 50  0000 L CNN
+F 1 "2.2u" H 2965 3005 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2888 2900 50  0001 C CNN
+F 3 "" H 2850 3050 50  0001 C CNN
+	1    2850 3050
+	1    0    0    -1  
+$EndComp
+Connection ~ 2850 2900
+Wire Wire Line
+	2850 2900 3250 2900
+Connection ~ 2850 3200
+Wire Wire Line
+	2850 3200 3250 3200
+$Comp
+L device:C C2
+U 1 1 5A514CCD
+P 3250 3050
+F 0 "C2" H 3365 3096 50  0000 L CNN
+F 1 "100n" H 3365 3005 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3288 2900 50  0001 C CNN
+F 3 "" H 3250 3050 50  0001 C CNN
+	1    3250 3050
+	1    0    0    -1  
+$EndComp
+Connection ~ 3250 2900
+Wire Wire Line
+	3250 2900 3650 2900
+Connection ~ 3250 3200
+Wire Wire Line
+	3250 3200 3550 3200
+$Comp
+L device:C C4
+U 1 1 5A514D32
+P 7050 3200
+F 0 "C4" H 7165 3246 50  0000 L CNN
+F 1 "100n" H 7165 3155 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7088 3050 50  0001 C CNN
+F 3 "" H 7050 3200 50  0001 C CNN
+	1    7050 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 3050 7050 2900
+$Comp
+L device:C C3
+U 1 1 5A515EEE
+P 6650 3200
+F 0 "C3" H 6765 3246 50  0000 L CNN
+F 1 "22u" H 6765 3155 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6688 3050 50  0001 C CNN
+F 3 "" H 6650 3200 50  0001 C CNN
+	1    6650 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3050 6650 2900
+$Comp
+L device:C C5
+U 1 1 5A518968
+P 8500 3200
+F 0 "C5" H 8615 3246 50  0000 L CNN
+F 1 "22u" H 8615 3155 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8538 3050 50  0001 C CNN
+F 3 "" H 8500 3200 50  0001 C CNN
+	1    8500 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 3050 8500 2900
+Wire Wire Line
+	8500 3350 8500 3500
+$EndSCHEMATC

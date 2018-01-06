@@ -874,7 +874,7 @@ Connection ~ 6100 2700
 Connection ~ 5650 2000
 Wire Notes Line
 	3650 1700 3650 4250
-Wire Notes Line rgb(0, 0, 132)
+Wire Notes Line rgb(0, 0, 0)
 	3750 1700 3750 4250
 Text HLabel 900  3300 0    60   Input ~ 0
 PWM-

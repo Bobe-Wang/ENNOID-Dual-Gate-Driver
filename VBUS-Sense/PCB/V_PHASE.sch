@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -6930,11 +6930,11 @@ Wire Wire Line
 Wire Wire Line
 	6650 3850 6300 3850
 Text HLabel 3500 3750 0    60   Input ~ 0
-PHASE
+VBUS+
 Wire Wire Line
 	3500 3750 3650 3750
 Text HLabel 2550 4200 0    60   Input ~ 0
-E
+VBUS-
 Connection ~ 4500 4200
 Wire Wire Line
 	2950 3450 2950 4200
@@ -7014,12 +7014,12 @@ Connection ~ 4800 3550
 Wire Wire Line
 	4800 3550 4500 3550
 $Comp
-L ENNOID:AMC1301 U?
+L ENNOID:AMC1301 U1
 U 1 1 5A4D5C88
 P 5900 3650
-F 0 "U?" H 5900 4117 50  0000 C CNN
+F 0 "U1" H 5900 4117 50  0000 C CNN
 F 1 "AMC1301" H 5900 4026 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 5900 3300 50  0001 C CIN
+F 2 "Housings_SOIC:SSO-8_6.8x5.9mm_Pitch1.27mm_Clearance8mm" H 5900 3300 50  0001 C CIN
 F 3 "" H 5900 3650 50  0001 C CNN
 	1    5900 3650
 	1    0    0    -1  
