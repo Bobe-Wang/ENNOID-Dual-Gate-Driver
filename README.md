@@ -49,6 +49,9 @@ Changes from V0.1 include:
 
 Otherwise, the V0.2 is very similar to V0.1
 
+Bom Link at Mouser: 
+- https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=4de8f94683
+
 ### Top View
 
 ![alt text](V0.2-IGBT/PIC/Top.png)
