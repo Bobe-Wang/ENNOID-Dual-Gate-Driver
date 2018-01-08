@@ -6865,10 +6865,6 @@ Wire Wire Line
 Wire Wire Line
 	4500 3750 4350 3750
 Wire Wire Line
-	4500 3750 5150 3750
-Connection ~ 4500 3750
-Connection ~ 5150 3750
-Wire Wire Line
 	4050 3750 3950 3750
 Wire Wire Line
 	5150 3000 4800 3000
@@ -6890,11 +6886,6 @@ Wire Wire Line
 Connection ~ 4500 3000
 Wire Wire Line
 	4500 3000 4350 3000
-Wire Wire Line
-	5150 3550 4800 3550
-Wire Wire Line
-	4500 3550 4500 3450
-Connection ~ 5150 3550
 Connection ~ 4500 3450
 Wire Wire Line
 	4500 3450 4500 3400
@@ -6997,12 +6988,30 @@ Connection ~ 4800 3000
 Wire Wire Line
 	4800 3000 4500 3000
 Wire Wire Line
-	4800 3450 4800 3550
-Connection ~ 4800 3550
-Wire Wire Line
-	4800 3550 4500 3550
+	4800 3450 4500 3450
 Wire Wire Line
 	7200 3550 7700 3550
 Wire Wire Line
 	7200 3050 7950 3050
+$Comp
+L device:R R17
+U 1 1 5A606745
+P 4800 3750
+F 0 "R17" V 5007 3750 50  0000 C CNN
+F 1 "10" V 4916 3750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4730 3750 50  0001 C CNN
+F 3 "" H 4800 3750 50  0001 C CNN
+	1    4800 3750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4500 3750
+Wire Wire Line
+	4500 3750 4650 3750
+Connection ~ 5150 3750
+Wire Wire Line
+	4950 3750 5150 3750
+Wire Wire Line
+	4800 3450 5150 3450
+Connection ~ 4800 3450
+Connection ~ 5150 3450
 $EndSCHEMATC
