@@ -6759,7 +6759,8 @@ P 5150 3300
 F 0 "C37" H 5265 3346 50  0000 L CNN
 F 1 "100n" H 5265 3255 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5188 3150 50  0001 C CNN
-F 3 "" H 5150 3300 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/KEM_C1023_X7R_AUTO_SMD-1093309.pdf" H 5150 3300 50  0001 C CNN
+F 4 "C0805C104J5RACAUTO" H 5150 3300 50  0001 C CNN "Mfg.#"
 	1    5150 3300
 	1    0    0    -1  
 $EndComp
@@ -6897,7 +6898,8 @@ P 6750 3300
 F 0 "C39" H 6865 3346 50  0000 L CNN
 F 1 "100n" H 6865 3255 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6788 3150 50  0001 C CNN
-F 3 "" H 6750 3300 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/KEM_C1023_X7R_AUTO_SMD-1093309.pdf" H 6750 3300 50  0001 C CNN
+F 4 "C0805C104J5RACAUTO" H 6750 3300 50  0001 C CNN "Mfg.#"
 	1    6750 3300
 	1    0    0    -1  
 $EndComp
@@ -6932,8 +6934,6 @@ Wire Wire Line
 Connection ~ 6750 3550
 Wire Wire Line
 	6750 3550 6300 3550
-Wire Wire Line
-	7600 3550 7200 3550
 Connection ~ 7200 3050
 Connection ~ 7200 3550
 Wire Wire Line
@@ -6958,44 +6958,12 @@ Wire Wire Line
 	2950 4200 4500 4200
 Text HLabel 7950 3050 2    60   Input ~ 0
 +5V
-Wire Wire Line
-	7200 3050 7700 3050
-$Comp
-L power:+5V #PWR021
-U 1 1 5A31BC2D
-P 7700 3000
-F 0 "#PWR021" H 7700 2850 50  0001 C CNN
-F 1 "+5V" H 7715 3173 50  0000 C CNN
-F 2 "" H 7700 3000 50  0001 C CNN
-F 3 "" H 7700 3000 50  0001 C CNN
-	1    7700 3000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7700 3000 7700 3050
-Connection ~ 7700 3050
-Wire Wire Line
-	7700 3050 7950 3050
 Text HLabel 6650 3750 2    60   Output ~ 0
 Vout+
 Text HLabel 6650 3850 2    60   Output ~ 0
 Vout-
-$Comp
-L power:GND #PWR035
-U 1 1 5A34B574
-P 7600 3550
-F 0 "#PWR035" H 7600 3300 50  0001 C CNN
-F 1 "GND" H 7605 3377 50  0000 C CNN
-F 2 "" H 7600 3550 50  0001 C CNN
-F 3 "" H 7600 3550 50  0001 C CNN
-	1    7600 3550
-	1    0    0    -1  
-$EndComp
 Text HLabel 7700 3550 2    60   Input ~ 0
 GND
-Wire Wire Line
-	7600 3550 7700 3550
-Connection ~ 7600 3550
 Text HLabel 3800 3000 0    60   Input ~ 0
 +VCC
 Wire Wire Line
@@ -7010,7 +6978,8 @@ P 4800 3300
 F 0 "C9" H 4915 3346 50  0000 L CNN
 F 1 "10u" H 4915 3255 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4838 3150 50  0001 C CNN
-F 3 "" H 4800 3300 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/396/mlcc11_hq_e-541564.pdf" H 4800 3300 50  0001 C CNN
+F 4 "UMK325BJ106KMHP" H 4800 3300 50  0001 C CNN "Mfg.#"
 	1    4800 3300
 	1    0    0    -1  
 $EndComp
@@ -7024,4 +6993,8 @@ Wire Wire Line
 Connection ~ 4800 3550
 Wire Wire Line
 	4800 3550 4500 3550
+Wire Wire Line
+	7200 3550 7700 3550
+Wire Wire Line
+	7200 3050 7950 3050
 $EndSCHEMATC
