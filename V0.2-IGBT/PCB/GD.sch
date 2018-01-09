@@ -746,28 +746,6 @@ Wire Wire Line
 	10250 1550 10250 1250
 Connection ~ 10250 1250
 $Comp
-L device:D D16
-U 1 1 5A58AF19
-P 10250 2150
-AR Path="/5A33279F/5A58AF19" Ref="D16"  Part="1" 
-AR Path="/5A340028/5A58AF19" Ref="D22"  Part="1" 
-F 0 "D22" H 10250 1934 50  0000 C CNN
-F 1 "es2j-ltp" H 10250 2025 50  0000 C CNN
-F 2 "Diodes_SMD:D_SMA_Handsoldering" H 10250 2150 50  0001 C CNN
-F 3 "" H 10250 2150 50  0001 C CNN
-	1    10250 2150
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	10250 1850 10250 2000
-Wire Wire Line
-	9650 2700 10250 2700
-Wire Wire Line
-	10250 2300 10250 2700
-Connection ~ 10250 2700
-Wire Wire Line
-	10250 2700 10400 2700
-$Comp
 L device:R R14
 U 1 1 5A594C4B
 P 7150 2950
@@ -1071,4 +1049,26 @@ NoConn ~ 6200 3900
 NoConn ~ 6200 2900
 Wire Wire Line
 	6100 2700 8000 2700
+$Comp
+L device:D D8
+U 1 1 5A572527
+P 10250 2150
+AR Path="/5A340028/5A572527" Ref="D8"  Part="1" 
+AR Path="/5A33279F/5A572527" Ref="D5"  Part="1" 
+F 0 "D8" H 10250 1934 50  0000 C CNN
+F 1 "es2j-ltp" H 10250 2025 50  0000 C CNN
+F 2 "Diodes_SMD:D_SMA_Handsoldering" H 10250 2150 50  0001 C CNN
+F 3 "" H 10250 2150 50  0001 C CNN
+	1    10250 2150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10250 1850 10250 2000
+Wire Wire Line
+	10250 2300 10250 2700
+Wire Wire Line
+	9650 2700 10250 2700
+Connection ~ 10250 2700
+Wire Wire Line
+	10250 2700 10400 2700
 $EndSCHEMATC
