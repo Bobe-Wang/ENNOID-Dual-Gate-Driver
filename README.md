@@ -49,7 +49,7 @@ Changes from V0.1 include:
 
 Otherwise, the V0.2 is very similar to V0.1
 
-BOM Link at Mouser: 
+BOM link for 3 boards at Mouser below (without Texas Instrument parts): 
 - https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=4de8f94683
 
 ### Top View
