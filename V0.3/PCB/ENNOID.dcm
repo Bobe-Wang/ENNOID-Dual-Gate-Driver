@@ -1,0 +1,37 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1ED020I12-F2
+D 1ED020I12-F2, Isolated Gate Driver with Desat
+K Isolated Gate Driver DESAT
+F https://www.infineon.com/dgdl/Datasheet_1ED020I12-F2_V2_final.pdf?folderId=db3a30432b16d655012b33fafdac11e2&fileId=db3a304330f68606013122ce5f3649cb
+$ENDCMP
+#
+$CMP ACM4520
+D ACM4520
+K EMI filter
+$ENDCMP
+#
+$CMP AMC1301
+D AMC1301
+K Isolated Amplifier
+F http://www.ti.com/lit/ds/symlink/amc1301.pdf
+$ENDCMP
+#
+$CMP ISO5852SDWR
+D ISO5852SDWR, Isolated Gate Driver with Desat
+K Isolated Gate Driver DESAT
+$ENDCMP
+#
+$CMP IXD-609
+D XID-609 High Speed Gate Driver
+K High Speed Gate Driver
+F http://www.ixysic.com/home/pdfs.nsf/www/IXD_609.pdf/$file/IXD_609.pdf
+$ENDCMP
+#
+$CMP MGJ2
+D Isolated 1W Dual output DC/DC Converter Module
+K Murata isolated isolation dc-dc converter
+F https://power.murata.com/data/power/ncl/kdc_mgj2.pdf
+$ENDCMP
+#
+#End Doc Library
