@@ -18,8 +18,8 @@ F http://www.ti.com/lit/ds/symlink/amc1301.pdf
 $ENDCMP
 #
 $CMP ISO5852SDWR
-D ISO5852SDWR, Isolated Gate Driver with Desat
-K Isolated Gate Driver DESAT
+D SID11X2k
+K Isolated Gate Driver
 $ENDCMP
 #
 $CMP IXD-609
@@ -32,6 +32,11 @@ $CMP MGJ2
 D Isolated 1W Dual output DC/DC Converter Module
 K Murata isolated isolation dc-dc converter
 F https://power.murata.com/data/power/ncl/kdc_mgj2.pdf
+$ENDCMP
+#
+$CMP SID11X2K
+D ISO5852SDWR, Isolated Gate Driver with Desat
+K Isolated Gate Driver DESAT
 $ENDCMP
 #
 #End Doc Library

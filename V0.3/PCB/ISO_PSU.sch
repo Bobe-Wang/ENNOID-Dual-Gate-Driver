@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 4 6
 Title ""
 Date ""
 Rev ""
@@ -46,20 +46,6 @@ F 4 "C0805C104J5RACAUTO " H 4400 2600 50  0001 C CNN "Mfg.#"
 	1    4400 2600
 	1    0    0    -1  
 $EndComp
-$Comp
-L ENNOID:MGJ2 U2
-U 1 1 5A3089F3
-P 5700 2600
-AR Path="/5A300795/5A3089F3" Ref="U2"  Part="1" 
-AR Path="/5A331F4C/5A3089F3" Ref="U3"  Part="1" 
-F 0 "U3" H 5700 3067 50  0000 C CNN
-F 1 "MGJ2" H 5700 2976 50  0000 C CNN
-F 2 "ENNOID:DCDC-Conv_muRata_MGJ2" H 5700 2250 50  0001 C CIN
-F 3 "https://power.murata.com/data/power/ncl/kdc_mgj2.pdf" H 5700 2600 50  0001 C CNN
-F 4 "MGJ2D241509SC " H 5700 2600 50  0001 C CNN "Mfg. #"
-	1    5700 2600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5200 2400 4900 2400
 Wire Wire Line
@@ -99,18 +85,11 @@ F 4 "UMK212BJ105MG-T " H 6700 2850 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 2700 6700 2600
-Wire Wire Line
 	6700 2200 6450 2200
 Wire Wire Line
 	6450 2200 6450 2400
 Wire Wire Line
 	6450 2400 6200 2400
-Wire Wire Line
-	6200 2600 6700 2600
-Connection ~ 6700 2600
-Wire Wire Line
-	6700 2600 6700 2500
 Wire Wire Line
 	6200 2800 6450 2800
 Wire Wire Line
@@ -147,10 +126,6 @@ Wire Wire Line
 	6700 3000 6700 3100
 Wire Wire Line
 	6700 3100 6700 3200
-Text HLabel 6950 2600 2    60   Output ~ 0
-COM
-Wire Wire Line
-	6950 2600 6700 2600
 $Comp
 L ENNOID:ACM4520 FL2
 U 1 1 5A376789
@@ -169,4 +144,6 @@ Wire Wire Line
 	3500 2700 3650 2700
 Wire Wire Line
 	3500 2500 3650 2500
+Wire Wire Line
+	6700 2500 6700 2700
 $EndSCHEMATC
