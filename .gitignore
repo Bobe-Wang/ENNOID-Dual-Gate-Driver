@@ -21,4 +21,4 @@ _autosave-*
 *.csv
 
 #Folder
-V0.3/
+V0.3**/
