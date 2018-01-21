@@ -35,7 +35,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 2900 3300 2900
 $Comp
-L device:R R9
+L ENNOID-Dual-Gate-Driver-rescue:R-device R9
 U 1 1 5A311468
 P 1800 2850
 AR Path="/5A33279F/5A311468" Ref="R9"  Part="1" 
@@ -51,7 +51,7 @@ $EndComp
 Wire Wire Line
 	2850 2450 2850 2900
 $Comp
-L device:R R7
+L ENNOID-Dual-Gate-Driver-rescue:R-device R7
 U 1 1 5A311627
 P 1450 2850
 AR Path="/5A33279F/5A311627" Ref="R7"  Part="1" 
@@ -86,7 +86,7 @@ U 1 1 5A3180B4
 P 3200 3500
 AR Path="/5A33279F/5A3180B4" Ref="#PWR08"  Part="1" 
 AR Path="/5A340028/5A3180B4" Ref="#PWR015"  Part="1" 
-F 0 "#PWR015" H 3200 3250 50  0001 C CNN
+F 0 "#PWR08" H 3200 3250 50  0001 C CNN
 F 1 "GND" H 3205 3327 50  0000 C CNN
 F 2 "" H 3200 3500 50  0001 C CNN
 F 3 "" H 3200 3500 50  0001 C CNN
@@ -97,7 +97,7 @@ Wire Wire Line
 	4200 3500 4100 3500
 NoConn ~ 4100 3400
 $Comp
-L device:R R10
+L ENNOID-Dual-Gate-Driver-rescue:R-device R10
 U 1 1 5A324B24
 P 8000 1250
 AR Path="/5A33279F/5A324B24" Ref="R10"  Part="1" 
@@ -111,7 +111,7 @@ F 4 "RC0805JR-071KL" V 8000 1250 50  0001 C CNN "Mfg.#"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D4
+L ENNOID-Dual-Gate-Driver-rescue:D-device D4
 U 1 1 5A331C03
 P 8350 1250
 AR Path="/5A33279F/5A331C03" Ref="D4"  Part="1" 
@@ -144,7 +144,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 3200 4200 2000
 $Comp
-L device:C C19
+L ENNOID-Dual-Gate-Driver-rescue:C-device C19
 U 1 1 5A464AF7
 P 5200 2500
 AR Path="/5A33279F/5A464AF7" Ref="C19"  Part="1" 
@@ -158,7 +158,7 @@ F 4 "C0805C104J5RACAUTO" H 5200 2500 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C18
+L ENNOID-Dual-Gate-Driver-rescue:C-device C18
 U 1 1 5A464B7D
 P 5200 2150
 AR Path="/5A33279F/5A464B7D" Ref="C18"  Part="1" 
@@ -172,7 +172,7 @@ F 4 "C0805C104J5RACAUTO" H 5200 2150 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C20
+L ENNOID-Dual-Gate-Driver-rescue:C-device C20
 U 1 1 5A464BB3
 P 5650 2150
 AR Path="/5A33279F/5A464BB3" Ref="C20"  Part="1" 
@@ -185,7 +185,7 @@ F 3 "" H 5650 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C21
+L ENNOID-Dual-Gate-Driver-rescue:C-device C21
 U 1 1 5A464CAC
 P 5650 2500
 AR Path="/5A33279F/5A464CAC" Ref="C21"  Part="1" 
@@ -222,7 +222,7 @@ Wire Wire Line
 	5200 2750 5300 2750
 Connection ~ 5200 2650
 $Comp
-L device:C C22
+L ENNOID-Dual-Gate-Driver-rescue:C-device C22
 U 1 1 5A47567B
 P 7700 1550
 AR Path="/5A33279F/5A47567B" Ref="C22"  Part="1" 
@@ -237,7 +237,7 @@ $EndComp
 Wire Wire Line
 	7700 1700 7700 1750
 $Comp
-L device:R R12
+L ENNOID-Dual-Gate-Driver-rescue:R-device R12
 U 1 1 5A478327
 P 5150 3150
 AR Path="/5A33279F/5A478327" Ref="R12"  Part="1" 
@@ -251,7 +251,7 @@ F 4 "RC0805JR-0712RL" V 5150 3150 50  0001 C CNN "Mfg.#"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R13
+L ENNOID-Dual-Gate-Driver-rescue:R-device R13
 U 1 1 5A4783A0
 P 5150 3450
 AR Path="/5A33279F/5A4783A0" Ref="R13"  Part="1" 
@@ -271,7 +271,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 3450 4700 3450
 $Comp
-L device:R R11
+L ENNOID-Dual-Gate-Driver-rescue:R-device R11
 U 1 1 5A47CA61
 P 4700 3700
 AR Path="/5A33279F/5A47CA61" Ref="R11"  Part="1" 
@@ -290,7 +290,7 @@ Connection ~ 4700 3450
 Wire Wire Line
 	4700 3450 5000 3450
 $Comp
-L device:C C17
+L ENNOID-Dual-Gate-Driver-rescue:C-device C17
 U 1 1 5A47E012
 P 4700 4050
 AR Path="/5A33279F/5A47E012" Ref="C17"  Part="1" 
@@ -310,7 +310,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 2900 4100 2900
 $Comp
-L device:Q_PNP_Darlington_BCEC Q4
+L ENNOID-Dual-Gate-Driver-rescue:Q_PNP_Darlington_BCEC-device Q4
 U 1 1 5A48865E
 P 6000 3700
 AR Path="/5A33279F/5A48865E" Ref="Q4"  Part="1" 
@@ -323,7 +323,7 @@ F 3 "" H 6000 3700 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L device:Q_NPN_Darlington_BCEC Q3
+L ENNOID-Dual-Gate-Driver-rescue:Q_NPN_Darlington_BCEC-device Q3
 U 1 1 5A488736
 P 6000 3100
 AR Path="/5A33279F/5A488736" Ref="Q3"  Part="1" 
@@ -340,7 +340,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 3150 5800 3150
 $Comp
-L device:C C23
+L ENNOID-Dual-Gate-Driver-rescue:C-device C23
 U 1 1 5A491BFA
 P 8000 3500
 AR Path="/5A33279F/5A491BFA" Ref="C23"  Part="1" 
@@ -354,7 +354,7 @@ F 4 "UMK325BJ106KMHP" H 8000 3500 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C25
+L ENNOID-Dual-Gate-Driver-rescue:C-device C25
 U 1 1 5A491FD6
 P 8200 4300
 AR Path="/5A33279F/5A491FD6" Ref="C25"  Part="1" 
@@ -368,7 +368,7 @@ F 4 "C0805C104J5RACAUTO" H 8200 4300 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C29
+L ENNOID-Dual-Gate-Driver-rescue:C-device C29
 U 1 1 5A4920AB
 P 8600 4300
 AR Path="/5A33279F/5A4920AB" Ref="C29"  Part="1" 
@@ -382,7 +382,7 @@ F 4 "UMK212BJ105MG-T " H 8600 4300 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C31
+L ENNOID-Dual-Gate-Driver-rescue:C-device C31
 U 1 1 5A492151
 P 8900 4300
 AR Path="/5A33279F/5A492151" Ref="C31"  Part="1" 
@@ -396,7 +396,7 @@ F 4 "UMK325BJ106KMHP" H 8900 4300 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C33
+L ENNOID-Dual-Gate-Driver-rescue:C-device C33
 U 1 1 5A493D16
 P 9250 4300
 AR Path="/5A33279F/5A493D16" Ref="C33"  Part="1" 
@@ -430,7 +430,7 @@ Connection ~ 8900 4450
 Wire Wire Line
 	8100 2700 8200 2700
 $Comp
-L device:C C24
+L ENNOID-Dual-Gate-Driver-rescue:C-device C24
 U 1 1 5A4AC6C8
 P 8200 2850
 AR Path="/5A33279F/5A4AC6C8" Ref="C24"  Part="1" 
@@ -447,7 +447,7 @@ Connection ~ 8200 2700
 Wire Wire Line
 	8200 2700 8600 2700
 $Comp
-L device:C C28
+L ENNOID-Dual-Gate-Driver-rescue:C-device C28
 U 1 1 5A4AC74C
 P 8600 2850
 AR Path="/5A33279F/5A4AC74C" Ref="C28"  Part="1" 
@@ -464,7 +464,7 @@ Connection ~ 8600 2700
 Wire Wire Line
 	8600 2700 8900 2700
 $Comp
-L device:C C30
+L ENNOID-Dual-Gate-Driver-rescue:C-device C30
 U 1 1 5A4AC7C0
 P 8900 2850
 AR Path="/5A33279F/5A4AC7C0" Ref="C30"  Part="1" 
@@ -481,7 +481,7 @@ Connection ~ 8900 2700
 Wire Wire Line
 	8900 2700 9250 2700
 $Comp
-L device:C C32
+L ENNOID-Dual-Gate-Driver-rescue:C-device C32
 U 1 1 5A4AC832
 P 9250 2850
 AR Path="/5A33279F/5A4AC832" Ref="C32"  Part="1" 
@@ -534,7 +534,7 @@ E
 Text HLabel 10850 2700 2    60   Input ~ 0
 G
 $Comp
-L device:C C34
+L ENNOID-Dual-Gate-Driver-rescue:C-device C34
 U 1 1 5A4D8E9E
 P 10750 3100
 AR Path="/5A33279F/5A4D8E9E" Ref="C34"  Part="1" 
@@ -555,7 +555,7 @@ Wire Wire Line
 Wire Wire Line
 	10750 3550 10850 3550
 $Comp
-L device:R R24
+L ENNOID-Dual-Gate-Driver-rescue:R-device R24
 U 1 1 5A4DEDEB
 P 10400 3100
 AR Path="/5A33279F/5A4DEDEB" Ref="R24"  Part="1" 
@@ -579,7 +579,7 @@ Connection ~ 10750 3550
 Wire Wire Line
 	10400 3250 10400 3550
 $Comp
-L device:D_Schottky D10
+L ENNOID-Dual-Gate-Driver-rescue:D_Schottky-device D10
 U 1 1 5A4E886B
 P 6950 1550
 AR Path="/5A33279F/5A4E886B" Ref="D10"  Part="1" 
@@ -604,7 +604,7 @@ Connection ~ 7700 1750
 Wire Wire Line
 	7700 1750 7700 1800
 $Comp
-L device:D_Zener D6
+L ENNOID-Dual-Gate-Driver-rescue:D_Zener-device D6
 U 1 1 5A4EF395
 P 6100 1500
 AR Path="/5A33279F/5A4EF395" Ref="D6"  Part="1" 
@@ -627,7 +627,7 @@ Wire Wire Line
 	6100 1750 6100 1650
 Connection ~ 6950 1750
 $Comp
-L device:D_TVS D11
+L ENNOID-Dual-Gate-Driver-rescue:D_TVS-device D11
 U 1 1 5A4F675E
 P 9650 3200
 AR Path="/5A33279F/5A4F675E" Ref="D11"  Part="1" 
@@ -662,20 +662,20 @@ F 4 "ISO5852SQDWRQ1 " H 3700 3200 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R15
+L ENNOID-Dual-Gate-Driver-rescue:R-device R15
 U 1 1 5A53D2C1
-P 7150 3250
+P 7050 3250
 AR Path="/5A33279F/5A53D2C1" Ref="R15"  Part="1" 
 AR Path="/5A340028/5A53D2C1" Ref="R37"  Part="1" 
-F 0 "R15" V 6943 3250 50  0000 C CNN
-F 1 "3" V 7034 3250 50  0000 C CNN
-F 2 "Resistors_SMD:R_2512" V 7080 3250 50  0001 C CNN
-F 3 "" H 7150 3250 50  0001 C CNN
-	1    7150 3250
+F 0 "R15" V 6843 3250 50  0000 C CNN
+F 1 "3" V 6934 3250 50  0000 C CNN
+F 2 "Resistors_SMD:R_2512" V 6980 3250 50  0001 C CNN
+F 3 "" H 7050 3250 50  0001 C CNN
+	1    7050 3250
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R22
+L ENNOID-Dual-Gate-Driver-rescue:R-device R22
 U 1 1 5A53D3D2
 P 7150 3650
 AR Path="/5A33279F/5A53D3D2" Ref="R22"  Part="1" 
@@ -689,7 +689,7 @@ F 3 "" H 7150 3650 50  0001 C CNN
 $EndComp
 Connection ~ 8900 3500
 Wire Wire Line
-	7000 3250 6350 3250
+	6900 3250 6350 3250
 Wire Wire Line
 	6350 3250 6350 3300
 Wire Wire Line
@@ -701,7 +701,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 3650 6950 3650
 Wire Wire Line
-	7300 3250 7600 3250
+	7200 3250 7450 3250
 Wire Wire Line
 	7300 3650 7600 3650
 Wire Wire Line
@@ -722,7 +722,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 2000 5200 2000
 $Comp
-L device:D_TVS D15
+L ENNOID-Dual-Gate-Driver-rescue:D_TVS-device D15
 U 1 1 5A581717
 P 10250 1700
 AR Path="/5A33279F/5A581717" Ref="D15"  Part="1" 
@@ -738,20 +738,20 @@ Wire Wire Line
 	10250 1550 10250 1250
 Connection ~ 10250 1250
 $Comp
-L device:R R14
+L ENNOID-Dual-Gate-Driver-rescue:R-device R14
 U 1 1 5A594C4B
-P 7150 2950
+P 7050 2950
 AR Path="/5A33279F/5A594C4B" Ref="R14"  Part="1" 
 AR Path="/5A340028/5A594C4B" Ref="R36"  Part="1" 
-F 0 "R14" V 6943 2950 50  0000 C CNN
-F 1 "3" V 7034 2950 50  0000 C CNN
-F 2 "Resistors_SMD:R_2512" V 7080 2950 50  0001 C CNN
-F 3 "" H 7150 2950 50  0001 C CNN
-	1    7150 2950
+F 0 "R14" V 6843 2950 50  0000 C CNN
+F 1 "3" V 6934 2950 50  0000 C CNN
+F 2 "Resistors_SMD:R_2512" V 6980 2950 50  0001 C CNN
+F 3 "" H 7050 2950 50  0001 C CNN
+	1    7050 2950
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R23
+L ENNOID-Dual-Gate-Driver-rescue:R-device R23
 U 1 1 5A594CB3
 P 7150 3950
 AR Path="/5A33279F/5A594CB3" Ref="R23"  Part="1" 
@@ -775,12 +775,11 @@ Wire Wire Line
 Connection ~ 6950 3650
 Wire Wire Line
 	6950 3650 7000 3650
-Connection ~ 7000 3250
+Connection ~ 6900 3250
 Wire Wire Line
-	7300 2950 7300 3250
-Connection ~ 7300 3250
+	7200 2950 7200 3250
 Wire Wire Line
-	7000 2950 7000 3250
+	6900 2950 6900 3250
 Wire Wire Line
 	1450 3500 1400 3500
 Wire Wire Line
@@ -789,7 +788,7 @@ Connection ~ 1400 3600
 Wire Wire Line
 	1400 3600 2100 3600
 $Comp
-L device:D D3
+L ENNOID-Dual-Gate-Driver-rescue:D-device D3
 U 1 1 5A5B4574
 P 1600 3500
 AR Path="/5A33279F/5A5B4574" Ref="D3"  Part="1" 
@@ -815,14 +814,14 @@ Connection ~ 6100 2700
 Connection ~ 5650 2000
 Wire Notes Line
 	3650 1700 3650 4250
-Wire Notes Line rgb(0, 0, 0)
+Wire Notes Line rgb(0, 0, 255)
 	3750 1700 3750 4250
 Text HLabel 900  3300 0    60   Input ~ 0
 PWM-
 Wire Wire Line
 	900  3600 1400 3600
 $Comp
-L device:C C26
+L ENNOID-Dual-Gate-Driver-rescue:C-device C26
 U 1 1 5A54B673
 P 2850 2300
 AR Path="/5A340028/5A54B673" Ref="C26"  Part="1" 
@@ -844,7 +843,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 2150 2850 2150
 $Comp
-L device:D_Schottky_x2_ACom_KKA D2
+L ENNOID-Dual-Gate-Driver-rescue:D_Schottky_x2_ACom_KKA-device D2
 U 1 1 5A571DF3
 P 2550 4050
 AR Path="/5A340028/5A571DF3" Ref="D2"  Part="1" 
@@ -862,7 +861,7 @@ U 1 1 5A572019
 P 2550 4500
 AR Path="/5A340028/5A572019" Ref="#PWR018"  Part="1" 
 AR Path="/5A33279F/5A572019" Ref="#PWR013"  Part="1" 
-F 0 "#PWR018" H 2550 4250 50  0001 C CNN
+F 0 "#PWR013" H 2550 4250 50  0001 C CNN
 F 1 "GND" H 2555 4327 50  0000 C CNN
 F 2 "" H 2550 4500 50  0001 C CNN
 F 3 "" H 2550 4500 50  0001 C CNN
@@ -872,7 +871,7 @@ $EndComp
 Wire Wire Line
 	2550 4250 2550 4400
 $Comp
-L device:R R3
+L ENNOID-Dual-Gate-Driver-rescue:R-device R3
 U 1 1 5A577FEA
 P 2250 4250
 AR Path="/5A340028/5A577FEA" Ref="R3"  Part="1" 
@@ -886,7 +885,7 @@ F 4 "RC0805FR-074K7L " H 2250 4250 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R4
+L ENNOID-Dual-Gate-Driver-rescue:R-device R4
 U 1 1 5A578181
 P 2850 4250
 AR Path="/5A340028/5A578181" Ref="R4"  Part="1" 
@@ -928,7 +927,7 @@ U 1 1 5A5EF2CA
 P 3050 2650
 AR Path="/5A33279F/5A5EF2CA" Ref="#PWR017"  Part="1" 
 AR Path="/5A340028/5A5EF2CA" Ref="#PWR019"  Part="1" 
-F 0 "#PWR019" H 3050 2400 50  0001 C CNN
+F 0 "#PWR017" H 3050 2400 50  0001 C CNN
 F 1 "GND" H 3055 2477 50  0000 C CNN
 F 2 "" H 3050 2650 50  0001 C CNN
 F 3 "" H 3050 2650 50  0001 C CNN
@@ -941,7 +940,7 @@ Connection ~ 3200 2650
 Wire Wire Line
 	3200 2650 3200 2150
 $Comp
-L device:R R8
+L ENNOID-Dual-Gate-Driver-rescue:R-device R8
 U 1 1 5A619D43
 P 2450 2450
 AR Path="/5A340028/5A619D43" Ref="R8"  Part="1" 
@@ -964,7 +963,7 @@ Connection ~ 1800 2450
 Wire Wire Line
 	1800 2450 2300 2450
 $Comp
-L device:C C14
+L ENNOID-Dual-Gate-Driver-rescue:C-device C14
 U 1 1 5A664D31
 P 2350 2800
 AR Path="/5A33279F/5A664D31" Ref="C14"  Part="1" 
@@ -998,7 +997,7 @@ U 1 1 5A689130
 P 2350 2950
 AR Path="/5A33279F/5A689130" Ref="#PWR020"  Part="1" 
 AR Path="/5A340028/5A689130" Ref="#PWR038"  Part="1" 
-F 0 "#PWR038" H 2350 2700 50  0001 C CNN
+F 0 "#PWR020" H 2350 2700 50  0001 C CNN
 F 1 "GND" H 2500 2900 50  0000 C CNN
 F 2 "" H 2350 2950 50  0001 C CNN
 F 3 "" H 2350 2950 50  0001 C CNN
@@ -1012,23 +1011,6 @@ Wire Wire Line
 Wire Wire Line
 	10750 4050 10750 3550
 Wire Wire Line
-	1300 5150 1350 5150
-$Comp
-L power:GND #PWR014
-U 1 1 5A30F6FF
-P 1350 5150
-AR Path="/5A340028/5A30F6FF" Ref="#PWR014"  Part="1" 
-AR Path="/5A33279F/5A30F6FF" Ref="#PWR07"  Part="1" 
-F 0 "#PWR014" H 1350 4900 50  0001 C CNN
-F 1 "GND" H 1355 4977 50  0000 C CNN
-F 2 "" H 1350 5150 50  0001 C CNN
-F 3 "" H 1350 5150 50  0001 C CNN
-	1    1350 5150
-	1    0    0    -1  
-$EndComp
-Text HLabel 1300 5150 0    60   Input ~ 0
-GND
-Wire Wire Line
 	900  2450 1450 2450
 Wire Wire Line
 	6100 3900 6100 4450
@@ -1040,31 +1022,30 @@ Wire Wire Line
 NoConn ~ 6200 3900
 NoConn ~ 6200 2900
 Wire Wire Line
-	6100 2700 7600 2700
+	6100 2700 7450 2700
 Wire Wire Line
 	9650 2700 10250 2700
 Connection ~ 10250 2700
 Wire Wire Line
 	10250 2700 10400 2700
 $Comp
-L device:D_Schottky D16
+L ENNOID-Dual-Gate-Driver-rescue:D_Schottky-device D16
 U 1 1 5A56D823
-P 7600 3100
+P 7450 3100
 AR Path="/5A33279F/5A56D823" Ref="D16"  Part="1" 
 AR Path="/5A340028/5A56D823" Ref="D22"  Part="1" 
-F 0 "D16" V 7554 3179 50  0000 L CNN
-F 1 "PMEG4010" V 7645 3179 50  0000 L CNN
-F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 7600 3100 50  0001 C CNN
-F 3 "" H 7600 3100 50  0001 C CNN
-	1    7600 3100
+F 0 "D16" V 7404 3179 50  0000 L CNN
+F 1 "PMEG4010" V 7495 3179 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 7450 3100 50  0001 C CNN
+F 3 "" H 7450 3100 50  0001 C CNN
+	1    7450 3100
 	0    1    1    0   
 $EndComp
-Connection ~ 7600 3250
 Wire Wire Line
-	7600 2950 7600 2700
-Connection ~ 7600 2700
+	7450 2950 7450 2700
+Connection ~ 7450 2700
 Wire Wire Line
-	7600 2700 8000 2700
+	7450 2700 8000 2700
 Wire Wire Line
 	4200 3500 4200 4450
 Wire Wire Line
@@ -1083,7 +1064,7 @@ Wire Wire Line
 Wire Wire Line
 	10250 1850 10250 2000
 $Comp
-L device:D D8
+L ENNOID-Dual-Gate-Driver-rescue:D-device D8
 U 1 1 5A572527
 P 10250 2150
 AR Path="/5A340028/5A572527" Ref="D8"  Part="1" 
@@ -1095,4 +1076,97 @@ F 3 "" H 10250 2150 50  0001 C CNN
 	1    10250 2150
 	0    -1   -1   0   
 $EndComp
+Text HLabel 1300 5150 0    60   Input ~ 0
+GND
+$Comp
+L power:GND #PWR014
+U 1 1 5A30F6FF
+P 1350 5150
+AR Path="/5A340028/5A30F6FF" Ref="#PWR014"  Part="1" 
+AR Path="/5A33279F/5A30F6FF" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 1350 4900 50  0001 C CNN
+F 1 "GND" H 1355 4977 50  0000 C CNN
+F 2 "" H 1350 5150 50  0001 C CNN
+F 3 "" H 1350 5150 50  0001 C CNN
+	1    1350 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 5150 1350 5150
+Text Notes 9800 1600 0    20   ~ 0
+basic clamping /\nIGBt  overvoltage protection
+Wire Notes Line
+	9750 1500 10850 1500
+Wire Notes Line
+	10850 1500 10850 2400
+Wire Notes Line
+	10850 2400 9750 2400
+Wire Notes Line
+	9750 2400 9750 1500
+Wire Notes Line
+	3200 3800 3200 4850
+Wire Notes Line
+	3200 4850 1800 4850
+Wire Notes Line
+	1800 4850 1800 3800
+Wire Notes Line
+	1800 3800 3200 3800
+Text Notes 1850 3900 0    20   ~ 0
+Transcient suppression
+Wire Notes Line
+	4300 3550 5250 3550
+Wire Notes Line
+	5250 3550 5250 4350
+Wire Notes Line
+	5250 4350 4300 4350
+Wire Notes Line
+	4300 4350 4300 3550
+Text Notes 4350 3650 0    20   ~ 0
+Adj. soft turnoff\nSee tiduc70a.pdf
+Text Notes 1700 3550 0    20   ~ 0
+when fault = mute input
+Wire Notes Line
+	6000 1350 7300 1350
+Wire Notes Line
+	7300 1350 7300 1950
+Wire Notes Line
+	7300 1950 6000 1950
+Wire Notes Line
+	6000 1350 6000 1950
+Text Notes 6550 1900 0    20   ~ 0
+Limit voltage and transcient here
+Text Notes 9700 3000 0    20   ~ 0
+gate/ emitter\ntranscient\novervoltage protection\n& Vg=Ve at standstill
+Wire Notes Line
+	9550 2850 9550 3350
+Wire Notes Line
+	11200 2850 11200 3350
+Wire Notes Line
+	9550 2850 11200 2850
+Wire Notes Line
+	9550 3350 11200 3350
+Connection ~ 7200 3250
+Connection ~ 7450 3250
+Wire Wire Line
+	7450 3250 7600 3250
+Text Notes 7500 2950 0    20   ~ 0
+Limit transcient\n here
+Wire Notes Line
+	7350 2850 7950 2850
+Wire Notes Line
+	7950 2850 7950 3300
+Wire Notes Line
+	7950 3300 7350 3300
+Wire Notes Line
+	7350 3300 7350 2850
+Wire Notes Line
+	7500 950  8900 950 
+Wire Notes Line
+	8900 950  8900 1950
+Wire Notes Line
+	8900 1950 7500 1950
+Wire Notes Line
+	7500 1950 7500 950 
+Text Notes 8300 1700 0    20   ~ 0
+Desat see tiduc70a.pdf
 $EndSCHEMATC

@@ -1,11 +1,29 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector:Conn_01x01_Female
+# ENNOID-Dual-Gate-Driver-rescue:C-device
 #
-DEF Connector:Conn_01x01_Female J 0 40 Y N 1 F N
+DEF ENNOID-Dual-Gate-Driver-rescue:C-device C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:C-device" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector
+#
+DEF ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Connector:Conn_01x01_Female" 0 -100 50 H V C CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -21,11 +39,11 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector:Conn_01x02
+# ENNOID-Dual-Gate-Driver-rescue:Conn_01x02-Connector
 #
-DEF Connector:Conn_01x02 J 0 40 Y N 1 F N
+DEF ENNOID-Dual-Gate-Driver-rescue:Conn_01x02-Connector J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Connector:Conn_01x02" 0 -200 50 H V C CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:Conn_01x02-Connector" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -45,11 +63,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector:Conn_01x04
+# ENNOID-Dual-Gate-Driver-rescue:Conn_01x04-Connector
 #
-DEF Connector:Conn_01x04 J 0 40 Y N 1 F N
+DEF ENNOID-Dual-Gate-Driver-rescue:Conn_01x04-Connector J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Connector:Conn_01x04" 0 -300 50 H V C CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:Conn_01x04-Connector" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -73,11 +91,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector:Conn_02x08_Odd_Even
+# ENNOID-Dual-Gate-Driver-rescue:Conn_02x08_Odd_Even-Connector
 #
-DEF Connector:Conn_02x08_Odd_Even J 0 40 Y N 1 F N
+DEF ENNOID-Dual-Gate-Driver-rescue:Conn_02x08_Odd_Even-Connector J 0 40 Y N 1 F N
 F0 "J" 50 400 50 H V C CNN
-F1 "Connector:Conn_02x08_Odd_Even" 50 -500 50 H V C CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:Conn_02x08_Odd_Even-Connector" 50 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -122,6 +140,244 @@ X Pin_6 6 300 100 150 L 50 50 1 1 P
 X Pin_7 7 -200 0 150 R 50 50 1 1 P
 X Pin_8 8 300 0 150 L 50 50 1 1 P
 X Pin_9 9 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ENNOID-Dual-Gate-Driver-rescue:D-device
+#
+DEF ENNOID-Dual-Gate-Driver-rescue:D-device D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:D-device" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 50 -50 -50 N
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ENNOID-Dual-Gate-Driver-rescue:D_Schottky-device
+#
+DEF ENNOID-Dual-Gate-Driver-rescue:D_Schottky-device D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:D_Schottky-device" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ENNOID-Dual-Gate-Driver-rescue:D_Schottky_x2_ACom_KKA-device
+#
+DEF ENNOID-Dual-Gate-Driver-rescue:D_Schottky_x2_ACom_KKA-device D 0 30 Y N 1 F N
+F0 "D" 50 -100 50 H V C CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:D_Schottky_x2_ACom_KKA-device" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -140 0 150 0 N
+P 2 0 1 0 0 0 0 -100 N
+P 3 0 1 8 -150 50 -150 -50 -150 -50 N
+P 3 0 1 8 150 50 150 -50 150 -50 N
+P 4 0 1 8 -150 50 -170 50 -170 40 -170 40 N
+P 4 0 1 8 150 -50 170 -50 170 -40 170 -40 N
+P 4 0 1 8 150 50 130 50 130 40 130 40 N
+P 5 0 1 8 -130 -40 -130 -50 -150 -50 -150 -50 -150 -50 N
+P 6 0 1 8 -50 -50 -150 0 -50 50 -50 -50 -50 -50 -50 -50 N
+P 6 0 1 8 50 50 150 0 50 -50 50 50 50 50 50 50 N
+X K 1 -300 0 150 R 50 50 0 1 P
+X K 2 300 0 150 L 50 50 0 1 P
+X A 3 0 -200 100 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# ENNOID-Dual-Gate-Driver-rescue:D_TVS-device
+#
+DEF ENNOID-Dual-Gate-Driver-rescue:D_TVS-device D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:D_TVS-device" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 -100 -50 0 0 -100 50 -100 -50 N
+P 4 0 1 8 20 50 0 50 0 -50 -20 -50 N
+P 4 0 1 8 100 50 100 -50 0 0 100 50 N
+X A1 1 -150 0 100 R 50 50 1 1 P
+X A2 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ENNOID-Dual-Gate-Driver-rescue:D_Zener-device
+#
+DEF ENNOID-Dual-Gate-Driver-rescue:D_Zener-device D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:D_Zener-device" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 3 0 1 8 -50 -50 -50 50 -30 50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ENNOID-Dual-Gate-Driver-rescue:Fuse-device
+#
+DEF ENNOID-Dual-Gate-Driver-rescue:Fuse-device F 0 0 N Y 1 F N
+F0 "F" 80 0 50 V V C CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:Fuse-device" -75 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *Fuse*
+$ENDFPLIST
+DRAW
+S -30 -100 30 100 0 1 10 N
+P 2 0 1 0 0 100 0 -100 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ENNOID-Dual-Gate-Driver-rescue:L7805-regul
+#
+DEF ENNOID-Dual-Gate-Driver-rescue:L7805-regul U 0 10 Y Y 1 F N
+F0 "U" -150 125 50 H V C CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:L7805-regul" 0 125 50 H V L CNN
+F2 "" 25 -150 50 H I L CIN
+F3 "" 0 -50 50 H I C CNN
+$FPLIST
+ TO?252*
+ TO?263*
+ TO?220*
+$ENDFPLIST
+DRAW
+S -200 75 200 -200 0 1 10 f
+X IN 1 -300 0 100 R 50 50 1 1 W
+X GND 2 0 -300 100 U 50 50 1 1 W
+X OUT 3 300 0 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# ENNOID-Dual-Gate-Driver-rescue:LED-device
+#
+DEF ENNOID-Dual-Gate-Driver-rescue:LED-device D 0 40 Y N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:LED-device" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ENNOID-Dual-Gate-Driver-rescue:Q_NPN_Darlington_BCEC-device
+#
+DEF ENNOID-Dual-Gate-Driver-rescue:Q_NPN_Darlington_BCEC-device Q 0 0 Y N 1 F N
+F0 "Q" 220 50 50 H V L CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:Q_NPN_Darlington_BCEC-device" 220 -50 50 H V L CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 25 25 100 100 N
+P 2 0 1 0 200 100 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 0 25 0 100 75 100 100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+X B 1 -200 0 225 R 50 50 1 1 I
+X C 2 100 200 100 D 50 50 1 1 P
+X E 3 100 -200 100 U 50 50 1 1 P
+X C2 4 200 200 100 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# ENNOID-Dual-Gate-Driver-rescue:Q_PNP_Darlington_BCEC-device
+#
+DEF ENNOID-Dual-Gate-Driver-rescue:Q_PNP_Darlington_BCEC-device Q 0 0 Y N 1 F N
+F0 "Q" 220 50 50 H V L CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:Q_PNP_Darlington_BCEC-device" 220 -50 50 H V L CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 25 25 100 100 N
+P 2 0 1 0 200 100 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 0 25 0 100 75 100 100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 90 -70 70 -90 50 -50 90 -70 90 -70 F
+X B 1 -200 0 225 R 50 50 1 1 I
+X C 2 100 200 100 D 50 50 1 1 P
+X E 3 100 -200 100 U 50 50 1 1 P
+X C 4 200 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ENNOID-Dual-Gate-Driver-rescue:R-device
+#
+DEF ENNOID-Dual-Gate-Driver-rescue:R-device R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:R-device" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -268,242 +524,6 @@ X VOUT+ 7 500 200 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# device:C
-#
-DEF device:C C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "device:C" 25 -100 50 H V L CNN
-F2 "" 38 -150 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:D
-#
-DEF device:D D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "device:D" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TO-???*
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 8 -50 50 -50 -50 N
-P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:D_Schottky
-#
-DEF device:D_Schottky D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "device:D_Schottky" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TO-???*
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
-P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:D_Schottky_x2_ACom_KKA
-#
-DEF device:D_Schottky_x2_ACom_KKA D 0 30 Y N 1 F N
-F0 "D" 50 -100 50 H V C CNN
-F1 "device:D_Schottky_x2_ACom_KKA" 0 100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -140 0 150 0 N
-P 2 0 1 0 0 0 0 -100 N
-P 3 0 1 8 -150 50 -150 -50 -150 -50 N
-P 3 0 1 8 150 50 150 -50 150 -50 N
-P 4 0 1 8 -150 50 -170 50 -170 40 -170 40 N
-P 4 0 1 8 150 -50 170 -50 170 -40 170 -40 N
-P 4 0 1 8 150 50 130 50 130 40 130 40 N
-P 5 0 1 8 -130 -40 -130 -50 -150 -50 -150 -50 -150 -50 N
-P 6 0 1 8 -50 -50 -150 0 -50 50 -50 -50 -50 -50 -50 -50 N
-P 6 0 1 8 50 50 150 0 50 -50 50 50 50 50 50 50 N
-X K 1 -300 0 150 R 50 50 0 1 P
-X K 2 300 0 150 L 50 50 0 1 P
-X A 3 0 -200 100 U 50 50 0 1 P
-ENDDRAW
-ENDDEF
-#
-# device:D_TVS
-#
-DEF device:D_TVS D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "device:D_TVS" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TO-???*
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 8 -100 -50 0 0 -100 50 -100 -50 N
-P 4 0 1 8 20 50 0 50 0 -50 -20 -50 N
-P 4 0 1 8 100 50 100 -50 0 0 100 50 N
-X A1 1 -150 0 100 R 50 50 1 1 P
-X A2 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:D_Zener
-#
-DEF device:D_Zener D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "device:D_Zener" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TO-???*
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 50 0 -50 0 N
-P 3 0 1 8 -50 -50 -50 50 -30 50 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:Fuse
-#
-DEF device:Fuse F 0 0 N Y 1 F N
-F0 "F" 80 0 50 V V C CNN
-F1 "device:Fuse" -75 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- *Fuse*
-$ENDFPLIST
-DRAW
-S -30 -100 30 100 0 1 10 N
-P 2 0 1 0 0 100 0 -100 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:LED
-#
-DEF device:LED D 0 40 Y N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "device:LED" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- LED*
-$ENDFPLIST
-DRAW
-P 2 0 1 8 -50 -50 -50 50 N
-P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
-P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
-P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:Q_NPN_Darlington_BCEC
-#
-DEF device:Q_NPN_Darlington_BCEC Q 0 0 Y N 1 F N
-F0 "Q" 220 50 50 H V L CNN
-F1 "device:Q_NPN_Darlington_BCEC" 220 -50 50 H V L CNN
-F2 "" 200 100 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 50 0 111 0 1 10 N
-P 2 0 1 0 25 25 100 100 N
-P 2 0 1 0 200 100 100 100 N
-P 3 0 1 0 25 -25 100 -100 100 -100 N
-P 3 0 1 0 25 0 100 75 100 100 N
-P 3 0 1 20 25 75 25 -75 25 -75 N
-P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
-X B 1 -200 0 225 R 50 50 1 1 I
-X C 2 100 200 100 D 50 50 1 1 P
-X E 3 100 -200 100 U 50 50 1 1 P
-X C2 4 200 200 100 D 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# device:Q_PNP_Darlington_BCEC
-#
-DEF device:Q_PNP_Darlington_BCEC Q 0 0 Y N 1 F N
-F0 "Q" 220 50 50 H V L CNN
-F1 "device:Q_PNP_Darlington_BCEC" 220 -50 50 H V L CNN
-F2 "" 200 100 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 50 0 111 0 1 10 N
-P 2 0 1 0 25 25 100 100 N
-P 2 0 1 0 200 100 100 100 N
-P 3 0 1 0 25 -25 100 -100 100 -100 N
-P 3 0 1 0 25 0 100 75 100 100 N
-P 3 0 1 20 25 75 25 -75 25 -75 N
-P 5 0 1 0 90 -70 70 -90 50 -50 90 -70 90 -70 F
-X B 1 -200 0 225 R 50 50 1 1 I
-X C 2 100 200 100 D 50 50 1 1 P
-X E 3 100 -200 100 U 50 50 1 1 P
-X C 4 200 200 100 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:R
-#
-DEF device:R R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "device:R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # power:+24V
 #
 DEF power:+24V #PWR 0 0 Y Y 1 F P
@@ -544,27 +564,6 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# regul:L7805
-#
-DEF regul:L7805 U 0 10 Y Y 1 F N
-F0 "U" -150 125 50 H V C CNN
-F1 "regul:L7805" 0 125 50 H V L CNN
-F2 "" 25 -150 50 H I L CIN
-F3 "" 0 -50 50 H I C CNN
-ALIAS L7806 L7808 L7885 L7809 L7812 L7815 L7818 L7824
-$FPLIST
- TO?252*
- TO?263*
- TO?220*
-$ENDFPLIST
-DRAW
-S -200 75 200 -200 0 1 10 f
-X IN 1 -300 0 100 R 50 50 1 1 W
-X GND 2 0 -300 100 U 50 50 1 1 W
-X OUT 3 300 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #

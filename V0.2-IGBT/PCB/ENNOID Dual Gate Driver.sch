@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_02x08_Odd_Even J1
+L ENNOID-Dual-Gate-Driver-rescue:Conn_02x08_Odd_Even-Connector J1
 U 1 1 5A3005AC
 P 1900 6600
 F 0 "J1" H 1950 7025 50  0000 C CNN
@@ -39,32 +39,10 @@ F6 "COM" O R 6200 2350 60
 $EndSheet
 Wire Wire Line
 	4750 2200 4900 2200
-$Comp
-L power:GND #PWR01
-U 1 1 5A300A30
-P 4700 2450
-F 0 "#PWR01" H 4700 2200 50  0001 C CNN
-F 1 "GND" H 4705 2277 50  0001 C CNN
-F 2 "" H 4700 2450 50  0001 C CNN
-F 3 "" H 4700 2450 50  0001 C CNN
-	1    4700 2450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4900 2400 4700 2400
 Wire Wire Line
 	4700 2400 4700 2450
-$Comp
-L power:GND #PWR02
-U 1 1 5A33266A
-P 4700 3200
-F 0 "#PWR02" H 4700 2950 50  0001 C CNN
-F 1 "GND" H 4705 3027 50  0001 C CNN
-F 2 "" H 4700 3200 50  0001 C CNN
-F 3 "" H 4700 3200 50  0001 C CNN
-	1    4700 3200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4900 2950 4750 2950
 Wire Wire Line
@@ -102,7 +80,7 @@ F5 "-VEE" O R 6200 3250 60
 F6 "COM" O R 6200 3100 60 
 $EndSheet
 $Comp
-L device:C C1
+L ENNOID-Dual-Gate-Driver-rescue:C-device C1
 U 1 1 5A33DEE4
 P 900 3350
 F 0 "C1" H 1015 3396 50  0000 L CNN
@@ -114,7 +92,7 @@ F 4 "UMK325BJ106KMHP" H 900 3350 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C2
+L ENNOID-Dual-Gate-Driver-rescue:C-device C2
 U 1 1 5A33DFE6
 P 1350 3350
 F 0 "C2" H 1465 3396 50  0000 L CNN
@@ -128,7 +106,7 @@ $EndComp
 Wire Wire Line
 	900  3200 1200 3200
 $Comp
-L device:C C3
+L ENNOID-Dual-Gate-Driver-rescue:C-device C3
 U 1 1 5A33E247
 P 2500 3350
 F 0 "C3" H 2615 3396 50  0000 L CNN
@@ -140,7 +118,7 @@ F 4 "C0805C104J5RACAUTO " H 2500 3350 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C4
+L ENNOID-Dual-Gate-Driver-rescue:C-device C4
 U 1 1 5A33E2F7
 P 2950 3350
 F 0 "C4" H 3065 3396 50  0000 L CNN
@@ -152,7 +130,7 @@ F 4 "UMK212BJ105MG-T " H 2950 3350 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L regul:L7805 U1
+L ENNOID-Dual-Gate-Driver-rescue:L7805-regul U1
 U 1 1 5A33E500
 P 2050 3200
 F 0 "U1" H 2050 3442 50  0000 C CNN
@@ -177,17 +155,6 @@ Connection ~ 2050 3500
 Wire Wire Line
 	1350 3500 900  3500
 Connection ~ 1350 3500
-$Comp
-L power:GND #PWR03
-U 1 1 5A33ED69
-P 2050 3550
-F 0 "#PWR03" H 2050 3300 50  0001 C CNN
-F 1 "GND" H 2055 3377 50  0001 C CNN
-F 2 "" H 2050 3550 50  0001 C CNN
-F 3 "" H 2050 3550 50  0001 C CNN
-	1    2050 3550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2050 3550 2050 3500
 $Comp
@@ -259,34 +226,12 @@ Text GLabel 2300 6500 2    60   Output ~ 0
 FLT
 Wire Wire Line
 	4500 4300 4900 4300
-$Comp
-L power:GND #PWR06
-U 1 1 5A3D9814
-P 4800 4700
-F 0 "#PWR06" H 4800 4450 50  0001 C CNN
-F 1 "GND" H 4805 4527 50  0001 C CNN
-F 2 "" H 4800 4700 50  0001 C CNN
-F 3 "" H 4800 4700 50  0001 C CNN
-	1    4800 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR05
-U 1 1 5A3D9C57
-P 4800 1750
-F 0 "#PWR05" H 4800 1500 50  0001 C CNN
-F 1 "GND" H 4805 1577 50  0001 C CNN
-F 2 "" H 4800 1750 50  0001 C CNN
-F 3 "" H 4800 1750 50  0001 C CNN
-	1    4800 1750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4800 1750 4900 1750
 Wire Wire Line
 	4900 4700 4800 4700
 $Comp
-L Connector:Conn_01x04 J2
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x04-Connector J2
 U 1 1 5A320690
 P 2150 4450
 F 0 "J2" H 2229 4442 50  0000 L CNN
@@ -308,7 +253,7 @@ F 3 "" H 1250 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C43
+L ENNOID-Dual-Gate-Driver-rescue:C-device C43
 U 1 1 5A320A25
 P 1250 4500
 F 0 "C43" H 1365 4546 50  0000 L CNN
@@ -317,17 +262,6 @@ F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1288 4350 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/396/mlcc_all_e-1149778.pdf" H 1250 4500 50  0001 C CNN
 F 4 "UMK212BJ105MG-T" H 1250 4500 50  0001 C CNN "Mfg.#"
 	1    1250 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR028
-U 1 1 5A320B77
-P 1250 4750
-F 0 "#PWR028" H 1250 4500 50  0001 C CNN
-F 1 "GND" H 1255 4577 50  0001 C CNN
-F 2 "" H 1250 4750 50  0001 C CNN
-F 3 "" H 1250 4750 50  0001 C CNN
-	1    1250 4750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -341,7 +275,7 @@ Wire Wire Line
 Wire Wire Line
 	1250 4650 1950 4650
 $Comp
-L Connector:Conn_01x02 J3
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x02-Connector J3
 U 1 1 5A3298CC
 P 4600 7100
 F 0 "J3" H 4680 7092 50  0000 L CNN
@@ -352,7 +286,7 @@ F 3 "~" H 4600 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C44
+L ENNOID-Dual-Gate-Driver-rescue:C-device C44
 U 1 1 5A329B46
 P 4050 7300
 F 0 "C44" H 4165 7346 50  0000 L CNN
@@ -372,7 +306,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 7450 4050 7450
 $Comp
-L device:R R33
+L ENNOID-Dual-Gate-Driver-rescue:R-device R33
 U 1 1 5A32DB7E
 P 4050 6850
 F 0 "R33" H 4120 6896 50  0000 L CNN
@@ -383,7 +317,7 @@ F 3 "" H 4050 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R32
+L ENNOID-Dual-Gate-Driver-rescue:R-device R32
 U 1 1 5A32DDF0
 P 3800 7100
 F 0 "R32" V 3593 7100 50  0000 C CNN
@@ -407,17 +341,6 @@ F 1 "+5V" H 4065 6773 50  0000 C CNN
 F 2 "" H 4050 6600 50  0001 C CNN
 F 3 "" H 4050 6600 50  0001 C CNN
 	1    4050 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR034
-U 1 1 5A330589
-P 4050 7500
-F 0 "#PWR034" H 4050 7250 50  0001 C CNN
-F 1 "GND" H 4055 7327 50  0001 C CNN
-F 2 "" H 4050 7500 50  0001 C CNN
-F 3 "" H 4050 7500 50  0001 C CNN
-	1    4050 7500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -480,19 +403,6 @@ F 3 "" H 4750 5200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4900 5200 4750 5200
-$Comp
-L power:GND #PWR031
-U 1 1 5A34C1EE
-P 4750 5850
-F 0 "#PWR031" H 4750 5600 50  0001 C CNN
-F 1 "GND" H 4755 5677 50  0001 C CNN
-F 2 "" H 4750 5850 50  0001 C CNN
-F 3 "" H 4750 5850 50  0001 C CNN
-	1    4750 5850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4750 5850 4900 5850
 Text GLabel 4550 5600 0    60   Output ~ 0
 Vout+
 Text GLabel 4550 5700 0    60   Output ~ 0
@@ -517,7 +427,7 @@ F 3 "" H 2350 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J5
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector J5
 U 1 1 5A33A1F4
 P 8400 750
 F 0 "J5" H 8427 776 50  0000 L CNN
@@ -528,7 +438,7 @@ F 3 "~" H 8400 750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J6
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector J6
 U 1 1 5A33C74C
 P 8400 1150
 F 0 "J6" H 8428 1176 50  0000 L CNN
@@ -541,7 +451,7 @@ $EndComp
 Text GLabel 8300 2750 2    60   Input ~ 0
 PHASE
 $Comp
-L Connector:Conn_01x01_Female J4
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector J4
 U 1 1 5A3425E9
 P 8350 2950
 F 0 "J4" H 8377 2976 50  0000 L CNN
@@ -561,7 +471,7 @@ Wire Wire Line
 	2350 7000 2200 7000
 Connection ~ 2200 7000
 $Comp
-L device:Fuse F1
+L ENNOID-Dual-Gate-Driver-rescue:Fuse-device F1
 U 1 1 5A3CFD36
 P 1500 7400
 F 0 "F1" V 1600 7400 50  0000 C CNN
@@ -588,18 +498,7 @@ $EndComp
 Wire Wire Line
 	1300 7400 1350 7400
 $Comp
-L power:GND #PWR022
-U 1 1 5A3E96FC
-P 1100 7200
-F 0 "#PWR022" H 1100 6950 50  0001 C CNN
-F 1 "GND" H 1105 7027 50  0001 C CNN
-F 2 "" H 1100 7200 50  0001 C CNN
-F 3 "" H 1100 7200 50  0001 C CNN
-	1    1100 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:C C42
+L ENNOID-Dual-Gate-Driver-rescue:C-device C42
 U 1 1 5A3EC109
 P 2500 6950
 F 0 "C42" H 2615 6996 50  0000 L CNN
@@ -608,17 +507,6 @@ F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2538 6800 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/212/KEM_C1023_X7R_AUTO_SMD-1093309.pdf" H 2500 6950 50  0001 C CNN
 F 4 "C0805C104J5RACAUTO " H 2500 6950 50  0001 C CNN "Mfg.#"
 	1    2500 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR026
-U 1 1 5A3F1B0E
-P 2500 7150
-F 0 "#PWR026" H 2500 6900 50  0001 C CNN
-F 1 "GND" H 2505 6977 50  0001 C CNN
-F 2 "" H 2500 7150 50  0001 C CNN
-F 3 "" H 2500 7150 50  0001 C CNN
-	1    2500 7150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -660,7 +548,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 7100 3650 7100
 $Comp
-L Connector:Conn_01x01_Female J7
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector J7
 U 1 1 5A338421
 P 8350 4300
 F 0 "J7" H 8377 4326 50  0000 L CNN
@@ -671,7 +559,7 @@ F 3 "~" H 8350 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J8
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector J8
 U 1 1 5A33858B
 P 8400 4700
 F 0 "J8" H 8427 4726 50  0000 L CNN
@@ -724,7 +612,7 @@ F 3 "" H 4750 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C41
+L ENNOID-Dual-Gate-Driver-rescue:C-device C41
 U 1 1 5A3DD0B7
 P 1100 6950
 F 0 "C41" H 1215 6996 50  0000 L CNN
@@ -747,7 +635,7 @@ F 3 "" H 1000 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R5
+L ENNOID-Dual-Gate-Driver-rescue:R-device R5
 U 1 1 5A4D972A
 P 1150 1400
 F 0 "R5" H 1220 1446 50  0000 L CNN
@@ -759,7 +647,7 @@ F 4 "RK73B2ATTDD301J" H 1150 1400 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R16
+L ENNOID-Dual-Gate-Driver-rescue:R-device R16
 U 1 1 5A4D9A5E
 P 1500 1400
 F 0 "R16" H 1570 1446 50  0000 L CNN
@@ -771,7 +659,7 @@ F 4 "RK73B2ATTDD301J" H 1500 1400 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R34
+L ENNOID-Dual-Gate-Driver-rescue:R-device R34
 U 1 1 5A4D9BE2
 P 1850 1400
 F 0 "R34" H 1920 1446 50  0000 L CNN
@@ -790,7 +678,7 @@ Connection ~ 1150 1250
 Wire Wire Line
 	1500 1250 1850 1250
 $Comp
-L device:LED D12
+L ENNOID-Dual-Gate-Driver-rescue:LED-device D12
 U 1 1 5A4F44B8
 P 1150 1850
 F 0 "D12" V 1188 1733 50  0000 R CNN
@@ -802,7 +690,7 @@ F 4 "LTW-170TK " V 1150 1850 50  0001 C CNN "Mfg.#"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:LED D13
+L ENNOID-Dual-Gate-Driver-rescue:LED-device D13
 U 1 1 5A4F4A2D
 P 1500 1850
 F 0 "D13" V 1538 1733 50  0000 R CNN
@@ -814,7 +702,7 @@ F 4 "LTW-170TK " V 1500 1850 50  0001 C CNN "Mfg.#"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:LED D14
+L ENNOID-Dual-Gate-Driver-rescue:LED-device D14
 U 1 1 5A4F4BC5
 P 1850 1850
 F 0 "D14" V 1888 1733 50  0000 R CNN
@@ -970,4 +858,116 @@ Wire Wire Line
 Wire Wire Line
 	6200 5500 6750 5500
 Connection ~ 6750 4300
+$Comp
+L power:GND #PWR01
+U 1 1 5A60DF81
+P 2050 3550
+F 0 "#PWR01" H 2050 3300 50  0001 C CNN
+F 1 "GND" H 2055 3377 50  0000 C CNN
+F 2 "" H 2050 3550 50  0001 C CNN
+F 3 "" H 2050 3550 50  0001 C CNN
+	1    2050 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5A60E0BD
+P 1250 4750
+F 0 "#PWR02" H 1250 4500 50  0001 C CNN
+F 1 "GND" H 1255 4577 50  0000 C CNN
+F 2 "" H 1250 4750 50  0001 C CNN
+F 3 "" H 1250 4750 50  0001 C CNN
+	1    1250 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5A60E40B
+P 1100 7200
+F 0 "#PWR03" H 1100 6950 50  0001 C CNN
+F 1 "GND" H 1105 7027 50  0000 C CNN
+F 2 "" H 1100 7200 50  0001 C CNN
+F 3 "" H 1100 7200 50  0001 C CNN
+	1    1100 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5A60E44A
+P 2500 7150
+F 0 "#PWR05" H 2500 6900 50  0001 C CNN
+F 1 "GND" H 2505 6977 50  0000 C CNN
+F 2 "" H 2500 7150 50  0001 C CNN
+F 3 "" H 2500 7150 50  0001 C CNN
+	1    2500 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5A60E489
+P 4050 7500
+F 0 "#PWR06" H 4050 7250 50  0001 C CNN
+F 1 "GND" H 4055 7327 50  0000 C CNN
+F 2 "" H 4050 7500 50  0001 C CNN
+F 3 "" H 4050 7500 50  0001 C CNN
+	1    4050 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5A60E66C
+P 4700 2450
+F 0 "#PWR09" H 4700 2200 50  0001 C CNN
+F 1 "GND" H 4705 2277 50  0000 C CNN
+F 2 "" H 4700 2450 50  0001 C CNN
+F 3 "" H 4700 2450 50  0001 C CNN
+	1    4700 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5A60E7E4
+P 4800 1750
+F 0 "#PWR010" H 4800 1500 50  0001 C CNN
+F 1 "GND" H 4805 1577 50  0000 C CNN
+F 2 "" H 4800 1750 50  0001 C CNN
+F 3 "" H 4800 1750 50  0001 C CNN
+	1    4800 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 5A60E823
+P 4700 3200
+F 0 "#PWR011" H 4700 2950 50  0001 C CNN
+F 1 "GND" H 4705 3027 50  0000 C CNN
+F 2 "" H 4700 3200 50  0001 C CNN
+F 3 "" H 4700 3200 50  0001 C CNN
+	1    4700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 5A60E8A1
+P 4800 4700
+F 0 "#PWR016" H 4800 4450 50  0001 C CNN
+F 1 "GND" H 4805 4527 50  0000 C CNN
+F 2 "" H 4800 4700 50  0001 C CNN
+F 3 "" H 4800 4700 50  0001 C CNN
+	1    4800 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 5850 4900 5850
+$Comp
+L power:GND #PWR021
+U 1 1 5A60E862
+P 4750 5850
+F 0 "#PWR021" H 4750 5600 50  0001 C CNN
+F 1 "GND" H 4755 5677 50  0000 C CNN
+F 2 "" H 4750 5850 50  0001 C CNN
+F 3 "" H 4750 5850 50  0001 C CNN
+	1    4750 5850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
