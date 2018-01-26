@@ -970,4 +970,55 @@ F 3 "" H 4750 5850 50  0001 C CNN
 	1    4750 5850
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J9
+U 1 1 5A6C9EDA
+P 10300 5050
+F 0 "J9" H 10380 5092 50  0000 L CNN
+F 1 "Mounting hole 1" H 10380 5001 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 10300 5050 50  0001 C CNN
+F 3 "~" H 10300 5050 50  0001 C CNN
+	1    10300 5050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10100 5050
+NoConn ~ 10100 5300
+NoConn ~ 10100 5550
+$Comp
+L Connector_Generic:Conn_01x01 J10
+U 1 1 5A6D6D6D
+P 10300 5300
+F 0 "J10" H 10379 5342 50  0000 L CNN
+F 1 "Mounting Hole 2" H 10379 5251 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 10300 5300 50  0001 C CNN
+F 3 "~" H 10300 5300 50  0001 C CNN
+	1    10300 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J11
+U 1 1 5A6D6DBF
+P 10300 5550
+F 0 "J11" H 10379 5592 50  0000 L CNN
+F 1 "Mounting Hole 3" H 10379 5501 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 10300 5550 50  0001 C CNN
+F 3 "~" H 10300 5550 50  0001 C CNN
+	1    10300 5550
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	9750 6550 9750 4800
+Wire Notes Line
+	9750 4800 11250 4800
+$Comp
+L ENNOID:Logo_ENNOID G1
+U 1 1 5A6DC7DE
+P 10450 6100
+F 0 "G1" H 10450 6600 50  0001 C CNN
+F 1 "Logo_ENNOID" H 10450 5700 50  0001 C CNN
+F 2 "ENNOID:ENNOID-LOGO" H 10450 6100 50  0001 C CNN
+F 3 "~" H 10450 6100 50  0001 C CNN
+	1    10450 6100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

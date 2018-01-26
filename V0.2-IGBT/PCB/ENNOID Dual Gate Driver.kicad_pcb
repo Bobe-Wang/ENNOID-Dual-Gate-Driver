@@ -218,15 +218,16 @@
     (add_net Vout-)
   )
 
-  (module Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad (layer F.Cu) (tedit 5A4E3F2F) (tstamp 5A6B2627)
+  (module Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad (layer F.Cu) (tedit 5A6B5783) (tstamp 5A6B2627)
     (at 55 5)
     (descr "Mounting Hole 3.2mm, M3, ISO14580")
     (tags "mounting hole 3.2mm m3 iso14580")
+    (path /5A6D6DBF)
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.75) (layer F.SilkS) hide
+    (fp_text reference J11 (at 0 -3.75) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_3.2mm_M3_ISO14580_Pad (at 0 3.75) (layer F.Fab)
+    (fp_text value "Mounting Hole 3" (at 0 3.75) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0.3 0) (layer F.Fab)
@@ -350,15 +351,16 @@
     )
   )
 
-  (module Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad (layer F.Cu) (tedit 5A4E3F2F) (tstamp 5A4F6AF8)
+  (module Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad (layer F.Cu) (tedit 5A6B5771) (tstamp 5A4F6AF8)
     (at 55 93)
     (descr "Mounting Hole 3.2mm, M3, ISO14580")
     (tags "mounting hole 3.2mm m3 iso14580")
+    (path /5A6C9EDA)
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.75) (layer F.SilkS) hide
+    (fp_text reference J9 (at 0 -3.75) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_3.2mm_M3_ISO14580_Pad (at 0 3.75) (layer F.Fab)
+    (fp_text value "Mounting hole 1" (at 0 3.75) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 3 0) (layer F.CrtYd) (width 0.05))
@@ -5479,15 +5481,16 @@
     )
   )
 
-  (module Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad (layer F.Cu) (tedit 5A4E3F1E) (tstamp 5A4F6ADA)
+  (module Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad (layer F.Cu) (tedit 5A6B577B) (tstamp 5A4F6ADA)
     (at 5 93)
     (descr "Mounting Hole 3.2mm, M3, ISO14580")
     (tags "mounting hole 3.2mm m3 iso14580")
+    (path /5A6D6D6D)
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.75) (layer F.SilkS) hide
+    (fp_text reference J10 (at 0 -3.75) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_3.2mm_M3_ISO14580_Pad (at 0 3.75) (layer F.Fab)
+    (fp_text value "Mounting Hole 2" (at 0 3.75) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0.3 0) (layer F.Fab)
@@ -5498,12 +5501,13 @@
     (pad 1 thru_hole circle (at 0 0) (size 5.5 5.5) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (module ENNOID:ENNOID-LOGO (layer B.Cu) (tedit 0) (tstamp 5A4FA72D)
+  (module ENNOID:ENNOID-LOGO (layer B.Cu) (tedit 5A6B57D6) (tstamp 5A4FA72D)
     (at 30 74 180)
-    (fp_text reference G*** (at 0 0 180) (layer B.SilkS) hide
+    (path /5A6DC7DE)
+    (fp_text reference G1 (at 0 0 180) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
-    (fp_text value LOGO (at 0.75 0 180) (layer B.SilkS) hide
+    (fp_text value Logo_ENNOID (at 0.75 0 180) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
     (fp_poly (pts (xy 11.735276 -2.96025) (xy 10.387305 -2.96025) (xy 10.387305 4.387513) (xy 11.735276 4.387513)

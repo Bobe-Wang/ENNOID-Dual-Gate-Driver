@@ -28,6 +28,12 @@ K High Speed Gate Driver
 F http://www.ixysic.com/home/pdfs.nsf/www/IXD_609.pdf/$file/IXD_609.pdf
 $ENDCMP
 #
+$CMP Logo_ENNOID
+D Large ENNOID Logo
+K Logo
+F ~
+$ENDCMP
+#
 $CMP MGJ2
 D Isolated 1W Dual output DC/DC Converter Module
 K Murata isolated isolation dc-dc converter
