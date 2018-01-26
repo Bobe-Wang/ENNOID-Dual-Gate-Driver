@@ -281,7 +281,7 @@ Connection ~ 4650 4150
 Wire Wire Line
 	4650 4150 5050 4150
 Text Notes 800  6400 0    118  ~ 24
-This board has 4 functions\n- Measuring the voltage of the DC bus (VBUS)\n- Discharging the DC Bus when power is turned off\n- Precharging the DC bus through an external single IGBT module (Inrush_Limiter)\n- Driving an external Solid state contactor for E-STOP
+This board has 4 functions\n- Measuring the voltage of the DC bus (VBUS)\n- Discharging the DC Bus when power is turned off\n- Precharging the DC bus through an external single IGBT module (Inrush_Limiter)\n- Driving an external Solid state contactor for E-STOP (IGBT module)
 Wire Notes Line
 	2300 2800 5400 2800
 Wire Notes Line
