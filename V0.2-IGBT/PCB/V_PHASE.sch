@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
-Title ""
-Date ""
-Rev ""
-Comp "Copyright PALTA TECH S.A."
+Title "ENNOID Dual Gate Driver"
+Date "2018-01"
+Rev "V0.2"
+Comp "ENNOID by Frank-EM LTEE"
 Comment1 "Licensed under CERN OHL v.1.2 or later"
 Comment2 ""
 Comment3 ""

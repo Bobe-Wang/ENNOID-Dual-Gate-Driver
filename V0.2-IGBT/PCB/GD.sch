@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 6
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "ENNOID Dual Gate Driver"
+Date "2018-01"
+Rev "V0.2"
+Comp "ENNOID by Frank-EM LTEE"
 Comment1 ""
 Comment2 ""
 Comment3 ""

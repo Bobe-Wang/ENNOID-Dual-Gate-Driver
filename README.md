@@ -53,6 +53,10 @@ Otherwise, the V0.2 is very similar to V0.1
 BOM link for 3 boards at Mouser below : 
 - https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=f6574b98ce
 
+### Schematics
+
+![alt text](V0.2-IGBT/PIC/Schematics.png)
+
 ### Top View
 
 ![alt text](V0.2-IGBT/PIC/Top.png)
