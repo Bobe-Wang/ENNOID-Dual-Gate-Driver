@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
-Title ""
+Title "VBUS-SENSE"
 Date ""
-Rev ""
-Comp ""
+Rev "0.1"
+Comp "ENNOID"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -112,9 +112,9 @@ F 3 "" H 2650 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4450 3600 4450 4150
+	4300 3600 4300 4150
 Wire Wire Line
-	4450 3150 4450 3200
+	4300 3150 4300 3200
 Wire Wire Line
 	3700 3150 3600 3150
 Wire Wire Line
@@ -185,7 +185,7 @@ F5 "-VEE" O L 5800 2500 50
 F6 "COM" I L 5800 2750 50 
 $EndSheet
 Wire Wire Line
-	4450 4150 4850 4150
+	4300 4150 4650 4150
 Wire Wire Line
 	5800 2950 5600 2950
 Wire Wire Line
@@ -247,47 +247,47 @@ Wire Wire Line
 $Comp
 L VBUS-Sense-rescue:Q_NMOS_GDS-device Q1
 U 1 1 5A5F1396
-P 4550 3400
-F 0 "Q1" H 4756 3446 50  0000 L CNN
-F 1 "Depletion mode FET ex: CPC3982" H 4756 3355 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23W" H 4750 3500 50  0001 C CNN
-F 3 "" H 4550 3400 50  0001 C CNN
-	1    4550 3400
+P 4400 3400
+F 0 "Q1" H 4606 3446 50  0000 L CNN
+F 1 "Depletion mode FET ex: CPC3982" H 4606 3355 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23W" H 4600 3500 50  0001 C CNN
+F 3 "" H 4400 3400 50  0001 C CNN
+	1    4400 3400
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 3400 4850 3400
+	4600 3400 4650 3400
 Wire Wire Line
-	5150 3400 5150 2500
+	5050 3400 5050 2500
 $Comp
 L VBUS-Sense-rescue:R-device R5
 U 1 1 5A66B839
-P 4850 3700
-F 0 "R5" V 4643 3700 50  0000 C CNN
-F 1 "20k" V 4734 3700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 4780 3700 50  0001 C CNN
-F 3 "" H 4850 3700 50  0001 C CNN
-	1    4850 3700
+P 4650 3700
+F 0 "R5" V 4443 3700 50  0000 C CNN
+F 1 "20k" V 4534 3700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4580 3700 50  0001 C CNN
+F 3 "" H 4650 3700 50  0001 C CNN
+	1    4650 3700
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4850 3550 4850 3400
-Connection ~ 4850 3400
+	4650 3550 4650 3400
+Connection ~ 4650 3400
 Wire Wire Line
-	4850 3400 5150 3400
+	4650 3400 5050 3400
 Wire Wire Line
-	4850 3850 4850 4150
-Connection ~ 4850 4150
+	4650 3850 4650 4150
+Connection ~ 4650 4150
 Wire Wire Line
-	4850 4150 5450 4150
+	4650 4150 5050 4150
 Text Notes 800  6400 0    118  ~ 24
 This board has 4 functions\n- Measuring the voltage of the DC bus (VBUS)\n- Discharging the DC Bus when power is turned off\n- Precharging the DC bus through an external single IGBT module (Inrush_Limiter)\n- Driving an external Solid state contactor for E-STOP
 Wire Notes Line
-	2300 2800 5100 2800
+	2300 2800 5400 2800
 Wire Notes Line
-	5100 2800 5100 4000
+	5400 2800 5400 4000
 Wire Notes Line
-	5100 4000 2300 4000
+	5400 4000 2300 4000
 Wire Notes Line
 	2300 4000 2300 2800
 Text Notes 4250 3000 0    50   ~ 0
@@ -304,7 +304,7 @@ F 3 "" H 5350 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5150 2500 5200 2500
+	5050 2500 5200 2500
 Wire Wire Line
 	5500 2500 5800 2500
 $Comp
@@ -320,7 +320,7 @@ F 3 "" H 3450 950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3550 950  5800 950 
-Connection ~ 4450 4150
+Connection ~ 4300 4150
 Connection ~ 5450 4150
 Wire Wire Line
 	5450 2750 5450 4150
@@ -329,7 +329,7 @@ Wire Wire Line
 Wire Wire Line
 	1250 1450 1250 4150
 Wire Wire Line
-	1250 4150 4450 4150
+	1250 4150 4300 4150
 Wire Wire Line
 	1750 3700 2000 3700
 Connection ~ 1250 1450
@@ -362,10 +362,29 @@ Wire Wire Line
 Wire Wire Line
 	8650 1550 7900 1550
 Wire Wire Line
-	4000 3150 4450 3150
+	4000 3150 4300 3150
 Wire Wire Line
 	5800 1950 5600 1950
 Wire Wire Line
 	5600 1950 5600 2950
 Connection ~ 5600 2950
+$Comp
+L Device:C C5
+U 1 1 5A6BE82E
+P 5050 3700
+F 0 "C5" H 5165 3746 50  0000 L CNN
+F 1 "100n" H 5165 3655 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5088 3550 50  0001 C CNN
+F 3 "" H 5050 3700 50  0001 C CNN
+	1    5050 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3550 5050 3400
+Connection ~ 5050 3400
+Wire Wire Line
+	5050 3850 5050 4150
+Connection ~ 5050 4150
+Wire Wire Line
+	5050 4150 5450 4150
 $EndSCHEMATC

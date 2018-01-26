@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
-Title ""
+Title "VBUS-SENSE"
 Date ""
-Rev ""
-Comp ""
+Rev "0.1"
+Comp "ENNOID"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -291,22 +291,11 @@ Wire Notes Line
 Wire Notes Line
 	7600 2350 8850 2350
 $Comp
-L Transistor_BJT:BC546 Q2
-U 1 1 5A6EE6ED
-P 4950 3500
-F 0 "Q2" H 5141 3546 50  0000 L CNN
-F 1 "BC546" H 5141 3455 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 5150 3425 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 4950 3500 50  0001 L CNN
-	1    4950 3500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C4
 U 1 1 5A6EEADE
 P 4000 3900
 F 0 "C4" H 4115 3946 50  0000 L CNN
-F 1 "DNP" H 4115 3855 50  0000 L CNN
+F 1 "100n" H 4115 3855 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4038 3750 50  0001 C CNN
 F 3 "" H 4000 3900 50  0001 C CNN
 	1    4000 3900
@@ -361,4 +350,15 @@ F 3 "" H 6300 2750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6300 2900 6300 3050
+$Comp
+L Transistor_FET:2N7000 Q2
+U 1 1 5A6CB3EA
+P 4950 3500
+F 0 "Q2" H 5155 3546 50  0000 L CNN
+F 1 "2N7000" H 5155 3455 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 5150 3425 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 4950 3500 50  0001 L CNN
+	1    4950 3500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
-Title ""
+Title "VBUS-SENSE"
 Date ""
-Rev ""
-Comp "Copyright PALTA TECH S.A."
+Rev "0.1"
+Comp "ENNOID"
 Comment1 "Licensed under CERN OHL v.1.2 or later"
 Comment2 ""
 Comment3 ""

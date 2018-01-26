@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
-Title ""
+Title "VBUS-SENSE"
 Date ""
-Rev ""
-Comp ""
+Rev "0.1"
+Comp "ENNOID"
 Comment1 ""
 Comment2 ""
 Comment3 ""
