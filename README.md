@@ -42,7 +42,7 @@ The V0.2 is based upon the design from tiduc70a.pdf.
 
 Changes from V0.1 include:
 
-- BJT based instead of mosfet IC IXD-609 with added capacitance on gate drive circuit
+- BJT based powerstage instead of mosfet IC IXD-609
 - Adjustable Soft Turnoff feature
 - SMD gate resistor instead of MELF
 - Active clamping / Over voltage protection
