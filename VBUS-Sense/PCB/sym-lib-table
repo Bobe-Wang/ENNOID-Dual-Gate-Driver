@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name ENNOID)(type Legacy)(uri ${KIPRJMOD}/ENNOID.lib)(options "")(descr ""))
   (lib (name current_sensor-cache)(type Legacy)(uri ${KIPRJMOD}/current_sensor-cache.lib)(options "")(descr ""))
+  (lib (name VBUS-Sense-rescue)(type Legacy)(uri ${KIPRJMOD}/VBUS-Sense-rescue.lib)(options "")(descr ""))
 )

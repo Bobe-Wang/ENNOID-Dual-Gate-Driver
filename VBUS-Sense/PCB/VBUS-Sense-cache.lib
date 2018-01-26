@@ -1,53 +1,81 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector:Conn_01x01
+# Connector_Generic:Conn_01x02
 #
-DEF Connector:Conn_01x01 J 0 40 Y N 1 F N
+DEF Connector_Generic:Conn_01x02 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Connector:Conn_01x01" 0 -100 50 H V C CNN
+F1 "Connector_Generic:Conn_01x02" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
+ Connector*:*_1x??_*
 $ENDFPLIST
 DRAW
+S -50 -95 0 -105 1 1 6 N
 S -50 5 0 -5 1 1 6 N
-S -50 50 50 -50 1 1 10 f
+S -50 50 50 -150 1 1 10 f
 X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector:Conn_01x04
+# Device:C
 #
-DEF Connector:Conn_01x04 J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "Connector:Conn_01x04" 0 -300 50 H V C CNN
+DEF Device:C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Device:C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device:D_Zener
+#
+DEF Device:D_Zener D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device:D_Zener" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
 $ENDFPLIST
 DRAW
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 150 50 -250 1 1 10 f
-X Pin_1 1 -200 100 150 R 50 50 1 1 P
-X Pin_2 2 -200 0 150 R 50 50 1 1 P
-X Pin_3 3 -200 -100 150 R 50 50 1 1 P
-X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+P 2 0 1 0 50 0 -50 0 N
+P 3 0 1 8 -50 -50 -50 50 -30 50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device:R
+#
+DEF Device:R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device:R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -145,11 +173,84 @@ X VOUT+ 7 500 200 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# device:C
+# Isolator:LTV-356T
 #
-DEF device:C C 0 10 N Y 1 F N
+DEF Isolator:LTV-356T U 0 40 Y Y 1 F N
+F0 "U" -210 190 50 H V L CNN
+F1 "Isolator:LTV-356T" 0 200 50 H V L CNN
+F2 "Package_SOIC:SO-4_4.4x3.6mm_P2.54mm" -200 -200 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+ALIAS LTV-357T LTV-358T
+$FPLIST
+ SO*4.4x3.6mm*P2.54mm*
+$ENDFPLIST
+DRAW
+S -200 150 200 -150 0 1 10 f
+P 2 0 1 10 -125 -25 -75 -25 N
+P 2 0 1 0 100 25 175 100 N
+P 2 0 1 0 175 -100 100 -25 F
+P 2 0 1 0 175 -100 200 -100 N
+P 2 0 1 0 175 100 200 100 N
+P 3 0 1 0 -200 100 -100 100 -100 -30 N
+P 3 0 1 0 -100 -25 -100 -100 -200 -100 N
+P 3 0 1 20 100 75 100 -75 100 -75 N
+P 4 0 1 10 -100 -25 -125 25 -75 25 -100 -25 N
+P 5 0 1 0 -20 -20 30 -20 15 -25 15 -15 30 -20 N
+P 5 0 1 0 -20 20 30 20 15 15 15 25 30 20 N
+P 5 0 1 0 120 -65 140 -45 160 -85 120 -65 120 -65 F
+X ~ 1 -300 100 100 R 50 50 1 1 P
+X ~ 2 -300 -100 100 R 50 50 1 1 P
+X ~ 3 300 -100 100 L 50 50 1 1 P
+X ~ 4 300 100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Mechanical:Mounting_Hole_PAD
+#
+DEF Mechanical:Mounting_Hole_PAD MK 0 40 N N 1 F N
+F0 "MK" 0 250 50 H V C CNN
+F1 "Mechanical:Mounting_Hole_PAD" 0 175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Mounting?Hole*
+ Hole*
+$ENDFPLIST
+DRAW
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Transistor_BJT:BC546
+#
+DEF Transistor_BJT:BC546 Q 0 0 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "Transistor_BJT:BC546" 200 0 50 H V L CNN
+F2 "Package_TO_SOT_THT:TO-92_Inline" 200 -75 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+ALIAS BC546 BC548 BC549 BC550 BC337 BC338
+$FPLIST
+ TO?92*
+$ENDFPLIST
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 0 0 25 0 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+X C 1 100 200 100 D 50 50 1 1 P
+X B 2 -200 0 200 R 50 50 1 1 I
+X E 3 100 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# VBUS-Sense-rescue:C-device
+#
+DEF VBUS-Sense-rescue:C-device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "device:C" 25 -100 50 H V L CNN
+F1 "VBUS-Sense-rescue:C-device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -163,11 +264,39 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:D_Zener
+# VBUS-Sense-rescue:Conn_01x04-Connector
 #
-DEF device:D_Zener D 0 40 N N 1 F N
+DEF VBUS-Sense-rescue:Conn_01x04-Connector J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "VBUS-Sense-rescue:Conn_01x04-Connector" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# VBUS-Sense-rescue:D_Zener-device
+#
+DEF VBUS-Sense-rescue:D_Zener-device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "device:D_Zener" 0 -100 50 H V C CNN
+F1 "VBUS-Sense-rescue:D_Zener-device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -186,11 +315,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:Q_NMOS_GDS
+# VBUS-Sense-rescue:Q_NMOS_GDS-device
 #
-DEF device:Q_NMOS_GDS Q 0 0 Y N 1 F N
+DEF VBUS-Sense-rescue:Q_NMOS_GDS-device Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "device:Q_NMOS_GDS" 200 -50 50 H V L CNN
+F1 "VBUS-Sense-rescue:Q_NMOS_GDS-device" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -218,11 +347,11 @@ X S 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:R
+# VBUS-Sense-rescue:R-device
 #
-DEF device:R R 0 0 N Y 1 F N
+DEF VBUS-Sense-rescue:R-device R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "device:R" 0 0 50 V V C CNN
+F1 "VBUS-Sense-rescue:R-device" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST

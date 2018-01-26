@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew no-vcs-found-2e79b93~61~ubuntu17.10.1)
+(kicad_pcb (version 20171130) (host pcbnew no-vcs-found-81642dd~61~ubuntu17.10.1)
 
   (general
     (thickness 1.6)
@@ -2676,6 +2676,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Package_SOIC.3dshapes/SOIC-16W_7.5x10.3mm_P1.27mm.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module ENNOID:Quick_fit_terminal (layer B.Cu) (tedit 5A3482B1) (tstamp 5A348488)
@@ -4342,6 +4347,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Package_SOIC.3dshapes/SOIC-16W_7.5x10.3mm_P1.27mm.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Diodes_THT:D_DO-41_SOD81_P12.70mm_Horizontal (layer F.Cu) (tedit 5921392F) (tstamp 5A459AFE)
@@ -4385,6 +4395,11 @@
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Diode_THT.3dshapes/D_DO-41_SOD81_P12.70mm_Horizontal.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Diodes_THT:D_DO-41_SOD81_P12.70mm_Horizontal (layer F.Cu) (tedit 5921392F) (tstamp 5A459B16)
@@ -4426,6 +4441,11 @@
     (model ${KISYS3DMOD}/Diodes_THT.3dshapes/D_DO-41_SOD81_P12.70mm_Horizontal.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.393701 0.393701 0.393701))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Diode_THT.3dshapes/D_DO-41_SOD81_P12.70mm_Horizontal.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -4574,6 +4594,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/TO-252-2.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module TO_SOT_Packages_SMD:TO-252-2 (layer F.Cu) (tedit 590079C0) (tstamp 5A479A1E)
@@ -4630,6 +4655,11 @@
     (pad 2 smd rect (at 0.425 1.525 270) (size 3.05 2.75) (layers F.Cu F.Paste)
       (net 7 /GD_HIGH/-VEE))
     (model ${KISYS3DMOD}/TO_SOT_Packages_SMD.3dshapes/TO-252-2.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/TO-252-2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4694,6 +4724,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/TO-252-2.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module TO_SOT_Packages_SMD:TO-252-2 (layer F.Cu) (tedit 590079C0) (tstamp 5A479A64)
@@ -4750,6 +4785,11 @@
     (pad 1 smd rect (at -4.2 -2.28 270) (size 2.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 57 "Net-(Q5-Pad1)"))
     (model ${KISYS3DMOD}/TO_SOT_Packages_SMD.3dshapes/TO-252-2.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/TO-252-2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5307,6 +5347,11 @@
     (pad 1 smd rect (at -4.2 -2.28) (size 2.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 53 +24V))
     (model ${KISYS3DMOD}/TO_SOT_Packages_SMD.3dshapes/TO-252-2.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/TO-252-2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7022,8 +7067,8 @@
     (filled_polygon
       (pts
         (xy 9.968014 23.360473) (xy 10.574852 23.765948) (xy 10.980327 24.372786) (xy 11.1252 25.101109) (xy 11.1252 33.750691)
-        (xy 10.980327 34.479014) (xy 10.574852 35.085852) (xy 9.968014 35.491327) (xy 9.717893 35.541079) (xy 9.421629 35.540821)
-        (xy 9.190793 35.6362) (xy 7.720148 35.6362) (xy 7.700249 35.637769) (xy 7.081237 35.735974) (xy 7.043392 35.748292)
+        (xy 10.980327 34.479014) (xy 10.574852 35.085852) (xy 9.968014 35.491327) (xy 9.718292 35.541) (xy 9.420726 35.541)
+        (xy 9.190892 35.6362) (xy 7.720148 35.6362) (xy 7.700249 35.637769) (xy 7.081237 35.735974) (xy 7.043392 35.748292)
         (xy 6.48517 36.033263) (xy 6.452996 36.056689) (xy 6.010385 36.50044) (xy 5.987042 36.532674) (xy 5.703507 37.091626)
         (xy 5.691286 37.129502) (xy 5.594673 37.748764) (xy 5.593155 37.768667) (xy 5.608219 43.628977) (xy 5.608144 43.62946)
         (xy 4.7344 43.62946) (xy 4.486635 43.678743) (xy 4.276591 43.819091) (xy 4.136243 44.029135) (xy 4.08696 44.2769)

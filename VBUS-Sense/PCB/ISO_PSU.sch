@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -19,7 +19,7 @@ Text HLabel 3500 2500 0    60   Input ~ 0
 Text HLabel 3500 2700 0    60   Input ~ 0
 GND
 $Comp
-L device:C C6
+L VBUS-Sense-rescue:C-device C6
 U 1 1 5A301108
 P 4900 2600
 AR Path="/5A300795/5A301108" Ref="C6"  Part="1" 
@@ -34,7 +34,7 @@ F 3 "" H 4900 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C5
+L VBUS-Sense-rescue:C-device C5
 U 1 1 5A301151
 P 4400 2600
 AR Path="/5A300795/5A301151" Ref="C5"  Part="1" 
@@ -59,7 +59,7 @@ Wire Wire Line
 	4900 2800 5200 2800
 Connection ~ 4900 2750
 $Comp
-L device:C C7
+L VBUS-Sense-rescue:C-device C7
 U 1 1 5A308BE5
 P 6700 2150
 AR Path="/5A300795/5A308BE5" Ref="C7"  Part="1" 
@@ -155,9 +155,9 @@ $EndComp
 Wire Wire Line
 	3500 2500 3650 2500
 Wire Wire Line
-	6700 1850 6700 2000
+	6700 1850 6700 1950
 $Comp
-L device:C C1
+L VBUS-Sense-rescue:C-device C1
 U 1 1 5A629457
 P 6700 2800
 F 0 "C1" H 6815 2800 50  0000 L CNN
@@ -178,4 +178,11 @@ Text HLabel 6900 2600 2    50   Input ~ 0
 COM
 Wire Wire Line
 	6700 2600 6900 2600
+Wire Wire Line
+	6700 1950 6200 1950
+Wire Wire Line
+	6200 1950 6200 2400
+Connection ~ 6700 1950
+Wire Wire Line
+	6700 1950 6700 2000
 $EndSCHEMATC

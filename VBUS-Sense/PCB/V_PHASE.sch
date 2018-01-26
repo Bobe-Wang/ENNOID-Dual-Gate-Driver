@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -6742,7 +6742,7 @@ E0 01 00 00 00 80 4C 10 F0 00 00 00 00 40 26 08 78 00 00 00 00 20 13 04 3C 00 00
 EndData
 $EndBitmap
 $Comp
-L device:C C37
+L VBUS-Sense-rescue:C-device C37
 U 1 1 5A30FC69
 P 5150 3300
 F 0 "C37" H 5265 3346 50  0000 L CNN
@@ -6753,7 +6753,7 @@ F 3 "" H 5150 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C38
+L VBUS-Sense-rescue:C-device C38
 U 1 1 5A30FE1D
 P 5150 3950
 F 0 "C38" H 5265 3996 50  0000 L CNN
@@ -6782,7 +6782,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 4200 5150 4100
 $Comp
-L device:R R28
+L VBUS-Sense-rescue:R-device R28
 U 1 1 5A30FF82
 P 4200 3000
 F 0 "R28" V 3993 3000 50  0000 C CNN
@@ -6793,7 +6793,7 @@ F 3 "" H 4200 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R27
+L VBUS-Sense-rescue:R-device R27
 U 1 1 5A30FFC5
 P 3800 3750
 F 0 "R27" V 3593 3750 50  0000 C CNN
@@ -6804,7 +6804,7 @@ F 3 "" H 3800 3750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R29
+L VBUS-Sense-rescue:R-device R29
 U 1 1 5A30FFF9
 P 4200 3750
 F 0 "R29" V 3993 3750 50  0000 C CNN
@@ -6815,7 +6815,7 @@ F 3 "" H 4200 3750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R30
+L VBUS-Sense-rescue:R-device R30
 U 1 1 5A310023
 P 4500 3950
 F 0 "R30" H 4430 3904 50  0000 R CNN
@@ -6825,21 +6825,6 @@ F 3 "" H 4500 3950 50  0001 C CNN
 	1    4500 3950
 	-1   0    0    1   
 $EndComp
-$Comp
-L device:R R31
-U 1 1 5A3100D1
-P 4800 4200
-F 0 "R31" V 5007 4200 50  0000 C CNN
-F 1 "1k" V 4916 4200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 4730 4200 50  0001 C CNN
-F 3 "" H 4800 4200 50  0001 C CNN
-	1    4800 4200
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5150 4200 4950 4200
-Wire Wire Line
-	4650 4200 4500 4200
 Wire Wire Line
 	4500 4200 4500 4100
 Wire Wire Line
@@ -6856,7 +6841,7 @@ Wire Wire Line
 	5150 3000 4800 3000
 Connection ~ 5150 3000
 $Comp
-L device:D_Zener D9
+L VBUS-Sense-rescue:D_Zener-device D9
 U 1 1 5A3109F4
 P 4500 3250
 F 0 "D9" V 4454 3329 50  0000 L CNN
@@ -6880,7 +6865,7 @@ Connection ~ 4500 3450
 Wire Wire Line
 	4500 3450 4500 3400
 $Comp
-L device:C C39
+L VBUS-Sense-rescue:C-device C39
 U 1 1 5A311419
 P 6750 3300
 F 0 "C39" H 6865 3346 50  0000 L CNN
@@ -6891,7 +6876,7 @@ F 3 "" H 6750 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C40
+L VBUS-Sense-rescue:C-device C40
 U 1 1 5A31145B
 P 7200 3300
 F 0 "C40" H 7315 3346 50  0000 L CNN
@@ -6993,7 +6978,7 @@ Connection ~ 5150 4200
 Wire Wire Line
 	4050 3000 3800 3000
 $Comp
-L device:C C9
+L VBUS-Sense-rescue:C-device C9
 U 1 1 5A4DF1BA
 P 4800 3300
 F 0 "C9" H 4915 3346 50  0000 L CNN
@@ -7024,4 +7009,6 @@ F 3 "" H 5900 3650 50  0001 C CNN
 	1    5900 3650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4500 4200 5150 4200
 $EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -15,9 +15,9 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 5800 3600 2100 1300
+S 5800 3600 2100 900 
 U 5A4D4667
-F0 "V_PHASE" 50
+F0 "V_BUS" 50
 F1 "V_PHASE.sch" 50
 F2 "+5V" I R 7900 3800 50 
 F3 "Vout+" O R 7900 3900 50 
@@ -28,7 +28,7 @@ F7 "VBUS-" I L 5800 4150 50
 F8 "+VCC" I L 5800 4000 50 
 $EndSheet
 $Comp
-L Connector:Conn_01x04 J3
+L VBUS-Sense-rescue:Conn_01x04-Connector J3
 U 1 1 5A4FB1AF
 P 8350 3900
 F 0 "J3" H 8430 3892 50  0000 L CNN
@@ -75,30 +75,6 @@ Connection ~ 8100 3800
 Wire Wire Line
 	8100 3800 8150 3800
 $Comp
-L Connector:Conn_01x01 J1
-U 1 1 5A502646
-P 1950 3700
-F 0 "J1" H 1870 3475 50  0000 C CNN
-F 1 "Conn_01x01" H 1870 3566 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 1950 3700 50  0001 C CNN
-F 3 "~" H 1950 3700 50  0001 C CNN
-	1    1950 3700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x01 J2
-U 1 1 5A5032A8
-P 1950 4150
-F 0 "J2" H 1870 3925 50  0000 C CNN
-F 1 "Conn_01x01" H 1870 4016 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 1950 4150 50  0001 C CNN
-F 3 "~" H 1950 4150 50  0001 C CNN
-	1    1950 4150
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2150 4150 4450 4150
-$Comp
 L power:+5V #PWR01
 U 1 1 5A511DAF
 P 8100 2500
@@ -114,18 +90,18 @@ Wire Wire Line
 $Comp
 L power:GND #PWR02
 U 1 1 5A511F9D
-P 8100 2700
-F 0 "#PWR02" H 8100 2450 50  0001 C CNN
-F 1 "GND" H 8105 2527 50  0000 C CNN
-F 2 "" H 8100 2700 50  0001 C CNN
-F 3 "" H 8100 2700 50  0001 C CNN
-	1    8100 2700
+P 8100 2900
+F 0 "#PWR02" H 8100 2650 50  0001 C CNN
+F 1 "GND" H 8105 2727 50  0000 C CNN
+F 2 "" H 8100 2900 50  0001 C CNN
+F 3 "" H 8100 2900 50  0001 C CNN
+	1    8100 2900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7900 2700 8100 2700
+	7900 2900 8100 2900
 $Comp
-L device:R R1
+L VBUS-Sense-rescue:R-device R1
 U 1 1 5A5F09F3
 P 2650 3150
 F 0 "R1" V 2443 3150 50  0000 C CNN
@@ -135,22 +111,8 @@ F 3 "" H 2650 3150 50  0001 C CNN
 	1    2650 3150
 	0    1    1    0   
 $EndComp
-$Comp
-L device:Q_NMOS_GDS Q1
-U 1 1 5A5F1396
-P 4550 3400
-F 0 "Q1" H 4756 3446 50  0000 L CNN
-F 1 "Q_NMOS_GDS" H 4756 3355 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:TO-252-2" H 4750 3500 50  0001 C CNN
-F 3 "" H 4550 3400 50  0001 C CNN
-	1    4550 3400
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	4450 3600 4450 4150
-Connection ~ 4450 4150
-Wire Wire Line
-	4000 3150 4450 3150
 Wire Wire Line
 	4450 3150 4450 3200
 Wire Wire Line
@@ -163,13 +125,11 @@ Wire Wire Line
 	2400 3700 2400 3150
 Wire Wire Line
 	2400 3150 2500 3150
-Wire Wire Line
-	2150 3700 2400 3700
 Connection ~ 2400 3700
 Wire Wire Line
 	2400 3700 5800 3700
 $Comp
-L device:R R2
+L VBUS-Sense-rescue:R-device R2
 U 1 1 5A5F51B6
 P 3050 3150
 F 0 "R2" V 2843 3150 50  0000 C CNN
@@ -180,7 +140,7 @@ F 3 "" H 3050 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R3
+L VBUS-Sense-rescue:R-device R3
 U 1 1 5A5F5226
 P 3450 3150
 F 0 "R3" V 3243 3150 50  0000 C CNN
@@ -191,7 +151,7 @@ F 3 "" H 3450 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R4
+L VBUS-Sense-rescue:R-device R4
 U 1 1 5A5F5294
 P 3850 3150
 F 0 "R4" V 3643 3150 50  0000 C CNN
@@ -225,7 +185,7 @@ F5 "-VEE" O L 5800 2500 50
 F6 "COM" I L 5800 2750 50 
 $EndSheet
 Wire Wire Line
-	4450 4150 5450 4150
+	4450 4150 4850 4150
 Wire Wire Line
 	5800 2950 5600 2950
 Wire Wire Line
@@ -235,12 +195,177 @@ Wire Wire Line
 Wire Wire Line
 	5800 2750 5450 2750
 Wire Wire Line
-	5450 2750 5450 4150
+	5450 4150 5800 4150
+$Sheet
+S 5800 750  2100 1350
+U 5A652E46
+F0 "Inrush_Limiter" 50
+F1 "Inrush_Limiter.sch" 50
+F2 "VBUS-" I L 5800 1450 50 
+F3 "GATE" I L 5800 1200 50 
+F4 "+VBUS" I L 5800 1750 50 
+F5 "VBAT-" I L 5800 950 50 
+F6 "ON/OFF" I R 7900 1000 50 
+F7 "GND" I R 7900 1550 50 
+F8 "+VCC" I L 5800 1950 50 
+$EndSheet
+$Comp
+L Mechanical:Mounting_Hole_PAD MK3
+U 1 1 5A653073
+P 2850 1200
+F 0 "MK3" V 3087 1205 50  0000 C CNN
+F 1 "Gate" V 2996 1205 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_4.3mm_M4_Pad_Via" H 2850 1200 50  0001 C CNN
+F 3 "" H 2850 1200 50  0001 C CNN
+	1    2850 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole_PAD MK1
+U 1 1 5A653119
+P 1000 1450
+F 0 "MK1" V 1237 1455 50  0000 C CNN
+F 1 "VBUS-" V 1146 1455 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 1000 1450 50  0001 C CNN
+F 3 "" H 1000 1450 50  0001 C CNN
+	1    1000 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole_PAD MK2
+U 1 1 5A657E0D
+P 1650 3700
+F 0 "MK2" V 1887 3705 50  0000 C CNN
+F 1 "VBUS+" V 1796 3705 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 1650 3700 50  0001 C CNN
+F 3 "" H 1650 3700 50  0001 C CNN
+	1    1650 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2950 1200 5800 1200
+$Comp
+L VBUS-Sense-rescue:Q_NMOS_GDS-device Q1
+U 1 1 5A5F1396
+P 4550 3400
+F 0 "Q1" H 4756 3446 50  0000 L CNN
+F 1 "Depletion mode FET ex: CPC3982" H 4756 3355 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23W" H 4750 3500 50  0001 C CNN
+F 3 "" H 4550 3400 50  0001 C CNN
+	1    4550 3400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3400 4850 3400
+Wire Wire Line
+	5150 3400 5150 2500
+$Comp
+L VBUS-Sense-rescue:R-device R5
+U 1 1 5A66B839
+P 4850 3700
+F 0 "R5" V 4643 3700 50  0000 C CNN
+F 1 "20k" V 4734 3700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4780 3700 50  0001 C CNN
+F 3 "" H 4850 3700 50  0001 C CNN
+	1    4850 3700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4850 3550 4850 3400
+Connection ~ 4850 3400
+Wire Wire Line
+	4850 3400 5150 3400
+Wire Wire Line
+	4850 3850 4850 4150
+Connection ~ 4850 4150
+Wire Wire Line
+	4850 4150 5450 4150
+Text Notes 800  6400 0    118  ~ 24
+This board has 4 functions\n- Measuring the voltage of the DC bus (VBUS)\n- Discharging the DC Bus when power is turned off\n- Precharging the DC bus through an external single IGBT module (Inrush_Limiter)\n- Driving an external Solid state contactor for E-STOP
+Wire Notes Line
+	2300 2800 5100 2800
+Wire Notes Line
+	5100 2800 5100 4000
+Wire Notes Line
+	5100 4000 2300 4000
+Wire Notes Line
+	2300 4000 2300 2800
+Text Notes 4250 3000 0    50   ~ 0
+Disharge circuit
+$Comp
+L VBUS-Sense-rescue:R-device R6
+U 1 1 5A678EEC
+P 5350 2500
+F 0 "R6" V 5143 2500 50  0000 C CNN
+F 1 "100" V 5234 2500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5280 2500 50  0001 C CNN
+F 3 "" H 5350 2500 50  0001 C CNN
+	1    5350 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5150 2500 5200 2500
+Wire Wire Line
+	5500 2500 5800 2500
+$Comp
+L Mechanical:Mounting_Hole_PAD MK4
+U 1 1 5A684EEC
+P 3450 950
+F 0 "MK4" V 3687 955 50  0000 C CNN
+F 1 "BAT-" V 3596 955 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_4.3mm_M4_Pad_Via" H 3450 950 50  0001 C CNN
+F 3 "" H 3450 950 50  0001 C CNN
+	1    3450 950 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 950  5800 950 
+Connection ~ 4450 4150
 Connection ~ 5450 4150
 Wire Wire Line
-	5450 4150 5800 4150
+	5450 2750 5450 4150
 Wire Wire Line
-	5800 2500 4750 2500
+	1100 1450 1250 1450
 Wire Wire Line
-	4750 2500 4750 3400
+	1250 1450 1250 4150
+Wire Wire Line
+	1250 4150 4450 4150
+Wire Wire Line
+	1750 3700 2000 3700
+Connection ~ 1250 1450
+Wire Wire Line
+	1250 1450 5800 1450
+Wire Wire Line
+	5800 1750 2000 1750
+Wire Wire Line
+	2000 1750 2000 3700
+Wire Wire Line
+	2000 3700 2400 3700
+Connection ~ 2000 3700
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5A68F4CF
+P 8850 1300
+F 0 "J1" H 8930 1292 50  0000 L CNN
+F 1 "Conn_01x02 E-STOP" H 8930 1201 50  0000 L CNN
+F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 8850 1300 50  0001 C CNN
+F 3 "~" H 8850 1300 50  0001 C CNN
+	1    8850 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 1300 8650 1000
+Wire Wire Line
+	8650 1000 7900 1000
+Wire Wire Line
+	8650 1400 8650 1550
+Wire Wire Line
+	8650 1550 7900 1550
+Wire Wire Line
+	4000 3150 4450 3150
+Wire Wire Line
+	5800 1950 5600 1950
+Wire Wire Line
+	5600 1950 5600 2950
+Connection ~ 5600 2950
 $EndSCHEMATC

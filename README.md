@@ -7,9 +7,10 @@ The goal of this project is to create an open source H-bridge gate driver design
 
 The design could be adapted for different modules types after testing.
 
-The "Dual Gate Driver" can be directly connected to this control board (No more adapter board is required):
+The "Dual Gate Driver" can be directly connected to this control board:
 
 https://github.com/paltatech/VESC-controller
+
 
 ## V0.1:
 
@@ -27,7 +28,7 @@ Feature:
 
 Changes from the original wolfspeed design:
 
-- Added Voltage sense circuit
+- Added Voltage sense circuit (Experimental)
 - 98 x 60 mm 2 layer PCB made with Kicad
 - Current sensor connector
 - Temperature sensor circuit & connector
