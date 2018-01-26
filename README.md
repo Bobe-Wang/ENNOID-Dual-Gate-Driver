@@ -11,7 +11,7 @@ The "Dual Gate Driver" can be directly connected to this control board:
 https://github.com/paltatech/VESC-controller
 
 
-## V0.1 (untested):
+## V0.1 (untested & archived):
 
 V0.1 is based upon the design of the wolfspeed two-channel gate driver for 1200V SiC MOSFET power modules
 - https://www.wolfspeed.com/cgd15hb62p1
@@ -37,6 +37,7 @@ Changes from the original wolfspeed design:
 ## V0.2:
 
 V0.2 is based upon the design from tiduc70a.pdf.
+
 - http://www.ti.com/lit/ug/tiduc70a/tiduc70a.pdf
 
 Changes from V0.1 include:
