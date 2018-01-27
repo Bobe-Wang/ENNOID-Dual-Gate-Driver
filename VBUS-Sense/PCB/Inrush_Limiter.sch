@@ -236,8 +236,8 @@ F 3 "" H 4550 3950 50  0001 C CNN
 	1    4550 3950
 	-1   0    0    1   
 $EndComp
-Text Notes 4650 2200 0    50   ~ 0
-Bring Gate to VBAT-  \nfor shutting down the\nmain IGBT (E-STOP)\n
+Text Notes 1550 2300 0    50   ~ 0
+Bring Gate to VBAT-  \nfor shutting down the\nmain IGBT (E-STOP)\n\nconnected to external kill switch\n
 Wire Notes Line
 	7500 1000 5700 1000
 Wire Notes Line
@@ -361,4 +361,6 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 4950 3500 50  000
 	1    4950 3500
 	1    0    0    -1  
 $EndComp
+Text Notes 6000 800  0    50   ~ 0
+automatic soft turn on of the external igbt
 $EndSCHEMATC

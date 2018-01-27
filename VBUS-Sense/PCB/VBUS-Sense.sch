@@ -281,7 +281,7 @@ Connection ~ 4650 4150
 Wire Wire Line
 	4650 4150 5050 4150
 Text Notes 800  6400 0    118  ~ 24
-This board has 4 functions\n- Measuring the voltage of the DC bus (VBUS)\n- Discharging the DC Bus when power is turned off\n- Precharging the DC bus through an external single IGBT module (Inrush_Limiter)\n- Driving an external Solid state contactor for E-STOP (IGBT module)
+This board has 4 functions\n- Measuring the voltage of the DC bus (VBUS)\n- Discharging the DC Bus when power is turned off\n- Precharging the DC bus through an external single IGBT module (Inrush_Limiter)\n- Driving the same IGBT module for DC link current & E-STOP (replacing contactor)
 Wire Notes Line
 	2300 2800 5400 2800
 Wire Notes Line
@@ -387,4 +387,49 @@ Wire Wire Line
 Connection ~ 5050 4150
 Wire Wire Line
 	5050 4150 5450 4150
+Text Notes 2700 3850 0    50   ~ 0
+Switch turn on when power is down
+$Comp
+L Device:Q_NIGBT_CEG Q?
+U 1 1 5A6C71DF
+P 9150 5350
+F 0 "Q?" H 9341 5396 50  0000 L CNN
+F 1 "IGBT" H 9341 5305 50  0000 L CNN
+F 2 "" H 9350 5450 50  0001 C CNN
+F 3 "" H 9150 5350 50  0001 C CNN
+	1    9150 5350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9250 5150
+NoConn ~ 8950 5350
+NoConn ~ 9250 5550
+Text Notes 9300 5050 0    50   ~ 0
+VBUS-\n
+Text Notes 9250 5700 0    50   ~ 0
+VBAT-
+Text Notes 8700 5400 0    50   ~ 0
+GATE
+Wire Notes Line
+	8700 4750 8700 5800
+Wire Notes Line
+	8700 5800 10600 5800
+Wire Notes Line
+	10600 5800 10600 4750
+Wire Notes Line
+	10600 4750 8700 4750
+$Comp
+L Device:C C?
+U 1 1 5A6C71F0
+P 9700 5400
+F 0 "C?" H 9815 5446 50  0000 L CNN
+F 1 "DC Link Cap" H 9815 5355 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9738 5250 50  0001 C CNN
+F 3 "" H 9700 5400 50  0001 C CNN
+	1    9700 5400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9700 5250
+NoConn ~ 9700 5550
+Text Notes 9250 4900 0    50   ~ 0
+1200V 600A IGBT module
 $EndSCHEMATC
