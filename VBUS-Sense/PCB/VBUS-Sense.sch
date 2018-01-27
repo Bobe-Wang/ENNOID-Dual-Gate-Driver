@@ -388,7 +388,7 @@ Connection ~ 5050 4150
 Wire Wire Line
 	5050 4150 5450 4150
 Text Notes 2700 3850 0    50   ~ 0
-Switch turn on when power is down
+FET turn on when power is down
 $Comp
 L Device:Q_NIGBT_CEG Q?
 U 1 1 5A6C71DF
