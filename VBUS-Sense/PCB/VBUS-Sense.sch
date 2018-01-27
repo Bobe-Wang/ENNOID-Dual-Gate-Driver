@@ -32,7 +32,7 @@ L VBUS-Sense-rescue:Conn_01x04-Connector J3
 U 1 1 5A4FB1AF
 P 8350 3900
 F 0 "J3" H 8430 3892 50  0000 L CNN
-F 1 "Conn_01x04" H 8430 3801 50  0000 L CNN
+F 1 "Conn_01x04 to vesc board" H 8430 3801 50  0000 L CNN
 F 2 "Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight" H 8350 3900 50  0001 C CNN
 F 3 "~" H 8350 3900 50  0001 C CNN
 	1    8350 3900
@@ -347,7 +347,7 @@ L Connector_Generic:Conn_01x02 J1
 U 1 1 5A68F4CF
 P 8850 1300
 F 0 "J1" H 8930 1292 50  0000 L CNN
-F 1 "Conn_01x02 E-STOP" H 8930 1201 50  0000 L CNN
+F 1 "Conn_01x02 to external 12V power switch or VESC GPIO" H 8930 1201 50  0000 L CNN
 F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 8850 1300 50  0001 C CNN
 F 3 "~" H 8850 1300 50  0001 C CNN
 	1    8850 1300
