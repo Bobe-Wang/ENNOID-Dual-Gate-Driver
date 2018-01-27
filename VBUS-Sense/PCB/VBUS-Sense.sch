@@ -312,7 +312,7 @@ L Mechanical:Mounting_Hole_PAD MK4
 U 1 1 5A684EEC
 P 3450 950
 F 0 "MK4" V 3687 955 50  0000 C CNN
-F 1 "BAT-" V 3596 955 50  0000 C CNN
+F 1 "VBAT-" V 3596 955 50  0000 C CNN
 F 2 "Mounting_Holes:MountingHole_4.3mm_M4_Pad_Via" H 3450 950 50  0001 C CNN
 F 3 "" H 3450 950 50  0001 C CNN
 	1    3450 950 
@@ -452,4 +452,6 @@ Wire Wire Line
 	9850 5750 10100 5750
 Text Notes 8750 5350 0    50   ~ 0
 VBAT+
+Text Notes 9050 5000 0    50   ~ 0
+external circuit\n
 $EndSCHEMATC
