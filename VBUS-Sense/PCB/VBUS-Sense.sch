@@ -280,7 +280,7 @@ Wire Wire Line
 Connection ~ 4650 4150
 Wire Wire Line
 	4650 4150 5050 4150
-Text Notes 800  6400 0    118  ~ 24
+Text Notes 550  6450 0    118  ~ 24
 This board has 4 functions\n- Measuring the voltage of the DC bus (VBUS)\n- Discharging the DC Bus when power is turned off\n- Precharging the DC bus through an external single IGBT module (Inrush_Limiter)\n- Driving the same IGBT module for DC link current & E-STOP (replacing contactor)
 Wire Notes Line
 	2300 2800 5400 2800
@@ -392,44 +392,64 @@ Switch turn on when power is down
 $Comp
 L Device:Q_NIGBT_CEG Q?
 U 1 1 5A6C71DF
-P 9150 5350
-F 0 "Q?" H 9341 5396 50  0000 L CNN
-F 1 "IGBT" H 9341 5305 50  0000 L CNN
-F 2 "" H 9350 5450 50  0001 C CNN
-F 3 "" H 9150 5350 50  0001 C CNN
-	1    9150 5350
+P 9400 5950
+F 0 "Q?" H 9591 5996 50  0000 L CNN
+F 1 "IGBT" H 9591 5905 50  0000 L CNN
+F 2 "" H 9600 6050 50  0001 C CNN
+F 3 "" H 9400 5950 50  0001 C CNN
+	1    9400 5950
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9250 5150
-NoConn ~ 8950 5350
-NoConn ~ 9250 5550
-Text Notes 9300 5050 0    50   ~ 0
+NoConn ~ 9200 5950
+Text Notes 10150 5800 0    50   ~ 0
 VBUS-\n
-Text Notes 9250 5700 0    50   ~ 0
+Text Notes 8750 6350 0    50   ~ 0
 VBAT-
-Text Notes 8700 5400 0    50   ~ 0
+Text Notes 8950 6000 0    50   ~ 0
 GATE
 Wire Notes Line
-	8700 4750 8700 5800
+	8650 4850 8650 6400
 Wire Notes Line
-	8700 5800 10600 5800
+	8650 6400 10850 6400
 Wire Notes Line
-	10600 5800 10600 4750
+	10850 6400 10850 4850
 Wire Notes Line
-	10600 4750 8700 4750
+	10850 4850 8650 4850
+Text Notes 9700 6150 0    50   ~ 0
+1200V 600A IGBT module
+Text Notes 10300 5350 0    50   ~ 0
+VBUS+\n
 $Comp
 L Device:C C?
 U 1 1 5A6C71F0
-P 9700 5400
-F 0 "C?" H 9815 5446 50  0000 L CNN
-F 1 "DC Link Cap" H 9815 5355 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9738 5250 50  0001 C CNN
-F 3 "" H 9700 5400 50  0001 C CNN
-	1    9700 5400
+P 9850 5500
+F 0 "C?" H 9965 5546 50  0000 L CNN
+F 1 "DC Link Cap" H 9965 5455 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9888 5350 50  0001 C CNN
+F 3 "" H 9850 5500 50  0001 C CNN
+	1    9850 5500
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9700 5250
-NoConn ~ 9700 5550
-Text Notes 9250 4900 0    50   ~ 0
-1200V 600A IGBT module
+Wire Wire Line
+	9500 5750 9850 5750
+Wire Wire Line
+	9850 5350 10100 5350
+NoConn ~ 10100 5350
+NoConn ~ 10100 5750
+NoConn ~ 9050 5350
+NoConn ~ 9050 6350
+Wire Wire Line
+	9500 6150 9500 6350
+Wire Wire Line
+	9500 6350 9050 6350
+Connection ~ 9850 5350
+Wire Wire Line
+	9050 5350 9850 5350
+Wire Wire Line
+	9850 5650 9850 5750
+Connection ~ 9850 5750
+Wire Wire Line
+	9850 5750 10100 5750
+Text Notes 8750 5350 0    50   ~ 0
+VBAT+
 $EndSCHEMATC
