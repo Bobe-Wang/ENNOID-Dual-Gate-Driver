@@ -20,7 +20,7 @@ Text Notes 900  1550 0    260  ~ 52
 0-650V phase voltage measurement\nusing isolation amplifier
 $Bitmap
 Pos 1500 2950
-Scale 1.000000
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 E5 00 00 02 56 08 02 00 00 00 E9 E4 08 
 73 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0E 74 00 00 0E 74 
@@ -3123,7 +3123,7 @@ Wire Notes Line
 	6000 2350 6000 5500
 $Bitmap
 Pos 2100 6650
-Scale 1.000000
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 03 7F 00 00 02 77 08 02 00 00 00 AB F1 7F 
 01 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0E 74 00 00 0E 74 
@@ -5050,7 +5050,7 @@ EndData
 $EndBitmap
 $Bitmap
 Pos 9200 6000
-Scale 1.000000
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 04 A0 00 00 02 55 08 02 00 00 00 66 B4 1A 
 7B 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0E 74 00 00 0E 74 
@@ -6754,7 +6754,7 @@ F 4 "AMC1301QDWVRQ1" H 5900 3650 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C37
+L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue C37
 U 1 1 5A30FC69
 P 5150 3300
 F 0 "C37" H 5265 3346 50  0000 L CNN
@@ -6766,7 +6766,7 @@ F 4 "C0805C104J5RACAUTO" H 5150 3300 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C38
+L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue C38
 U 1 1 5A30FE1D
 P 5150 3950
 F 0 "C38" H 5265 3996 50  0000 L CNN
@@ -6796,7 +6796,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 4200 5150 4100
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue R28
+L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue R28
 U 1 1 5A30FF82
 P 4200 3000
 F 0 "R28" V 3993 3000 50  0000 C CNN
@@ -6808,7 +6808,7 @@ F 4 "RK73H2ATTDD8060F" V 4200 3000 50  0001 C CNN "Mfg.#"
 	0    1    1    0   
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue R27
+L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue R27
 U 1 1 5A30FFC5
 P 3800 3750
 F 0 "R27" V 3593 3750 50  0000 C CNN
@@ -6820,7 +6820,7 @@ F 4 "CHV1206-FX-1004ELF " V 3800 3750 50  0001 C CNN "Mfg.#"
 	0    1    1    0   
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue R29
+L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue R29
 U 1 1 5A30FFF9
 P 4200 3750
 F 0 "R29" V 3993 3750 50  0000 C CNN
@@ -6832,7 +6832,7 @@ F 4 "CHV1206-FX-1004ELF " V 4200 3750 50  0001 C CNN "Mfg.#"
 	0    1    1    0   
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue R30
+L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue R30
 U 1 1 5A310023
 P 4500 3950
 F 0 "R30" H 4430 3904 50  0000 R CNN
@@ -6855,7 +6855,7 @@ Wire Wire Line
 	5150 3000 4800 3000
 Connection ~ 5150 3000
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:D_Zener-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue D9
+L ENNOID-Dual-Gate-Driver-rescue:D_Zener-device-ENNOID-Dual-Gate-Driver-rescue D9
 U 1 1 5A3109F4
 P 4500 3250
 F 0 "D9" V 4454 3329 50  0000 L CNN
@@ -6875,7 +6875,7 @@ Connection ~ 4500 3450
 Wire Wire Line
 	4500 3450 4500 3400
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C39
+L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue C39
 U 1 1 5A311419
 P 6750 3300
 F 0 "C39" H 6865 3346 50  0000 L CNN
@@ -6887,7 +6887,7 @@ F 4 "C0805C104J5RACAUTO" H 6750 3300 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C40
+L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue C40
 U 1 1 5A31145B
 P 7200 3300
 F 0 "C40" H 7315 3346 50  0000 L CNN
@@ -6956,7 +6956,7 @@ Connection ~ 5150 4200
 Wire Wire Line
 	4050 3000 3800 3000
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C9
+L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue C9
 U 1 1 5A4DF1BA
 P 4800 3300
 F 0 "C9" H 4915 3346 50  0000 L CNN
@@ -6979,7 +6979,7 @@ Wire Wire Line
 Wire Wire Line
 	7200 3050 7950 3050
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue R17
+L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue R17
 U 1 1 5A606745
 P 4800 3750
 F 0 "R17" V 5007 3750 50  0000 C CNN

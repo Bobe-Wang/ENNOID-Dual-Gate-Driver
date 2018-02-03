@@ -19,7 +19,7 @@ VCC_IN
 Text HLabel 3500 2700 0    60   Input ~ 0
 GND
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C6
+L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue C6
 U 1 1 5A301108
 P 4900 2600
 AR Path="/5A300795/5A301108" Ref="C6"  Part="1" 
@@ -33,7 +33,7 @@ F 4 "UMK212BJ105MG-T " H 4900 2600 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C5
+L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue C5
 U 1 1 5A301151
 P 4400 2600
 AR Path="/5A300795/5A301151" Ref="C5"  Part="1" 
@@ -71,7 +71,7 @@ Wire Wire Line
 	4900 2800 5200 2800
 Connection ~ 4900 2750
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C7
+L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue C7
 U 1 1 5A308BE5
 P 6700 2350
 AR Path="/5A300795/5A308BE5" Ref="C7"  Part="1" 
@@ -85,7 +85,7 @@ F 4 "UMK212BJ105MG-T " H 6700 2350 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C8
+L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue C8
 U 1 1 5A308C45
 P 6700 2850
 AR Path="/5A300795/5A308C45" Ref="C8"  Part="1" 

@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 3500 2500 0    60   Input ~ 0
-+5V
+VIN
 Text HLabel 3500 2700 0    60   Input ~ 0
 GND
 $Comp
