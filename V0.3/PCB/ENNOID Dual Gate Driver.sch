@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:Conn_02x08_Odd_Even-Connector-ENNOID-Dual-Gate-Driver-rescue J1
+L ENNOID-Dual-Gate-Driver-rescue:Conn_02x08_Odd_Even-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J1
 U 1 1 5A3005AC
 P 1900 6600
 F 0 "J1" H 1950 7025 50  0000 C CNN
@@ -60,13 +60,14 @@ F4 "RDY" I L 4900 1350 60
 F5 "PWM+" I L 4900 1150 60 
 F6 "-VEE" I R 6200 1400 60 
 F7 "+VCC" I R 6200 1700 60 
-F8 "E" I R 6200 1150 60 
+F8 "E" I R 6200 1050 60 
 F9 "C" I R 6200 750 60 
-F10 "G" I R 6200 950 60 
+F10 "G" I R 6200 900 60 
 F11 "+5V" I L 4900 700 60 
 F12 "GND" I L 4900 1750 60 
 F13 "PWM-" I L 4900 1250 50 
 F14 "GND_ISO" I R 6200 1550 50 
+F15 "BUS" I R 6200 1200 50 
 $EndSheet
 $Sheet
 S 4900 2850 1300 500 
@@ -80,7 +81,7 @@ F5 "-VEE" O R 6200 3250 60
 F6 "COM" O R 6200 3100 60 
 $EndSheet
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue C1
+L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C1
 U 1 1 5A33DEE4
 P 900 3350
 F 0 "C1" H 1015 3396 50  0000 L CNN
@@ -92,7 +93,7 @@ F 4 "UMK325BJ106KMHP" H 900 3350 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue C2
+L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C2
 U 1 1 5A33DFE6
 P 1350 3350
 F 0 "C2" H 1465 3396 50  0000 L CNN
@@ -106,7 +107,7 @@ $EndComp
 Wire Wire Line
 	900  3200 1200 3200
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue C3
+L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C3
 U 1 1 5A33E247
 P 2500 3350
 F 0 "C3" H 2615 3396 50  0000 L CNN
@@ -118,7 +119,7 @@ F 4 "C0805C104J5RACAUTO " H 2500 3350 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue C4
+L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C4
 U 1 1 5A33E2F7
 P 2950 3350
 F 0 "C4" H 3065 3396 50  0000 L CNN
@@ -130,7 +131,7 @@ F 4 "UMK212BJ105MG-T " H 2950 3350 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:L7805-regul-ENNOID-Dual-Gate-Driver-rescue U1
+L ENNOID-Dual-Gate-Driver-rescue:L7805-regul-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue U1
 U 1 1 5A33E500
 P 2050 3200
 F 0 "U1" H 2050 3442 50  0000 C CNN
@@ -188,11 +189,12 @@ F6 "PWM+" I L 4900 4100 60
 F7 "GND" I L 4900 4700 60 
 F8 "+VCC" I R 6200 4050 60 
 F9 "-VEE" I R 6200 3750 60 
-F10 "C" I R 6200 4300 60 
-F11 "G" I R 6200 4500 60 
-F12 "E" I R 6200 4700 60 
+F10 "C" I R 6200 4250 60 
+F11 "G" I R 6200 4400 60 
+F12 "E" I R 6200 4550 60 
 F13 "PWM-" I L 4900 4200 50 
 F14 "GND_ISO" I R 6200 3900 50 
+F15 "BUS" I R 6200 4700 50 
 $EndSheet
 Wire Wire Line
 	6200 750  8200 750 
@@ -231,7 +233,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 4700 4800 4700
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:Conn_01x04-Connector-ENNOID-Dual-Gate-Driver-rescue J2
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x04-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J2
 U 1 1 5A320690
 P 2150 4450
 F 0 "J2" H 2229 4442 50  0000 L CNN
@@ -253,7 +255,7 @@ F 3 "" H 1250 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue C43
+L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C43
 U 1 1 5A320A25
 P 1250 4500
 F 0 "C43" H 1365 4546 50  0000 L CNN
@@ -275,7 +277,7 @@ Wire Wire Line
 Wire Wire Line
 	1250 4650 1950 4650
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:Conn_01x02-Connector-ENNOID-Dual-Gate-Driver-rescue J3
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x02-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J3
 U 1 1 5A3298CC
 P 4600 7100
 F 0 "J3" H 4680 7092 50  0000 L CNN
@@ -286,7 +288,7 @@ F 3 "~" H 4600 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue C44
+L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C44
 U 1 1 5A329B46
 P 4050 7300
 F 0 "C44" H 4165 7346 50  0000 L CNN
@@ -306,7 +308,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 7450 4050 7450
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue R33
+L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue R33
 U 1 1 5A32DB7E
 P 4050 6850
 F 0 "R33" H 4120 6896 50  0000 L CNN
@@ -317,7 +319,7 @@ F 3 "" H 4050 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue R32
+L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue R32
 U 1 1 5A32DDF0
 P 3800 7100
 F 0 "R32" V 3593 7100 50  0000 C CNN
@@ -427,7 +429,7 @@ F 3 "" H 2350 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue J5
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J5
 U 1 1 5A33A1F4
 P 8400 750
 F 0 "J5" H 8427 776 50  0000 L CNN
@@ -438,7 +440,7 @@ F 3 "~" H 8400 750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue J6
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J6
 U 1 1 5A33C74C
 P 8400 1150
 F 0 "J6" H 8428 1176 50  0000 L CNN
@@ -448,10 +450,8 @@ F 3 "~" H 8400 1150 50  0001 C CNN
 	1    8400 1150
 	1    0    0    -1  
 $EndComp
-Text GLabel 8300 2750 2    60   Input ~ 0
-PHASE
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue J4
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J4
 U 1 1 5A3425E9
 P 8350 2950
 F 0 "J4" H 8377 2976 50  0000 L CNN
@@ -471,7 +471,7 @@ Wire Wire Line
 	2350 7000 2200 7000
 Connection ~ 2200 7000
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:Fuse-device-ENNOID-Dual-Gate-Driver-rescue F1
+L ENNOID-Dual-Gate-Driver-rescue:Fuse-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue F1
 U 1 1 5A3CFD36
 P 1500 7400
 F 0 "F1" V 1600 7400 50  0000 C CNN
@@ -498,7 +498,7 @@ $EndComp
 Wire Wire Line
 	1300 7400 1350 7400
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue C42
+L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C42
 U 1 1 5A3EC109
 P 2500 6950
 F 0 "C42" H 2615 6996 50  0000 L CNN
@@ -548,7 +548,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 7100 3650 7100
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue J7
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J7
 U 1 1 5A338421
 P 8350 4300
 F 0 "J7" H 8377 4326 50  0000 L CNN
@@ -559,18 +559,16 @@ F 3 "~" H 8350 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue J8
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J8
 U 1 1 5A33858B
-P 8400 4700
-F 0 "J8" H 8427 4726 50  0000 L CNN
-F 1 "E" H 8427 4635 50  0000 L CNN
-F 2 "ENNOID:Quick_fit_terminal" H 8400 4700 50  0001 C CNN
-F 3 "~" H 8400 4700 50  0001 C CNN
-	1    8400 4700
+P 8450 4550
+F 0 "J8" H 8477 4576 50  0000 L CNN
+F 1 "E" H 8477 4485 50  0000 L CNN
+F 2 "ENNOID:Quick_fit_terminal" H 8450 4550 50  0001 C CNN
+F 3 "~" H 8450 4550 50  0001 C CNN
+	1    8450 4550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8150 2750 8300 2750
 Wire Wire Line
 	2200 6500 2300 6500
 Text GLabel 4400 1550 0    60   Output ~ 0
@@ -612,7 +610,7 @@ F 3 "" H 4750 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue C41
+L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C41
 U 1 1 5A3DD0B7
 P 1100 6950
 F 0 "C41" H 1215 6996 50  0000 L CNN
@@ -635,7 +633,7 @@ F 3 "" H 1000 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue R5
+L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue R5
 U 1 1 5A4D972A
 P 1150 1400
 F 0 "R5" H 1220 1446 50  0000 L CNN
@@ -647,7 +645,7 @@ F 4 "RK73B2ATTDD301J" H 1150 1400 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue R16
+L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue R16
 U 1 1 5A4D9A5E
 P 1500 1400
 F 0 "R16" H 1570 1446 50  0000 L CNN
@@ -659,7 +657,7 @@ F 4 "RK73B2ATTDD301J" H 1500 1400 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue R34
+L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue R34
 U 1 1 5A4D9BE2
 P 1850 1400
 F 0 "R34" H 1920 1446 50  0000 L CNN
@@ -678,7 +676,7 @@ Connection ~ 1150 1250
 Wire Wire Line
 	1500 1250 1850 1250
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:LED-device-ENNOID-Dual-Gate-Driver-rescue D12
+L ENNOID-Dual-Gate-Driver-rescue:LED-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue D12
 U 1 1 5A4F44B8
 P 1150 1850
 F 0 "D12" V 1188 1733 50  0000 R CNN
@@ -690,7 +688,7 @@ F 4 "LTW-170TK " V 1150 1850 50  0001 C CNN "Mfg.#"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:LED-device-ENNOID-Dual-Gate-Driver-rescue D13
+L ENNOID-Dual-Gate-Driver-rescue:LED-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue D13
 U 1 1 5A4F4A2D
 P 1500 1850
 F 0 "D13" V 1538 1733 50  0000 R CNN
@@ -702,7 +700,7 @@ F 4 "LTW-170TK " V 1500 1850 50  0001 C CNN "Mfg.#"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:LED-device-ENNOID-Dual-Gate-Driver-rescue D14
+L ENNOID-Dual-Gate-Driver-rescue:LED-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue D14
 U 1 1 5A4F4BC5
 P 1850 1850
 F 0 "D14" V 1888 1733 50  0000 R CNN
@@ -757,9 +755,9 @@ Wire Notes Line
 Wire Notes Line
 	5700 7800 5700 500 
 Wire Wire Line
-	6200 950  8200 950 
+	6200 900  8200 900 
 Wire Wire Line
-	8200 950  8200 1150
+	8200 900  8200 1150
 Wire Wire Line
 	6200 1400 6500 1400
 Wire Wire Line
@@ -797,30 +795,13 @@ Wire Wire Line
 Wire Wire Line
 	6300 3750 6200 3750
 Wire Wire Line
-	6200 1150 6750 1150
+	7700 2750 8150 2750
 Wire Wire Line
-	6750 1150 6750 2750
+	8150 4300 8150 4400
 Wire Wire Line
-	6750 2750 8150 2750
-Connection ~ 8150 2750
+	8150 4400 6200 4400
 Wire Wire Line
-	7200 4700 7200 5750
-Wire Wire Line
-	7200 5750 6200 5750
-Wire Wire Line
-	7200 4700 8200 4700
-Wire Wire Line
-	6200 4700 7200 4700
-Connection ~ 7200 4700
-Wire Wire Line
-	8150 4300 8150 4500
-Wire Wire Line
-	8150 4500 6200 4500
-Wire Wire Line
-	6200 4300 6750 4300
-Wire Wire Line
-	6750 4300 6750 2750
-Connection ~ 6750 2750
+	6200 4250 6950 4250
 Wire Wire Line
 	3900 1150 3900 4200
 Wire Wire Line
@@ -846,18 +827,13 @@ U 5A30A670
 F0 "phase_voltage_sensor" 60
 F1 "V_PHASE.sch" 60
 F2 "PHASE" I R 6200 5500 60 
-F3 "E" I R 6200 5750 60 
+F3 "COM" I R 6200 5750 60 
 F4 "+5V" I L 4900 5200 60 
 F5 "Vout+" O L 4900 5600 60 
 F6 "Vout-" O L 4900 5700 60 
 F7 "GND" I L 4900 5850 60 
 F8 "+VCC" I R 6200 5200 60 
 $EndSheet
-Wire Wire Line
-	6750 5500 6750 4300
-Wire Wire Line
-	6200 5500 6750 5500
-Connection ~ 6750 4300
 $Comp
 L power:GND #PWR01
 U 1 1 5A60DF81
@@ -971,7 +947,7 @@ F 3 "" H 4750 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01-Connector_Generic J9
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01-Connector_Generic-ENNOID-Dual-Gate-Driver-rescue J9
 U 1 1 5A6C9EDA
 P 10300 5050
 F 0 "J9" H 10380 5092 50  0000 L CNN
@@ -985,7 +961,7 @@ NoConn ~ 10100 5050
 NoConn ~ 10100 5300
 NoConn ~ 10100 5550
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01-Connector_Generic J10
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01-Connector_Generic-ENNOID-Dual-Gate-Driver-rescue J10
 U 1 1 5A6D6D6D
 P 10300 5300
 F 0 "J10" H 10379 5342 50  0000 L CNN
@@ -996,7 +972,7 @@ F 3 "~" H 10300 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01-Connector_Generic J11
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01-Connector_Generic-ENNOID-Dual-Gate-Driver-rescue J11
 U 1 1 5A6D6DBF
 P 10300 5550
 F 0 "J11" H 10379 5592 50  0000 L CNN
@@ -1021,4 +997,58 @@ F 3 "~" H 10450 6100 50  0001 C CNN
 	1    10450 6100
 	1    0    0    -1  
 $EndComp
+$Comp
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J12
+U 1 1 5A78BD3B
+P 6950 1200
+F 0 "J12" H 6977 1226 50  0000 L CNN
+F 1 "E-H" H 6977 1135 50  0000 L CNN
+F 2 "ENNOID:Quick_fit_terminal" H 6950 1200 50  0001 C CNN
+F 3 "~" H 6950 1200 50  0001 C CNN
+	1    6950 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 1050 6200 1050
+Wire Wire Line
+	7700 1050 7700 2750
+Wire Wire Line
+	6200 1200 6750 1200
+$Comp
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J13
+U 1 1 5A7C565F
+P 7200 4700
+F 0 "J13" H 7227 4726 50  0000 L CNN
+F 1 "E-L" H 7227 4635 50  0000 L CNN
+F 2 "ENNOID:Quick_fit_terminal" H 7200 4700 50  0001 C CNN
+F 3 "~" H 7200 4700 50  0001 C CNN
+	1    7200 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 4700 6200 4700
+Text GLabel 8300 2750 2    60   Input ~ 0
+PHASE
+Connection ~ 8150 2750
+Wire Wire Line
+	8150 2750 8300 2750
+Wire Wire Line
+	7700 4250 7700 5500
+Wire Wire Line
+	6200 5500 7700 5500
+Wire Wire Line
+	6400 3900 6400 5750
+Wire Wire Line
+	6400 5750 6200 5750
+Wire Wire Line
+	6200 4550 8250 4550
+Connection ~ 6400 3900
+Wire Wire Line
+	6400 2350 6950 2350
+Wire Wire Line
+	6950 2350 6950 4250
+Connection ~ 6400 2350
+Connection ~ 6950 4250
+Wire Wire Line
+	6950 4250 7700 4250
 $EndSCHEMATC
