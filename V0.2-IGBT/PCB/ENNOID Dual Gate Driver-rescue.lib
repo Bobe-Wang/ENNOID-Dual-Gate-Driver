@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Conn_01x01-Connector_Generic-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
+# Conn_01x01-Connector_Generic-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
 #
-DEF Conn_01x01-Connector_Generic-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J 0 40 Y N 1 F N
+DEF Conn_01x01-Connector_Generic-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Conn_01x01-Connector_Generic-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 0 -100 50 H V C CNN
+F1 "Conn_01x01-Connector_Generic-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
