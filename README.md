@@ -1,4 +1,4 @@
-This repository is part of the **Electric Vehicle Powertrain Equipment - EVPE** project which includes the following components:
+This repository is part of the **Electric Vehicle Powertrain Equipment - EVPE**. The **EVPE** project includes the development of the following components:
 
 - Battery management system
 - Motor driver
@@ -13,7 +13,7 @@ The goal of this repository is to create an open source half-brige gate driver c
 - https://www.wolfspeed.com/cas120m12bm2
 
 
-The "Dual Gate Driver" can be directly connected to this control board:
+The "Dual Gate Driver" is a sub-component of the **EVPE project - Motor driver** and can be directly connected to this control board:
 
 https://github.com/paltatech/VESC-controller
 
