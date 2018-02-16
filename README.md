@@ -1,6 +1,13 @@
+This repository is part of the **Electric Vehicle Powertrain Equipment - EVPE** project which includes the following components:
+
+- Battery management system
+- Motor driver
+- On-board charger
+- Three-phase electric motor
+
 # ENNOID - Dual Gate Driver
 
-The goal of this project is to create an open source H-bridge gate driver design for IGBT or Mosfet modules "bricks" like those:
+The goal of this repository is to create an open source half-brige gate driver circuit design for IGBT or Mosfet power stage. The PCB is actually adapted for being pin compatible with the package used in the modules listed below:
 
 - http://www.mitsubishielectric.com/semiconductors/content/product/powermod/powmod/igbtmod/tgatef/cm300du-12f_e.pdf
 - https://www.wolfspeed.com/cas120m12bm2
@@ -11,6 +18,7 @@ The "Dual Gate Driver" can be directly connected to this control board:
 https://github.com/paltatech/VESC-controller
 
 
+
 ## V0.1 (untested & archived):
 
 V0.1 is based upon the design of the wolfspeed two-channel gate driver for 1200V SiC MOSFET power modules
@@ -19,7 +27,7 @@ V0.1 is based upon the design of the wolfspeed two-channel gate driver for 1200V
 Feature:
 
 - Dual gate driver
-- 2W Isolated power supply / Gate
+- 2W Isolated power supply / gate
 - Direct mount low inductance design
 - Short circuit protection
 - Under voltage protection
@@ -43,7 +51,7 @@ V0.2 is based upon the design from tiduc70a.pdf.
 Changes from V0.1 include:
 
 - BJT based powerstage instead of mosfet IC IXD-609
-- Adjustable Soft Turnoff feature
+- Adjustable soft turnoff feature
 - SMD gate resistor instead of MELF
 - Active clamping / Over voltage protection
 - Shoot trough EMI protection on PWM input
@@ -67,3 +75,4 @@ BOM link for 3 boards at Mouser below :
 ### Board View
 
 ![alt text](V0.2-IGBT/PIC/Angle.png)
+

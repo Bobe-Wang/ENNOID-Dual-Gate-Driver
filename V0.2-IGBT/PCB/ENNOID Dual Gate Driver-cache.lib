@@ -24,11 +24,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
+# ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
 #
-DEF ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C 0 10 N Y 1 F N
+DEF ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 25 -100 50 H V L CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -59,11 +59,11 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
+# ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
 #
-DEF ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J 0 40 Y N 1 F N
+DEF ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 0 -100 50 H V C CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -79,11 +79,11 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ENNOID-Dual-Gate-Driver-rescue:Conn_01x02-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
+# ENNOID-Dual-Gate-Driver-rescue:Conn_01x02-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
 #
-DEF ENNOID-Dual-Gate-Driver-rescue:Conn_01x02-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J 0 40 Y N 1 F N
+DEF ENNOID-Dual-Gate-Driver-rescue:Conn_01x02-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "ENNOID-Dual-Gate-Driver-rescue:Conn_01x02-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 0 -200 50 H V C CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:Conn_01x02-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -103,11 +103,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ENNOID-Dual-Gate-Driver-rescue:Conn_01x04-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
+# ENNOID-Dual-Gate-Driver-rescue:Conn_01x04-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
 #
-DEF ENNOID-Dual-Gate-Driver-rescue:Conn_01x04-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J 0 40 Y N 1 F N
+DEF ENNOID-Dual-Gate-Driver-rescue:Conn_01x04-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "ENNOID-Dual-Gate-Driver-rescue:Conn_01x04-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 0 -300 50 H V C CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:Conn_01x04-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -131,11 +131,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ENNOID-Dual-Gate-Driver-rescue:Conn_02x08_Odd_Even-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
+# ENNOID-Dual-Gate-Driver-rescue:Conn_02x08_Odd_Even-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
 #
-DEF ENNOID-Dual-Gate-Driver-rescue:Conn_02x08_Odd_Even-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J 0 40 Y N 1 F N
+DEF ENNOID-Dual-Gate-Driver-rescue:Conn_02x08_Odd_Even-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J 0 40 Y N 1 F N
 F0 "J" 50 400 50 H V C CNN
-F1 "ENNOID-Dual-Gate-Driver-rescue:Conn_02x08_Odd_Even-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 50 -500 50 H V C CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:Conn_02x08_Odd_Even-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 50 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -183,11 +183,11 @@ X Pin_9 9 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ENNOID-Dual-Gate-Driver-rescue:D-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
+# ENNOID-Dual-Gate-Driver-rescue:D-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
 #
-DEF ENNOID-Dual-Gate-Driver-rescue:D-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue D 0 40 N N 1 F N
+DEF ENNOID-Dual-Gate-Driver-rescue:D-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "ENNOID-Dual-Gate-Driver-rescue:D-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 0 -100 50 H V C CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:D-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -206,11 +206,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ENNOID-Dual-Gate-Driver-rescue:D_Schottky-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
+# ENNOID-Dual-Gate-Driver-rescue:D_Schottky-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
 #
-DEF ENNOID-Dual-Gate-Driver-rescue:D_Schottky-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue D 0 40 N N 1 F N
+DEF ENNOID-Dual-Gate-Driver-rescue:D_Schottky-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "ENNOID-Dual-Gate-Driver-rescue:D_Schottky-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 0 -100 50 H V C CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:D_Schottky-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -229,11 +229,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ENNOID-Dual-Gate-Driver-rescue:D_Schottky_x2_ACom_KKA-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
+# ENNOID-Dual-Gate-Driver-rescue:D_Schottky_x2_ACom_KKA-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
 #
-DEF ENNOID-Dual-Gate-Driver-rescue:D_Schottky_x2_ACom_KKA-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue D 0 30 Y N 1 F N
+DEF ENNOID-Dual-Gate-Driver-rescue:D_Schottky_x2_ACom_KKA-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "ENNOID-Dual-Gate-Driver-rescue:D_Schottky_x2_ACom_KKA-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 0 100 50 H V C CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:D_Schottky_x2_ACom_KKA-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -253,11 +253,11 @@ X A 3 0 -200 100 U 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# ENNOID-Dual-Gate-Driver-rescue:D_TVS-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
+# ENNOID-Dual-Gate-Driver-rescue:D_TVS-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
 #
-DEF ENNOID-Dual-Gate-Driver-rescue:D_TVS-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue D 0 40 N N 1 F N
+DEF ENNOID-Dual-Gate-Driver-rescue:D_TVS-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "ENNOID-Dual-Gate-Driver-rescue:D_TVS-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 0 -100 50 H V C CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:D_TVS-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -277,11 +277,11 @@ X A2 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ENNOID-Dual-Gate-Driver-rescue:D_Zener-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
+# ENNOID-Dual-Gate-Driver-rescue:D_Zener-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
 #
-DEF ENNOID-Dual-Gate-Driver-rescue:D_Zener-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue D 0 40 N N 1 F N
+DEF ENNOID-Dual-Gate-Driver-rescue:D_Zener-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "ENNOID-Dual-Gate-Driver-rescue:D_Zener-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 0 -100 50 H V C CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:D_Zener-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -300,11 +300,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ENNOID-Dual-Gate-Driver-rescue:Fuse-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
+# ENNOID-Dual-Gate-Driver-rescue:Fuse-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
 #
-DEF ENNOID-Dual-Gate-Driver-rescue:Fuse-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue F 0 0 N Y 1 F N
+DEF ENNOID-Dual-Gate-Driver-rescue:Fuse-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue F 0 0 N Y 1 F N
 F0 "F" 80 0 50 V V C CNN
-F1 "ENNOID-Dual-Gate-Driver-rescue:Fuse-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" -75 0 50 V V C CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:Fuse-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" -75 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -318,11 +318,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ENNOID-Dual-Gate-Driver-rescue:L7805-regul-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
+# ENNOID-Dual-Gate-Driver-rescue:L7805-regul-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
 #
-DEF ENNOID-Dual-Gate-Driver-rescue:L7805-regul-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue U 0 10 Y Y 1 F N
+DEF ENNOID-Dual-Gate-Driver-rescue:L7805-regul-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue U 0 10 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
-F1 "ENNOID-Dual-Gate-Driver-rescue:L7805-regul-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 0 125 50 H V L CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:L7805-regul-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 0 125 50 H V L CNN
 F2 "" 25 -150 50 H I L CIN
 F3 "" 0 -50 50 H I C CNN
 $FPLIST
@@ -338,11 +338,11 @@ X OUT 3 300 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# ENNOID-Dual-Gate-Driver-rescue:LED-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
+# ENNOID-Dual-Gate-Driver-rescue:LED-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
 #
-DEF ENNOID-Dual-Gate-Driver-rescue:LED-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue D 0 40 Y N 1 F N
+DEF ENNOID-Dual-Gate-Driver-rescue:LED-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "ENNOID-Dual-Gate-Driver-rescue:LED-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 0 -100 50 H V C CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:LED-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -359,11 +359,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ENNOID-Dual-Gate-Driver-rescue:Q_NPN_Darlington_BCEC-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
+# ENNOID-Dual-Gate-Driver-rescue:Q_NPN_Darlington_BCEC-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
 #
-DEF ENNOID-Dual-Gate-Driver-rescue:Q_NPN_Darlington_BCEC-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue Q 0 0 Y N 1 F N
+DEF ENNOID-Dual-Gate-Driver-rescue:Q_NPN_Darlington_BCEC-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue Q 0 0 Y N 1 F N
 F0 "Q" 220 50 50 H V L CNN
-F1 "ENNOID-Dual-Gate-Driver-rescue:Q_NPN_Darlington_BCEC-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 220 -50 50 H V L CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:Q_NPN_Darlington_BCEC-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 220 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -381,11 +381,11 @@ X C2 4 200 200 100 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# ENNOID-Dual-Gate-Driver-rescue:Q_PNP_Darlington_BCEC-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
+# ENNOID-Dual-Gate-Driver-rescue:Q_PNP_Darlington_BCEC-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
 #
-DEF ENNOID-Dual-Gate-Driver-rescue:Q_PNP_Darlington_BCEC-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue Q 0 0 Y N 1 F N
+DEF ENNOID-Dual-Gate-Driver-rescue:Q_PNP_Darlington_BCEC-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue Q 0 0 Y N 1 F N
 F0 "Q" 220 50 50 H V L CNN
-F1 "ENNOID-Dual-Gate-Driver-rescue:Q_PNP_Darlington_BCEC-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 220 -50 50 H V L CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:Q_PNP_Darlington_BCEC-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 220 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -403,11 +403,11 @@ X C 4 200 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
+# ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue
 #
-DEF ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue R 0 0 N Y 1 F N
+DEF ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 0 0 50 V V C CNN
+F1 "ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
