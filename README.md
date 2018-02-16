@@ -1,8 +1,8 @@
 This repository is part of the **Electric Vehicle Powertrain Equipment - EVPE**. The **EVPE** project includes the development of the following components:
 
 - Battery Pack architecture (To do)
-- Battery management system (To do will be based on the work from Danny Bokma - DieBieMS)
-- Motor driver (in testing phase)
+- Battery management system (To do - Will be based on the work from Danny Bokma - DieBieMS)
+- Motor driver (Work in progress)
 - On-board charger (To do)
 - Three-phase electric motor (Testing ENNOID's design)
 
