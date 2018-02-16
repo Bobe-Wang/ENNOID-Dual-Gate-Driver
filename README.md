@@ -2,7 +2,7 @@ This repository is part of the open-source project: **Electric Vehicle Powertrai
 
 - Battery Pack architecture (To do)
 - Battery management system (To do - Will be based on the work from Danny Bokma - DieBieMS)
-- Motor driver (Work in progress)
+- Motor driver (Work in progress - Based on the work from Benjamin Vedder & Marcos from Paltatech)
 - On-board charger (To do)
 - Three-phase electric motor (Testing ENNOID's design)
 
