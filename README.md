@@ -8,7 +8,7 @@ This repository is part of the **Electric Vehicle Powertrain Equipment - EVPE**.
 
 # ENNOID - Dual Gate Driver
 
-The goal of this repository is to create an open source half-brige gate driver circuit design for IGBT or Mosfet power stage. The PCB is actually adapted for being pin compatible with modules such as the ones listed below:
+The goal of this repository is to create an open source half-brige gate driver for IGBT or Mosfet power stage. The driver is pin compatible with modules such as the ones listed below:
 
 - http://www.mitsubishielectric.com/semiconductors/content/product/powermod/powmod/igbtmod/tgatef/cm300du-12f_e.pdf
 - https://www.wolfspeed.com/cas120m12bm2
