@@ -1,29 +1,26 @@
 This repository is part of the open-source project: **EVPE - Electric Vehicle Powertrain Equipment**. 
 It includes the development of the following components:
 
-- Battery Pack architecture (To do)
-- Battery management system (To do - Will be based on the work from Danny Bokma - DieBieMS)
-- Motor driver (Work in progress - Based on the work from Benjamin Vedder & Marcos from Paltatech)
-- On-board charger (To do)
-- Three-phase electric motor (Testing ENNOID's design)
+- Battery Pack (To do)
+- Battery Management System - BMS (To do)
+- Motor Driver (Testing in progress - Based on the work from Benjamin Vedder & Marcos from Paltatech)
+- On-Board Charger (To do)
+- Three-Phase Electric Motor (Testing in progress with ENNOID's design)
 
 # ENNOID - Dual Gate Driver
 
-The goal of this repository is to create an open source half-brige gate driver for IGBT or Mosfet power stage. The driver is pin compatible with modules such as the ones listed below:
+The "Dual Gate Driver" is a sub-component of the **EVPE project - Motor Driver** and can be directly connected to this control board:
+
+https://github.com/paltatech/VESC-controller
+
+The driver is pin compatible with several power modules such as the ones listed below:
 
 - http://www.mitsubishielectric.com/semiconductors/content/product/powermod/powmod/igbtmod/tgatef/cm300du-12f_e.pdf
 - https://www.wolfspeed.com/cas120m12bm2
 
-
-The "Dual Gate Driver" is a sub-component of the **EVPE project - Motor driver** and can be directly connected to this control board:
-
-https://github.com/paltatech/VESC-controller
-
-
-
 ## V0.1 (untested & archived):
 
-V0.1 is based upon the design of the wolfspeed two-channel gate driver for 1200V SiC MOSFET power modules
+V0.1 is based upon the design from wolfspeed two-channel gate driver for 1200V SiC MOSFET power modules
 - https://www.wolfspeed.com/cgd15hb62p1
 
 Feature:
