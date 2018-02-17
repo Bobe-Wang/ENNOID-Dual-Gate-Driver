@@ -1,4 +1,4 @@
-This repository is part of the open-source project: **Electric Vehicle Powertrain Equipment - EVPE**. The **EVPE** project includes the development of the following components:
+This repository is part of the open-source project: **EVPE - Electric Vehicle Powertrain Equipment**. The **EVPE** project includes the development of the following components:
 
 - Battery Pack architecture (To do)
 - Battery management system (To do - Will be based on the work from Danny Bokma - DieBieMS)
