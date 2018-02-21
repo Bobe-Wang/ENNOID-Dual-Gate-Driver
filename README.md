@@ -1,15 +1,20 @@
-This repository is part of the open-source project: **EVPE - Electric Vehicle Powertrain Equipment**. 
+This repository is part of the open-source project: **EVPE - Electric Vehicle Global Equipment**. 
 It includes the development of the following components:
 
-- Battery Pack (To do)
-- Battery Management System - BMS (To do)
-- **Motor Driver (Testing in progress - Based on the work from Benjamin Vedder & Marcos from Paltatech)**
-- On-Board Charger (To do)
-- Three-Phase Electric Motor (Testing in progress with ENNOID's design)
+- EVSE - Electric Vehicle Supply Equipment (Available on the market)
+- EVCE - Electric Vehicle Charge Equipment (To do)
+- EVBE - Electric Vehicle Battery Equipment ( In development)
+	- Battery Pack
+	- Master BMS
+	- Slave BMS
+**- EVPE - Electric Vehicle Powertrain Equipment (in progress)**
+	- Motor Driver (Testing in progress - Based on the work from Benjamin Vedder & Marcos from Paltatech)
+	**- Gate driver (Testing in progress - ENNOID)**
+	- Three-Phase Electric Motor (Testing in progress with ENNOID's design)
 
 # ENNOID - Dual Gate Driver
 
-The "Dual Gate Driver" is a sub-component of the **EVPE project - Motor Driver** and can be directly connected to this control board:
+The "Dual Gate Driver" is a sub-component of the **EVPE project** and can be directly connected to this control board:
 
 https://github.com/paltatech/VESC-controller
 
