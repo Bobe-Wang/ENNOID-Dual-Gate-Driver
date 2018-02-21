@@ -6,7 +6,7 @@ It includes the development of the following components:
 - EVBE - Electric Vehicle Battery Equipment 
   - BMS (https://github.com/EnnoidMe/ENNOID-BMS)
   - Scalable Battery Pack
-- **EVPE - Electric Vehicle Powertrain Equipment (in progress)**
+- **EVPE** - **E**lectric **V**ehicle **P**owertrain **E**quipment
   - Motor Driver (https://github.com/EnnoidMe/VESC-controller)
   - **Gate driver (This repository)**
   - Scalable Three-Phase Electric Motor (ENNOID)
