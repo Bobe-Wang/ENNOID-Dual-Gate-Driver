@@ -3,7 +3,7 @@ It includes the development of the following components:
 
 - Battery Pack (To do)
 - Battery Management System - BMS (To do)
-- Motor Driver (Testing in progress - Based on the work from Benjamin Vedder & Marcos from Paltatech)
+- **Motor Driver (Testing in progress - Based on the work from Benjamin Vedder & Marcos from Paltatech)**
 - On-Board Charger (To do)
 - Three-Phase Electric Motor (Testing in progress with ENNOID's design)
 
