@@ -7,10 +7,12 @@ It includes the development of the following components:
   - Battery Pack
   - Master BMS
   - Slave BMS
- **- EVPE - Electric Vehicle Powertrain Equipment (in progress)**
-     - Motor Driver (Testing in progress - Based on the work from Benjamin Vedder & Marcos from Paltatech)
-   **- Gate driver (Testing in progress - ENNOID)**
-     - Three-Phase Electric Motor (Testing in progress with ENNOID's design)
+
+**- EVPE - Electric Vehicle Powertrain Equipment (in progress)**
+    - Motor Driver (Testing in progress - Based on the work from Benjamin Vedder & Marcos from Paltatech)
+
+  **- Gate driver (Testing in progress - ENNOID)**
+    - Three-Phase Electric Motor (Testing in progress with ENNOID's design)
 
 # ENNOID - Dual Gate Driver
 
