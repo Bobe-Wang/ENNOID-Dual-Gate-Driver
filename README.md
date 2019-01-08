@@ -13,7 +13,7 @@ This repository is part of the open-source project: EVGE - Electric Vehicle Glob
 
 # ENNOID - Dual Gate Driver
 
-The "Dual Gate Driver" is a sub-component of the **EVPE project** and can be directly connected to this control board:
+The "Dual Gate Driver" is a sub-component of the **Electric Vehicle Global Equipment - EVGE project** and can be directly connected to this control board:
 
 https://github.com/paltatech/VESC-controller
 
