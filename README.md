@@ -1,7 +1,8 @@
 This repository is part of the open-source project: EVGE - Electric Vehicle Global Equipment:
 
-- EVSE - Electric Vehicle Supply Equipment 
 - EVCE - Electric Vehicle Charge Equipment
+  - Onboard Battery Charger
+  - Charging station
 - EVBE - Electric Vehicle Battery Equipment 
   - BMS (https://github.com/EnnoidMe/ENNOID-BMS)
   - Scalable Battery Pack
