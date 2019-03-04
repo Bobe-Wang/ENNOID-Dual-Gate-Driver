@@ -1,13 +1,14 @@
 This repository is part of the open-source project: EVGE - Electric Vehicle Global Equipment:
 
-- EVSE - Electric Vehicle Supply Equipment 
 - EVCE - Electric Vehicle Charge Equipment
+	- Onboard Battery Charger (https://github.com/EnnoidMe/ENNOID-Charger)
+	- Charging station
 - EVBE - Electric Vehicle Battery Equipment 
   - BMS (https://github.com/EnnoidMe/ENNOID-BMS)
-  - Scalable Battery Pack
+  - Scalable Battery Pack (https://github.com/EnnoidMe/ENNOID-PACK)
 - EVPE - Electric Vehicle Powertrain Equipment
   - Motor Driver (https://github.com/EnnoidMe/VESC-controller)
-  - **Gate driver (This repository)**
+  - **Dual Gate driver (This repository)**
   - Scalable Three-Phase Electric Motor
 
 # ENNOID - Dual Gate Driver

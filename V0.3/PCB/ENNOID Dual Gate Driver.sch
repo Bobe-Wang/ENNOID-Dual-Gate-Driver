@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:Conn_02x08_Odd_Even-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J1
+L ENNOID-Dual-Gate-Driver-rescue:Conn_02x08_Odd_Even-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J1
 U 1 1 5A3005AC
 P 1900 6600
 F 0 "J1" H 1950 7025 50  0000 C CNN
@@ -81,7 +81,7 @@ F5 "-VEE" O R 6200 3250 60
 F6 "COM" O R 6200 3100 60 
 $EndSheet
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C1
+L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C1
 U 1 1 5A33DEE4
 P 900 3350
 F 0 "C1" H 1015 3396 50  0000 L CNN
@@ -93,7 +93,7 @@ F 4 "UMK325BJ106KMHP" H 900 3350 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C2
+L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C2
 U 1 1 5A33DFE6
 P 1350 3350
 F 0 "C2" H 1465 3396 50  0000 L CNN
@@ -107,7 +107,7 @@ $EndComp
 Wire Wire Line
 	900  3200 1200 3200
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C3
+L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C3
 U 1 1 5A33E247
 P 2500 3350
 F 0 "C3" H 2615 3396 50  0000 L CNN
@@ -119,7 +119,7 @@ F 4 "C0805C104J5RACAUTO " H 2500 3350 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C4
+L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C4
 U 1 1 5A33E2F7
 P 2950 3350
 F 0 "C4" H 3065 3396 50  0000 L CNN
@@ -131,7 +131,7 @@ F 4 "UMK212BJ105MG-T " H 2950 3350 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:L7805-regul-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue U1
+L ENNOID-Dual-Gate-Driver-rescue:L7805-regul-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue U1
 U 1 1 5A33E500
 P 2050 3200
 F 0 "U1" H 2050 3442 50  0000 C CNN
@@ -159,7 +159,7 @@ Connection ~ 1350 3500
 Wire Wire Line
 	2050 3550 2050 3500
 $Comp
-L power:+5V #PWR04
+L ENNOID-Dual-Gate-Driver-rescue:+5V-power #PWR04
 U 1 1 5A33F3CE
 P 2500 3100
 F 0 "#PWR04" H 2500 2950 50  0001 C CNN
@@ -233,7 +233,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 4700 4800 4700
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:Conn_01x04-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J2
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x04-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J2
 U 1 1 5A320690
 P 2150 4450
 F 0 "J2" H 2229 4442 50  0000 L CNN
@@ -244,7 +244,7 @@ F 3 "~" H 2150 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR027
+L ENNOID-Dual-Gate-Driver-rescue:+5V-power #PWR027
 U 1 1 5A32090A
 P 1250 4250
 F 0 "#PWR027" H 1250 4100 50  0001 C CNN
@@ -255,7 +255,7 @@ F 3 "" H 1250 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C43
+L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C43
 U 1 1 5A320A25
 P 1250 4500
 F 0 "C43" H 1365 4546 50  0000 L CNN
@@ -277,7 +277,7 @@ Wire Wire Line
 Wire Wire Line
 	1250 4650 1950 4650
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:Conn_01x02-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J3
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x02-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J3
 U 1 1 5A3298CC
 P 4600 7100
 F 0 "J3" H 4680 7092 50  0000 L CNN
@@ -288,7 +288,7 @@ F 3 "~" H 4600 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C44
+L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C44
 U 1 1 5A329B46
 P 4050 7300
 F 0 "C44" H 4165 7346 50  0000 L CNN
@@ -308,7 +308,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 7450 4050 7450
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue R33
+L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue R33
 U 1 1 5A32DB7E
 P 4050 6850
 F 0 "R33" H 4120 6896 50  0000 L CNN
@@ -319,7 +319,7 @@ F 3 "" H 4050 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue R32
+L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue R32
 U 1 1 5A32DDF0
 P 3800 7100
 F 0 "R32" V 3593 7100 50  0000 C CNN
@@ -335,7 +335,7 @@ Connection ~ 4050 7100
 Wire Wire Line
 	4050 7000 4050 7100
 $Comp
-L power:+5V #PWR033
+L ENNOID-Dual-Gate-Driver-rescue:+5V-power #PWR033
 U 1 1 5A330464
 P 4050 6600
 F 0 "#PWR033" H 4050 6450 50  0001 C CNN
@@ -367,7 +367,7 @@ I+
 Text GLabel 1550 6300 0    60   Output ~ 0
 I-
 $Comp
-L power:+5V #PWR032
+L ENNOID-Dual-Gate-Driver-rescue:+5V-power #PWR032
 U 1 1 5A344C1F
 P 4750 3700
 F 0 "#PWR032" H 4750 3550 50  0001 C CNN
@@ -380,7 +380,7 @@ $EndComp
 Wire Wire Line
 	4750 3700 4900 3700
 $Comp
-L power:+5V #PWR029
+L ENNOID-Dual-Gate-Driver-rescue:+5V-power #PWR029
 U 1 1 5A34696E
 P 4750 700
 F 0 "#PWR029" H 4750 550 50  0001 C CNN
@@ -393,7 +393,7 @@ $EndComp
 Wire Wire Line
 	4750 700  4900 700 
 $Comp
-L power:+5V #PWR030
+L ENNOID-Dual-Gate-Driver-rescue:+5V-power #PWR030
 U 1 1 5A349A34
 P 4750 5200
 F 0 "#PWR030" H 4750 5050 50  0001 C CNN
@@ -418,7 +418,7 @@ Vout+
 Text GLabel 1550 6400 0    60   Output ~ 0
 Vout-
 $Comp
-L power:GND #PWR025
+L ENNOID-Dual-Gate-Driver-rescue:GND-power #PWR025
 U 1 1 5A36113A
 P 2350 7000
 F 0 "#PWR025" H 2350 6750 50  0001 C CNN
@@ -429,7 +429,7 @@ F 3 "" H 2350 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J5
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J5
 U 1 1 5A33A1F4
 P 8400 750
 F 0 "J5" H 8427 776 50  0000 L CNN
@@ -440,7 +440,7 @@ F 3 "~" H 8400 750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J6
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J6
 U 1 1 5A33C74C
 P 8400 1150
 F 0 "J6" H 8428 1176 50  0000 L CNN
@@ -451,7 +451,7 @@ F 3 "~" H 8400 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J4
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J4
 U 1 1 5A3425E9
 P 8350 2950
 F 0 "J4" H 8377 2976 50  0000 L CNN
@@ -471,7 +471,7 @@ Wire Wire Line
 	2350 7000 2200 7000
 Connection ~ 2200 7000
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:Fuse-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue F1
+L ENNOID-Dual-Gate-Driver-rescue:Fuse-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue F1
 U 1 1 5A3CFD36
 P 1500 7400
 F 0 "F1" V 1600 7400 50  0000 C CNN
@@ -485,7 +485,7 @@ $EndComp
 Wire Wire Line
 	1650 7400 1700 7400
 $Comp
-L power:+24V #PWR023
+L ENNOID-Dual-Gate-Driver-rescue:+24V-power #PWR023
 U 1 1 5A3D5B1E
 P 1300 7400
 F 0 "#PWR023" H 1300 7250 50  0001 C CNN
@@ -498,7 +498,7 @@ $EndComp
 Wire Wire Line
 	1300 7400 1350 7400
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C42
+L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C42
 U 1 1 5A3EC109
 P 2500 6950
 F 0 "C42" H 2615 6996 50  0000 L CNN
@@ -516,7 +516,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 6700 1700 6700
 $Comp
-L power:GND #PWR024
+L ENNOID-Dual-Gate-Driver-rescue:GND-power #PWR024
 U 1 1 5A4268BA
 P 2300 6700
 F 0 "#PWR024" H 2300 6450 50  0001 C CNN
@@ -548,7 +548,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 7100 3650 7100
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J7
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J7
 U 1 1 5A338421
 P 8350 4300
 F 0 "J7" H 8377 4326 50  0000 L CNN
@@ -559,7 +559,7 @@ F 3 "~" H 8350 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J8
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J8
 U 1 1 5A33858B
 P 8450 4550
 F 0 "J8" H 8477 4576 50  0000 L CNN
@@ -574,7 +574,7 @@ Wire Wire Line
 Text GLabel 4400 1550 0    60   Output ~ 0
 FLT
 $Comp
-L power:+24V #PWR047
+L ENNOID-Dual-Gate-Driver-rescue:+24V-power #PWR047
 U 1 1 5A3C8158
 P 1200 3200
 F 0 "#PWR047" H 1200 3050 50  0001 C CNN
@@ -588,7 +588,7 @@ Connection ~ 1200 3200
 Wire Wire Line
 	1200 3200 1350 3200
 $Comp
-L power:+24V #PWR045
+L ENNOID-Dual-Gate-Driver-rescue:+24V-power #PWR045
 U 1 1 5A3CC538
 P 4750 2950
 F 0 "#PWR045" H 4750 2800 50  0001 C CNN
@@ -599,7 +599,7 @@ F 3 "" H 4750 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR046
+L ENNOID-Dual-Gate-Driver-rescue:+24V-power #PWR046
 U 1 1 5A3CC6A9
 P 4750 2200
 F 0 "#PWR046" H 4750 2050 50  0001 C CNN
@@ -610,7 +610,7 @@ F 3 "" H 4750 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C41
+L ENNOID-Dual-Gate-Driver-rescue:C-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue C41
 U 1 1 5A3DD0B7
 P 1100 6950
 F 0 "C41" H 1215 6996 50  0000 L CNN
@@ -622,7 +622,7 @@ F 4 "C0805C104J5RACAUTO " H 1100 6950 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR012
+L ENNOID-Dual-Gate-Driver-rescue:+5V-power #PWR012
 U 1 1 5A4D9451
 P 1000 1150
 F 0 "#PWR012" H 1000 1000 50  0001 C CNN
@@ -633,7 +633,7 @@ F 3 "" H 1000 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue R5
+L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue R5
 U 1 1 5A4D972A
 P 1150 1400
 F 0 "R5" H 1220 1446 50  0000 L CNN
@@ -645,7 +645,7 @@ F 4 "RK73B2ATTDD301J" H 1150 1400 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue R16
+L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue R16
 U 1 1 5A4D9A5E
 P 1500 1400
 F 0 "R16" H 1570 1446 50  0000 L CNN
@@ -657,7 +657,7 @@ F 4 "RK73B2ATTDD301J" H 1500 1400 50  0001 C CNN "Mfg.#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue R34
+L ENNOID-Dual-Gate-Driver-rescue:R-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue R34
 U 1 1 5A4D9BE2
 P 1850 1400
 F 0 "R34" H 1920 1446 50  0000 L CNN
@@ -676,7 +676,7 @@ Connection ~ 1150 1250
 Wire Wire Line
 	1500 1250 1850 1250
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:LED-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue D12
+L ENNOID-Dual-Gate-Driver-rescue:LED-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue D12
 U 1 1 5A4F44B8
 P 1150 1850
 F 0 "D12" V 1188 1733 50  0000 R CNN
@@ -688,7 +688,7 @@ F 4 "LTW-170TK " V 1150 1850 50  0001 C CNN "Mfg.#"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:LED-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue D13
+L ENNOID-Dual-Gate-Driver-rescue:LED-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue D13
 U 1 1 5A4F4A2D
 P 1500 1850
 F 0 "D13" V 1538 1733 50  0000 R CNN
@@ -700,7 +700,7 @@ F 4 "LTW-170TK " V 1500 1850 50  0001 C CNN "Mfg.#"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:LED-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue D14
+L ENNOID-Dual-Gate-Driver-rescue:LED-device-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue D14
 U 1 1 5A4F4BC5
 P 1850 1850
 F 0 "D14" V 1888 1733 50  0000 R CNN
@@ -835,7 +835,7 @@ F7 "GND" I L 4900 5850 60
 F8 "+VCC" I R 6200 5200 60 
 $EndSheet
 $Comp
-L power:GND #PWR01
+L ENNOID-Dual-Gate-Driver-rescue:GND-power #PWR01
 U 1 1 5A60DF81
 P 2050 3550
 F 0 "#PWR01" H 2050 3300 50  0001 C CNN
@@ -846,7 +846,7 @@ F 3 "" H 2050 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR02
+L ENNOID-Dual-Gate-Driver-rescue:GND-power #PWR02
 U 1 1 5A60E0BD
 P 1250 4750
 F 0 "#PWR02" H 1250 4500 50  0001 C CNN
@@ -857,7 +857,7 @@ F 3 "" H 1250 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR03
+L ENNOID-Dual-Gate-Driver-rescue:GND-power #PWR03
 U 1 1 5A60E40B
 P 1100 7200
 F 0 "#PWR03" H 1100 6950 50  0001 C CNN
@@ -868,7 +868,7 @@ F 3 "" H 1100 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR05
+L ENNOID-Dual-Gate-Driver-rescue:GND-power #PWR05
 U 1 1 5A60E44A
 P 2500 7150
 F 0 "#PWR05" H 2500 6900 50  0001 C CNN
@@ -879,7 +879,7 @@ F 3 "" H 2500 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR06
+L ENNOID-Dual-Gate-Driver-rescue:GND-power #PWR06
 U 1 1 5A60E489
 P 4050 7500
 F 0 "#PWR06" H 4050 7250 50  0001 C CNN
@@ -890,7 +890,7 @@ F 3 "" H 4050 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR09
+L ENNOID-Dual-Gate-Driver-rescue:GND-power #PWR09
 U 1 1 5A60E66C
 P 4700 2450
 F 0 "#PWR09" H 4700 2200 50  0001 C CNN
@@ -901,7 +901,7 @@ F 3 "" H 4700 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR010
+L ENNOID-Dual-Gate-Driver-rescue:GND-power #PWR010
 U 1 1 5A60E7E4
 P 4800 1750
 F 0 "#PWR010" H 4800 1500 50  0001 C CNN
@@ -912,7 +912,7 @@ F 3 "" H 4800 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR011
+L ENNOID-Dual-Gate-Driver-rescue:GND-power #PWR011
 U 1 1 5A60E823
 P 4700 3200
 F 0 "#PWR011" H 4700 2950 50  0001 C CNN
@@ -923,7 +923,7 @@ F 3 "" H 4700 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR016
+L ENNOID-Dual-Gate-Driver-rescue:GND-power #PWR016
 U 1 1 5A60E8A1
 P 4800 4700
 F 0 "#PWR016" H 4800 4450 50  0001 C CNN
@@ -936,7 +936,7 @@ $EndComp
 Wire Wire Line
 	4750 5850 4900 5850
 $Comp
-L power:GND #PWR021
+L ENNOID-Dual-Gate-Driver-rescue:GND-power #PWR021
 U 1 1 5A60E862
 P 4750 5850
 F 0 "#PWR021" H 4750 5600 50  0001 C CNN
@@ -947,7 +947,7 @@ F 3 "" H 4750 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01-Connector_Generic-ENNOID-Dual-Gate-Driver-rescue J9
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01-Connector_Generic-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J9
 U 1 1 5A6C9EDA
 P 10300 5050
 F 0 "J9" H 10380 5092 50  0000 L CNN
@@ -961,7 +961,7 @@ NoConn ~ 10100 5050
 NoConn ~ 10100 5300
 NoConn ~ 10100 5550
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01-Connector_Generic-ENNOID-Dual-Gate-Driver-rescue J10
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01-Connector_Generic-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J10
 U 1 1 5A6D6D6D
 P 10300 5300
 F 0 "J10" H 10379 5342 50  0000 L CNN
@@ -972,7 +972,7 @@ F 3 "~" H 10300 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01-Connector_Generic-ENNOID-Dual-Gate-Driver-rescue J11
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01-Connector_Generic-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J11
 U 1 1 5A6D6DBF
 P 10300 5550
 F 0 "J11" H 10379 5592 50  0000 L CNN
@@ -998,7 +998,7 @@ F 3 "~" H 10450 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J12
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J12
 U 1 1 5A78BD3B
 P 6950 1200
 F 0 "J12" H 6977 1226 50  0000 L CNN
@@ -1015,7 +1015,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 1200 6750 1200
 $Comp
-L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J13
+L ENNOID-Dual-Gate-Driver-rescue:Conn_01x01_Female-Connector-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue-ENNOID-Dual-Gate-Driver-rescue J13
 U 1 1 5A7C565F
 P 7200 4700
 F 0 "J13" H 7227 4726 50  0000 L CNN
