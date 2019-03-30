@@ -1,20 +1,14 @@
-<<<<<<< HEAD
-This repository is part of the open-source project: EVGE - Electric Vehicle Global Equipment:
-
-- EVCE - Electric Vehicle Charge Equipment
-	- Onboard Battery Charger (https://github.com/EnnoidMe/ENNOID-Charger)
-	- Charging station
-- EVBE - Electric Vehicle Battery Equipment 
-  - BMS (https://github.com/EnnoidMe/ENNOID-BMS)
-  - Scalable Battery Pack (https://github.com/EnnoidMe/ENNOID-PACK)
-- EVPE - Electric Vehicle Powertrain Equipment
-  - Motor Driver (https://github.com/EnnoidMe/VESC-controller)
-  - **Dual Gate driver (This repository)**
+Related ENNOID projects:
+  - [Onboard Battery Charger](https://github.com/EnnoidMe/ENNOID-Charger)
+  - [BMS](https://github.com/EnnoidMe/ENNOID-BMS)
+  - [Scalable Battery Pack](https://github.com/EnnoidMe/ENNOID-PACK)
+  - [Motor Drive](https://github.com/EnnoidMe/VESC-controller)
+  - [Dual Isolated Gate driver](https://github.com/EnnoidMe/ENNOID-Dual-Gate-Driver)
   - Scalable Three-Phase Electric Motor
 
 # ENNOID - Dual Gate Driver
 
-The "Dual Gate Driver" is a sub-component of the **EVPE project** and can be directly connected to this control board:
+The "Dual Gate Driver" can be directly connected to this control board:
 
 https://github.com/paltatech/VESC-controller
 
