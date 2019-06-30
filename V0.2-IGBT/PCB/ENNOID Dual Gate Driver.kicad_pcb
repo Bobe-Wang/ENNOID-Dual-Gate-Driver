@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.0-unknown-c1c4a09~82~ubuntu18.10.1)
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.0-18-ga1ee5405a)")
 
   (general
     (thickness 1.6)
@@ -63,7 +63,7 @@
     (pad_drill 1.65)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010f0_ffffffff)
       (usegerberextensions true)
